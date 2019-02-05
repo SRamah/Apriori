@@ -1,0 +1,15 @@
+ID jhee
+1 Age=jeune,Voiture=non,Credit=non,Ville=fes,Achat=non
+2 Age=jeune,Voiture=oui,Credit=non,Ville=tanger,Achat=non
+3 Age=moyen,Voiture=oui,Credit=non,Ville=meknes,Achat=non
+4 Age=age,Voiture=non,Credit=non,Ville=meknes,Achat=oui
+5 Age=age,Voiture=famille,Credit=oui,Ville=fes,Achat=oui
+6 Age=age,Voiture=non,Credit=oui,Ville=fes,Achat=oui
+7 Age=moyen,Voiture=oui,Credit=oui,Ville=fes,Achat=oui
+8 Age=jeune,Voiture=famille,Credit=non,Ville=meknes,Achat=non
+9 Age=jeune,Voiture=non,Credit=oui,Ville=tanger,Achat=oui
+10 Age=age,Voiture=non,Credit=oui,Ville=meknes,Achat=oui
+11 Age=jeune,Voiture=non,Credit=oui,Ville=fes,Achat=oui
+12 Age=moyen,Voiture=oui,Credit=non,Ville=meknes,Achat=oui
+13 Age=moyen,Voiture=non,Credit=oui,Ville=fes,Achat=oui
+14 Age=age,Voiture=famille,Credit=non,Ville=tanger,Achat=oui

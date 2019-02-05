@@ -1,0 +1,2552 @@
+bplist00Ò_WebMainResource_WebSubresourcesÔ	
+_WebResourceFrameName^WebResourceURL_WebResourceData_WebResourceMIMETypeP_/http://jm.davalan.org/mots/comb/comb/index.htmlOá
+
+<!DOCTYPE HTML>
+<html lang='fr'>
+<head>
+   <meta charset="UTF-8">
+<title>Combinaisons, parties ou sous-ensembles d'un ensemble fini</title>
+<link rel="canonical" href="http://jm.davalan.org/mots/comb/comb/index.html" />
+   <meta name="Author" content="Jean-Paul Davalan">
+   <meta name="KeyWords" content="Combinaisons,sous-ensembles,parties finies, gÃ©nÃ©rateur de combinaisons,combinations generator,">
+   <meta name="description" content="On appelle combinaison de k Ã©lÃ©ments d'un ensemble fini E, tout sous-ensemble de k Ã©lÃ©ments de E">
+   <meta name="robots" content="all">
+   <link rel="shortcut icon" href="../../../favicon.ico">
+   <link rel="stylesheet" href="../../../css/base.css">
+   <link rel="stylesheet" href="../../../css/add.css">
+<script src="comb.js">
+</script>
+<script src="combalea.js">
+</script>
+
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<style type="text/css">
+	header, footer, section, hgroup, aside, nav, article, figure, figcaption, time, dialog {
+		display: block;
+	}
+	</style>
+	<![endif]-->
+<link rel="stylesheet" href="../../../css/grid1200_15.css" type="text/css">
+<link rel="stylesheet" href="../../../css/menutop2.css" type="text/css">
+<script src="http://jm.davalan.org/mathtex4.js" type="text/javascript"></script>
+<script src="../../../bann/banniere.js"></script>
+</head>
+<body>
+<script src="http://jm.davalan.org/lang/web/stats.js"></script>
+<script type="text/javascript"><!--
+var fstats=function(u){urchinTracker ("/downloads/mots/comb/comb/comb/"+u);_stats1("Jeux,Download,mots/comb/comb/comb/"+u);}
+var lstats=function(u){urchinTracker ("/linkto/mots/comb/comb/comb/"+u);_stats1("Jeux,linkto,mots/comb/comb/comb/"+u);}
+// -->
+</script>
+<div class="container_15" style="background-color:#ffffff"> <!-- div 1 -->
+<div id="banniereduhaut" class="grid_15 alpha omega" onclick="clicBann();" ondblclick="dblclicBann();" role="banner" style="cursor:pointer;width:100%;margin:0px auto;background:#ffffff url(http://jm.davalan.org/bann/m3000_1200x230.jpg) no-repeat fixed top;">
+
+<img src="http://jm.davalan.org/bann/j-et-m_RougeTrans_1200x230.png" width="1200" height="230" alt="Jeux et Mathematiques"> 
+
+</div> <!-- /div grid_15 -->
+
+<div class="grid_2 alpha" id="gauche" style="background-color:#ffffff" > <!-- div grid_2 -->
+
+
+<br /><br /><br /><br />
+<a href="../../..//index.html"><img src="../../../images/JM.png" alt="Accueil"></a>
+<br /><br /><br />
+<!-- <div class="mge"> -->
+<div role="navigation" class="mge">  <!-- div 4 -->
+<a class="mn" href="../../../index.html" accesskey="A"><ins>A</ins>ccueil</a>
+<br />
+<a class="mn" href="../../../plan.html" accesskey="S">Plan du <ins>s</ins>ite</a>
+<br />
+<a class="mn" href="http://linenn.davalan.eu/index.php" accesskey="N">Bloc-<ins>n</ins>otes</a>
+<br />
+<br />
+<a class="mn" href="../../../jeux/index.html" accesskey="J"><ins>J</ins>eux</a>
+<br />
+<br />
+<a class="mn" href="../../../graphs/index.html" accesskey="G"><ins>G</ins>raphes</a>
+<br />
+<a class="mn" href="../../../mots/index.html" accesskey="C"><ins>C</ins>ombinatoire</a>
+<br />
+<a class="mn" href="../../../arit/index.html" accesskey="Q">ArithmÃ©ti<ins>q</ins>ue</a>
+<br />
+<a class="mn" href="../../../algebre/index.html" accesskey="L">AlgÃ¨<ins>b</ins>re</a>
+<br />
+<a class="mn" href="../../../anl/index.html" accesskey="Y">Anal<ins>y</ins>se</a>
+<br />
+<br />
+<a class="mn" href="../../../proba/index.html" accesskey="P"><ins>P</ins>robabilitÃ©s</a>
+<br />
+<a class="mn" href="../../../geom/index.html" accesskey="M">GÃ©o<ins>m</ins>Ã©trie</a>
+<br />
+<a class="mn" href="../../../divers/auto-index.html" accesskey="">Au<ins>t</ins>omates</a>
+<br />
+<a class="mn" href="../../../lang/index.html" accesskey="I"><ins>I</ins>nformatique</a>
+<br />
+<a class="mn" href="../../../divers/index.html" accesskey="V">Di<ins>v</ins>ers</a>
+<br />
+<a class="mn" href="../../../l2003/index.html" accesskey="E">LycÃ©<ins>e</ins></a>
+<br />
+<br />
+<a class="mn" href="../../../liens/index.html" accesskey="L"><ins>L</ins>iens</a>
+<br />
+</div><!-- mge --> 
+<div class='bord'>
+<a href='http://UniversitySurf.net'><span style='color:#0000cc;' onClick="urchinTracker('/linkto/UniversitySurf');">University</span><span style='color:#ff8800;font-style:italic;'>Surf</span><span style='color:#666666;font-style:italic;'>.net</span></a>
+<br />
+<span style='color:#666666;'>Votre portail e-Learning</span>
+</div>
+<div class='bord'>
+<a href='http://www.dma.ens.fr/culturemath/' onClick="javascript:urchinTracker('/linkto/CultureMath');" title='www.dma.ens.fr/culturemath'><span style='font-size:14px;'>Culture<em>MATH </em></span></a><br /><span style='font-size:10px;color:#666666;'>ENSup. et Minist. EN</span>
+</div>
+<div class='bord'>
+<figure><div style='text-align:center;font-size:18px;font-family:sans-serif;font-weight:bold;line-height:0.75;'>OE<br/>I S</div></figure>
+<div style="text-align:center;padding:0 5px 0 5px;"><a href='http://oeis.org/' onClick="javascript:urchinTracker('/linkto/OEIS');">EncyclopÃ©die des suites d'entiers</a></div>
+</div>
+<div class='bord'>
+<a href='http://recherche.ircam.fr/equipes/repmus/mamux/' onClick="javascript:urchinTracker('/linkto/Ircam');" ><span style='font-size:10px;'>SÃ©minaire</span></a><span style='font-size:13px;color:#009900;'> MaMuX</span><br/><span style='font-size:12px;color:#666666'>MathÃ©matiques, musique et relations avec d'autres disciplines</span>
+</div>
+<div class='bord'>
+<a href='http://the-open-space.org/' onClick="javascript:urchinTracker('/linkto/TheOpenSpace');" ><span style='font-size:10px;color:#6666;'>The</span></a> <span style='font-size:13px;color:#6666;'>OPEN SPACE</span><br/><a href='http://the-open-space.org/' onClick="javascript:urchinTracker('/linkto/TheOpenSpace');" ><span style='font-size:10px;color:#6666;'>magazine</span></a>
+</div>
+
+<div class='bord'>
+<div style='margin:0 auto;text-align:center;font-size:16px;font-family:monospace;font-weight:bold;'>IHÃ‰S</div><a href='http://www.ihes.fr/jsp/site/Portal.jsp?page_id=1' onClick="javascript:urchinTracker('/linkto/IHES');"> Institut des Hautes Ã‰tudes Scientifiques</a>
+</div>
+<div class='bord'>
+<a href="http://pi.lacim.uqam.ca/fra/" onClick="javascript:urchinTracker('/linkto/Plouffe');">L'INVERSEUR<br />de Plouffe</a>
+</div>
+<br /><center><img src='combQR.png' alt='QR'></center><br /><br />
+
+</div>  <!--  grid_2 -->
+
+<div role="main" class="grid_12" style="background-color:#ffffff;">
+<div id="menubarhautpage">
+<nav class="menutop"><ul><li><a href="/index.html">Accueil</a><ul><li class="active"><a href="/plan.html">Plan</a></li><li><a href="/bn/index.html">Bloc notes</a></li><li><a href="http://wiki.davalan.eu">Wiki</a></li><li><a href="/liens/index.html">Liens</a></li></ul></li>
+<li><a href="/jeux/index.html">Jeux</a><ul><li><a href="/jeux/cartes/index.html">Cartes</a><ul><li><a href="/jeux/cartes/add/index.html">Fibonacci devin</a></li><li><a href="/jeux/cartes/cinq/index.html">CinquiÃ¨me carte</a></li><li><a href="/jeux/cartes/carre/index.html">CarrÃ©</a></li><li><a href="/jeux/cartes/ct/index.html">Casse-tÃªte</a></li></ul></li>
+<li><a href="/jeux/nim/index.html">Nim</a><ul><li><a href="/jeux/nim/fibonacci/index.html">Fibonacci-Nim</a></li><li><a href="/jeux/nim/lil/index.html">Un tas</a></li><li><a href="/jeux/nim/limite/index.html">LimitÃ©</a></li><li><a href="/jeux/nim/prime/index.html">Nombres premiers</a></li><li><a href="/jeux/nim/northcott/index.html">Northcott</a></li><li><a href="/jeux/nim/aliquote/index.html">Parties aliquotes</a></li><li><a href="/jeux/nim/euclide/index.html">Euclide</a></li><li><a href="/jeux/nim/cstrip/index.html">Coin strip</a></li>
+<li><a href="/jeux/nim/kayles/index.html">Kayles</a></li><li><a href="/jeux/nim/quinze/index.html">Quinze</a></li><li><a href="/jeux/nim/tictactoe/index.html">TicTacToe</a></li><li><a href="/jeux/nim/wythoff/index.html">Wythoff</a></li><li><a href="/jeux/nim/chomp/index.html">Chomp</a></li></ul></li><li><a href="/jeux/minimax/index.html">StratÃ©gies</a><ul><li><a href="/jeux/minimax/dil/index.html">Dilemme itÃ©rÃ©</a></li>
+<li><a href="/jeux/minimax/pile/index.html">Pile ou face</a></li><li><a href="/jeux/minimax/pile/stra.html">PrÃ©diction P/F</a></li><li><a href="/jeux/minimax/mourre/index.html">Papier, ciseaux...</a></li></ul></li><li><a href="/jeux/logic/index.html">Logiques</a><ul><li><a href="/jeux/logic/zebre/index.html">ZÃ¨bre</a></li><li><a href="/jeux/logic/fl/index.html">Fleuriste</a></li><li><a href="/jeux/logic/lyon/index.html">Qui habite Ã  Lyon ?</a></li>
+<li><a href="/jeux/logic/lyon/livres.html">Le livre bleu ?</a></li><li><a href="/jeux/logic/lyon/livres3.html">Le livre mauve ?</a></li><li><a href="/jeux/solitaires/objlogic/index.html">DÃ©placer la piÃ¨ce</a></li><li><a href="/jeux/logic/sudoku/index.html">Sudoku 9x9</a></li><li><a href="/jeux/logic/sudoku/grilles.html">Sudokus</a></li><li><a href="/jeux/logic/wyx/index.html">Wyx</a></li><li><a href="/jeux/logic/aec/index.html">Grilles Arc-en-ciel</a></li></ul></li><li><a href="/jeux/solitaires/index.html">Solitaires</a>
+<ul><li><a href="/jeux/solitaires/truc/index.html">Trajets Truchet</a></li><li><a href="/jeux/solitaires/caval/index.html">Cavaliers</a></li><li><a href="/jeux/solitaires/grenouilles/index.html">Grenouilles</a></li><li><a href="/jeux/solitaires/dix/cailloux.html">Galets</a></li><li><a href="/jeux/solitaires/dix/index.html">Dix piÃ¨ces</a></li><li><a href="/jeux/solitaires/langford/index.html">Cubes Langford</a></li><li><a href="/jeux/solitaires/objlogic/index.html">Case 1 Ã  7</a></li><li><a href="/jeux/solitaires/sol/index.html">Solitaire 7</a></li><li><a href="/jeux/solitaires/sol/sol2.html">Solitaire 25</a></li>
+<li><a href="/jeux/solitaires/bulg/index.html">Solitaire bulgare</a></li><li><a href="/jeux/solitaires/taquin/index.html">Taquin</a></li><li><a href="/jeux/solitaires/concentration/index.html">Concentration</a></li><li><a href="/jeux/solitaires/concentration/pap/index.html">Conc. Papillons</a></li><li><a href="/jeux/solitaires/ping/index.html">Ping</a></li><li><a href="/jeux/solitaires/permute/index.html">3 Couleurs</a></li></ul></li><li><a href="/jeux/puzzles/index.html">Puzzles</a><ul>
+<li><a href="/jeux/solitaires/langford/index.html">Cubes de Langford</a></li><li><a href="http://jeux-et-mathematiques.davalan.org/jeux/puzzles/voisins/voisins1.pdf">Chiffres</a></li><li><a href="/jeux/puzzles/hex/index.html">Hexagrilles</a></li><li><a href="/jeux/puzzles/index.html">Transpositions</a></li><li><a href="/jeux/puzzles/index.html">Cycles</a></li></ul></li><li><a href="/jeux/alpha/index.html">Lettres</a><ul><li><a href="/jeux/alpha/ah/index.html">Les AaahhH</a></li>
+<li><a href="/jeux/alpha/inv/index.html">Ambigrammes</a></li><li><a href="/jeux/alpha/ambi/index.html">ASCII-Ambigr.</a></li><li><a href="/jeux/alpha/pangram/index.html">Pangrammes</a></li><li><a href="/jeux/alpha/palindromes/index.html">Palindromes</a></li><li><a href="/jeux/alpha/zwyggle/index.html">Zwyggle</a></li><li><a href="/jeux/alpha/desordre/index.html">DÃ©sordre</a></li></ul></li><li><a href="/jeux/arit/index.html">ArithmÃ©tique</a><ul>
+<li><a href="/calc/metic/index.html">CryptÃ©e</a></li><li><a href="/jeux/arit/chiffres/index.html">Chiffres</a></li><li><a href="/jeux/arit/latins/index.html">GrÃ©co-latins</a></li><li><a href="/jeux/arit/dicho/index.html">Dichotomie</a></li><li><a href="/divers/cm/index.html">Calcul mental</a></li><li><a href="/jeux/arit/poly/hexagones.html">Hexagones magiques</a></li><li><a href="/jeux/arit/poly/pentagones.html">Pentagones</a></li><li><a href="/jeux/arit/poly/pentagones.html">Heptagones</a></li></ul>
+</li><li><a href="/jeux/alpha/index.html">Illusions</a></li></ul></li><li><a href="/graphs/index.html">Graphes</a><ul><li><a href="/graphs/cours/index.html">BTS IG Cours</a></li><li><a href="/graphs/col/index.html">Chromatique</a></li><li><a href="/graphs/pcc/index.html">Plus court chemin</a></li><li><a href="/graphs/pcc2/index.html">Plus court chemin</a></li>
+<li><a href="/graphs/trf/index.html">Proba</a></li><li><a href="/graphs/matrix/index.html">Mat. Transition</a></li><li><a href="/graphs/euler/index.html">EulÃ©riens</a></li><li><a href="/graphs/Pert-README.txt">MÃ©thode PERT</a></li><li><a href="/graphs/ph/index.html">Arbres</a><ul><li><a href="/graphs/ph/index.html">Newick vers Dot</a></li><li><a href="/graphs/ph/gr2par.html">Ã‰cr. par. Newick</a></li></ul></li>
+</ul></li><li><a href="/mots/index.html">Combin.</a><ul> <li><a href="/mots/comb/index.html">Combinaisons</a><ul><li><a href="/mots/comb/perm/index.html">Permut. DÃ©rgts</a></li><li><a href="/mots/comb/arr/index.html">Arrangts</a></li><li><a href="/mots/comb/perm/ud.html">Tr. Euler-Bernoulli</a></li><li><a href="/divers/parties/index.html">Ens. parties</a></li><li><a href="/mots/comb/comb/index.html">Combinaisons</a></li>
+<li><a href="/mots/comb/comb/combalgo.html">Comb. Algos.</a></li><li><a href="/mots/comb/chiffres/index.html">Chiffres</a></li><li><a href="/mots/comb/gfields/index.html">Corps finis GF</a></li><li><a href="/mots/comb/gfields/gfCycles.html">Corps. Poly. idemp.</a></li><li><a href="/mots/comb/gfields/gfIdempotents.html">Base d'idemp.</a></li><li><a href="/mots/comb/gfields/gfCyclotomiques.html">Poly. cyclot.</a></li></ul></li><li><a href="/mots/free/index.html">MonoÃ¯de libre</a><ul>
+<li><a href="/mots/free/index.html">MonoÃ¯de libre. Morph.</a></li><li><a href="/mots/free/chemin.html">Simplif. chemins</a></li><li><a href="/divers/ko/index.html">Kolakoski</a></li><li><a href="/mots/agfact/index.html">Pb inv autom fini</a></li><li><a href="/divers/debruijn/index.html">de Bruijn hamilt.</a></li><li><a href="/divers/debruijn/dbr.html">de Bruijn eulÃ©r.</a></li><li><a href="/calc/pimc/Pifreq.html">Pi, FrÃ©qu.</a></li></ul></li><li><a href="/mots/comb/golomb/index.html">RÃ¨gles de Golomb</a></li>
+</ul></li><li><a href="/mots/suites/index.html">Suites</a><ul><li><a href="/mots/suites/edf/index.html">Lin. coef. const.</a></li><li><a href="/mots/suites/kimb/index.html">Kimberling Wyth. Fib.</a></li><li><a href="/mots/suites/keith/index.html">Repfigits Nbs Keith</a></li><li><a href="/mots/suites/hof/index.html">Douglas Hofstadter</a></li><li><a href="/mots/suites/beatty/index.html">Beatty</a></li><li><a href="/mots/suites/beatty/index.html">Persist. Records</a></li>
+<li><a href="/mots/suites/somos/index.html">Somos</a></li><li><a href="/mots/suites/ulam/index.html">Ulam.</a></li><li><a href="/mots/suites/stohr/index.html">StÃ¶r</a></li><li><a href="/mots/suites/sum2/index.html">Nb c. mag. som. 2</a></li><li><a href="/mots/suites/sumeqpow/index.html">Som. mÃªmes puiss.</a></li><li><a href="/rythm/index.html#couples">Nb partitions</a></li><li><a href="/rythm/ryt2.html">Pavages rythm.</a></li><li><a href="/mots/suites/robbins/index.html">Nbs de Robbins</a></li><li><a href="/mots/suites/catalan/index.html">Nbs de Catalan</a></li><li><a href="/mots/suites/fact/index.html">Nbs de Permut.</a></li>
+<li><a href="/mots/suites/maxnim/index.html">Nim et suites fract.</a></li><li><a href="/mots/comb/skolem/index.html">SÃ©q. de Skolem</a></li><li><a href="/mots/suites/phi/substphi.html">Phi_n(k) premier</a></li><li><a href="/mots/suites/harmon/hcalc.html">Calc. nbs harmon.</a></li><li><a href="/mots/suites/belge/index.html">Suites belges</a></li><li><a href="/mots/suites/digitposition/index.html">Positions chif.</a></li><li><a href="/mots/suites/homothetie/index.html">u(k n) = k u(n)</a></li><li><a href="/mots/suites/hlt/index.html">Arbres bin.</a> </li></ul></li>
+<li><a href="/arit/index.html">Arithm.</a><ul><li><a href="/arit/litt/index.html">Ã‰cr. litt. naturels</a></li><li><a href="/arit/cong/index.html">Nb congruents</a></li><li><a href="/divers/syracuse/index.html">Suite de Syracuse</a></li><li><a href="/divers/josephus/index.html">Flavius JosÃ¨phe</a></li><li><a href="/divers/cumul/index.html">Cumul chiffres</a></li><li><a href="/divers/fibonacci/index.html">Suite Fibonacci</a><ul><li><a href="/divers/fibonacci/f01.html">Leonardo F.</a></li>
+<li><a href="/divers/fibonacci/f02.html">Calculs et progr.</a></li><li><a href="/divers/fibonacci/f03.html">Applications</a></li><li><a href="/divers/fibonacci/f04.html">Nombre d'or</a></li><li><a href="/divers/fibonacci/f05.html">Fonction gÃ©n.</a></li><li><a href="/divers/fibonacci/f06.html">Modulo m, Pisano</a></li><li><a href="/divers/fibonacci/f07.html">Nim Zeckendorf</a></li><li><a href="/divers/fibonacci/f09.html">Dans la nature</a></li><li><a href="/divers/fibonacci/f10.html">RÃ©curr. simil.</a></li><li><a href="/divers/fibonacci/f11.html">Facteurs</a></li><li><a href="/divers/fibonacci/f12.html">Fibonacci, Lucas</a></li>
+</ul><li><a href="/arit/stern/index.html">Arbre Stern-Brocot</a></li><li><a href="/arit/kaprekar/index.html">Algo. Kaprekar</a></li><li><a href="/arit/narcisse/index.html">Nb narcissiques</a></li><li><a href="/arit/primes/index.html">Nb premiers</a><ul><li><a href="/arit/primes/crible.c.txt">crible.c</a></li><li><a href="/arit/crible/index.html">Crible gÃ©om.</a></li><li><a href="/arit/crible/index.html">Crible Hyperbole</a></li><li><a href="/arit/crible/matiia.html">Crible Parabole</a></li>
+<li><a href="/arit/primes/primejava.html">Constr. table</a></li><li><a href="/arit/primes/primespatterns.html">Constellations</a></li><li><a href="/arit/primes/probprimejava.html">Premiers prob.</a></li></ul></li><li><a href="/arit/divis/index.html">Diviseurs</a></li><li><a href="/arit/ecrp/index.html">Ã‰cr. primaire</a></li><li><a href="/arit/bezout/index.html">PGCD, BÃ©zout.</a></li><li><a href="/arit/frcont/index.html">Fract. continues</a></li><li><a href="/arit/per/fractions.html">PÃ©riodes des rat.</a></li>
+<li><a href="/arit/per/jac.html">RÃ©ciprocitÃ© quadrat.</a></li><li><a href="/arit/per/index.html">PÃ©riodes et fractions</a></li><li><a href="/arit/egy/index.html">Fractions Ã©gypt.</a></li><li><a href="/arit/amiable/amiable.html">Nombres parfaits</a></li><li><a href="/arit/aliquot/aliquot.html">Suites aliquotes</a></li><li><a href="/arit/pract/prnumbers.html">Nombres pratiques</a><ul><li><a href="/arit/pract/practical.html">DÃ©term. nb pratique</a></li><li><a href="/arit/pract/practable.html">Constr. table</a></li><li><a href="/arit/pract/practablejava.html">Constr. java</a></li>
+<li><a href="/arit/pract/pattern.html">n-uplets de nb prat.</a></li><li><a href="/arit/pract/practicalsnumbers.html">Table nb prat.</a></li><li><a href="/arit/pract/prnstewart.c.txt"> Prog. C</a></li></ul></li><li><a href="/arit/vampire/index.html">Vampires</a></li></ul></li><li><a href="/algebre/index.html">Alg.</a><ul>
+<li><a href="/algebre/loi/index.html">Loi interne</a></li><li><a href="/algebre/lin/det/index.html">Algebre linÃ©aire</a><ul><li><a href="/algebre/lin/det/detnt.html">Calcul matriciel</a><li><a href="/algebre/lin/det/smagic.html.html">DÃ©termt maximal</a></ul></li></ul></li><li><a href="/anl/index.html">Analyse</a> 
+<ul><li><a href="/anl/curves/index.html">Courbes usuelles</a></li><li><a href="/anl/raycourb/index.html">Rayon de courbure</a></li><li><a href="/anl/acccvgence/salt/index.html">Acc. convg. sÃ©ries alt.</a>]</ul></li><li><a href="/proba/index.html">Prob</a> <ul><li><a href="/proba/3p/index.html">Les trois portes</a></li><li><a href="/proba/bert/boites.html">Paradoxe 3 boÃ®tes</a></li>
+<li><a href="/proba/boites/index.html">BoÃ®tes</a></li><li><a href="/proba/parr/index.html">Paradoxe Parrondo</a></li><li><a href="/proba/bert/index.html">Paradoxe Bertrand</a></li><li><a href="/proba/allu/index.html">BoÃ®tes allum. Banach</a></li><li><a href="/proba/binome/index.html">Loi binÃ´miale</a></li><li><a href="/proba/filtre/index.html">Superposition</a></li><li><a href="/arit/primes/probprimejava.html">Premiers prob.</a></li><li><a href="/calc/pimc/PiMC.html">Pi Monte Carlo</a></li><li><a href="/calc/pimc/PiQMC.html">Pi Quasi M.C.</a></li><li><a href="/graphs/matrix/index.html">Matr. transition</a></li>
+<li><a href="/graphs/trf/index.html">Graphes probab.</a></li></ul></li><li><a href="/geom/index.html">GÃ©om.</a><ul><li><a href="/calc/triangle/haut.html">Haut. mÃ©d. triangle</a></li><li><a href="/calc/triangle/aire/index.html">Aire triangle</a></li><li><a href="/calc/polygones/index.html">Aires polyg. rÃ©gul.</a></li><li><a href="/calc/cone/index.html">CÃ´ne tronc c.</a></li><li><a href="/calc/solides/index.html">Solides</a></li>
+<li><a href="/calc/ellipsoid/index.html">Aire d'un ellipsoÃ¯de</a></li><li><a href="/geom/poly/index.html">PolyÃ¨dres</a></li><li><a href="/geom/poly/platon.pdf">rÃ©guliers</a></li><li><a href="/geom/poly/archimediens.pdf">semi-rÃ©guliers</a></li><li><a href="/geom/spin/index.html">Spin de la physique</a></li><li><a href="/geom/pavages/index.html">Pavages du plan</a></li><li><a href="/divers/a4/index.html">Documents A4</a></li></ul></li><li><a href="/ac/index.html">Autom.</a>
+<ul><li><a href="/ac/ac1/index.html">AC de dim. 1</a></li><li><a href="/divers/jeuvie/index.html">Jeu de la vie</a></li><li><a href="/divers/art/index.html">Art cellulaire</a></li><li><a href="/divers/show/index.html">Images</a></li></ul></li> <li><a href="/lang/index.html">Info.</a><ul><li><a href="/lang/algo/index.html">Algorithmes</a></li>
+<li><a href="/lang/algo/lev/index.html">Dist. Levenshtein</a></li><li><a href="/lang/ad/index.html">DÃ©rivation automatique</a></li><li><a href="/lang/jsc/index.html">Javascript</a><ul><li><a href="/lang/jsc/js01.html">DÃ©cl. init. va.</a></li><li><a href="/lang/jsc/js02.html">Initial.</a></li><li><a href="/lang/jsc/js03.html">Constantes</a></li><li><a href="/lang/jsc/js04.html">ChaÃ®nes de car.</a></li><li><a href="/lang/jsc/js05.html">Fonctions</a></li><li><a href="/lang/jsc/js06.html">Objets</a></li>
+<li><a href="/lang/jsc/js07.html">Pages Html</a></li><li><a href="/lang/jsc/js08.html">Expr. rÃ©gul.</a></li><li><a href="/lang/jsc/js09.html">Graphisme</a></li></ul></li><li><a href="#">GÃ©nÃ©rateurs</a><ul><li><a href="/lang/jsc/popup/index.html">GÃ©n. PopUps</a></li><li><a href="/lang/jsc/video/index.html">Insertion vidÃ©o</a></li></ul>
+</li></ul></li> <li><a href="/divers/index.html">Divers</a><ul><li><a href="#">Images 3D</a><ul><li><a href="/divers/ster/dble.html">Vision 3D</a></li><li><a href="/divers/ster/index.html">AutostÃ©rÃ©og.</a></li><li><a href="/divers/ster/flot.html">Aut. flottants</a></li>
+</ul></li><li><a href="/divers/a4/index.html">ModÃ¨les Ã  imprimer</a></li><li><a href="/divers/nomogram/index.html">Nomogrammes</a></li><li><a href="/divers/boole/index.html">Tableau de Karnaugh</a></li><li><a href="/divers/pavages/index.html">Fonds pg pavages</a><ul><li><a href="/divers/pavages/postscript.pdf">PostScript</a></li><li><a href="/divers/pavages/pavages.html">Fonds de pages</a></li><li><a href="/divers/pavages/essai/index.html">Exemples</a></li>
+</ul></li><li><a href="/divers/truchet/truc.html">Pavages de Truchet</a><ul><li><a href="/divers/truchet/trmorph.html">Mots Ã  2 dimensions</a></li><li><a href="/divers/truchet/index.html">pavages de Truchet</a></li><li><a href="/divers/truchet/lacs.html">entrelacs</a></li><li><a href="/divers/truchet/lacs2.html">entrelacs 2</a></li><li><a href="/divers/truchet/namb.html">mÃ—a + nÃ—b</a></li></ul>
+</li><li><a href="/calc/pimc/index.html">Pi</a><ul><li><a href="/calc/pimc/PiMC.html">100000 dÃ©cim. PI</a></li><li><a href="/calc/pimc/PiMC.html">Pi Monte Carlo</a></li><li><a href="/calc/pimc/PiQMC.html">Pi Quasi-MC</a></li><li><a href="/calc/pimc/obfuscated.html">Calcul 2400 dÃ©cim. Pi</a></li><li><a href="/calc/pimc/Pifreq.html">FrÃ©q. dÃ©cimales de Pi</a></li></ul></li>
+<li><a href="/calc/index.html">Calculs divers </a><ul><li><a href="/calc/1var/index.html">Stat. 1 variable</a></li><li><a href="/calc/pret/index.html">PrÃªts bancaires</a></li><li><a href="/divers/bij/index.html">Bijections N<sup>n</sup> sur N</a></li><li><a href="/divers/bij/couplage.html">PolynÃ´mes de couplage</a></li><li><a href="/divers/parties/index.html">Ensemble des parties</a></li><li><a href="/calc/suite/index.html">Suite arithm. ou gÃ©om.</a></li><li><a href="/calc/triangle/index.html">Triangle</a></li><li><a href="/calc/polygones/index.html">Polygones rÃ©gul.</a></li>
+<li><a href="/calc/cone/index.html">CÃ´ne, Tronc de cÃ´ne</a></li><li><a href="/calc/sphere/index.html">SphÃ¨re, calotte sph.</a></li></ul></li><li><a href="/calc/index.html">ProblÃ¨mes divers </a><ul><li><a href="/divers/luigi/index.html">Luigi le rÃ©parateur</a></li><li><a href="/divers/mz/index.html">Tournoi par paires</a></li><li><a href="/mots/comb/affect/index.html">Couplages graphe biparti</a></li><li><a href="/calc/crit/index.html">CritÃ¨res classants</a></li>
+<li><a href="/divers/scores/index.html">Scores</a></li></ul></li><li><a href="/divers/dissect/index.html">Dissect. gÃ©om.</a></li><li><a href="/divers/musique/index.html">Musique math.</a></li><li><a href="/hist/index.html">AntiquitÃ©</a></li><li><a href="#">Musique</a><ul>
+<li><a href="/rythm/index.html">Pavages rythm. parf.</a></li><li><a href="/divers/musique/index.html">Musique mathÃ©m.</a></li></ul></li><li> <a href="/faqs/index.html">Faqs</a><ul><li><a href="/faqs/hebergement.html">GÃ©rer par ftpfs</a></li></ul></li><li> <a href="#">LycÃ©e</a>
+<ul><li><a href="/l2003/index.html">LycÃ©e</a></li><li><a href="/bts/index.html">BTS info. gestion</a><ul><li><a href="/divers/boole/fct/index.html">Table de vÃ©ritÃ©</a></li><li><a href="/divers/boole/karnaugh/index.html">Tableau de Karnaugh</a></li><li><a href="/algebre/lin/det/btsmat.html">Calcul matriciel BTS</a></li></ul></li></ul>
+</li></ul></li> </ul></nav></div><br/>
+<img src="../../../images/blc.png" width="700" height="1" alt=""><br>
+<!-- CORPS -->
+<p role="navigation"><a href="http://jeux-et-mathematiques.davalan.org/index.html">Accueil</a> / <a href="http://jeux-et-mathematiques.davalan.org/mots/index.html"> Combinatoire </a> / <a href="http://jeux-et-mathematiques.davalan.org/mots/comb/index.html"> Combinatoire Permutations</a> / <a href="http://jeux-et-mathematiques.davalan.org/mots/comb/comb/index.html"> Combinaisons de k Ã©lÃ©ments d'un ensemble fini </a></p>
+
+<h1>Combinaisons de k Ã©lÃ©ments d'un ensemble fini<br />
+    parties ou sous-ensembles finis</h1>
+<img style="{float:right;margin:5 10;}" src="ssens.png" width="175" height="138" alt="sous-ensemble">
+<h2>DÃ©finitions et propriÃ©tÃ©s</h2>
+<div class="define">
+1) On appelle <b>combinaison</b> de k Ã©lÃ©ments d'un ensemble fini E de n Ã©lÃ©ments, tout sous-ensemble A de k Ã©lÃ©ments de E.
+<br />
+Pour les ensembles ayant un nombre fini d'Ã©lÃ©ments, &laquo;&nbsp;combinaison&nbsp;&raquo; est donc synonyme de <b>sous-ensemble</b> et aussi de <b>partie</b>.
+<br /><br />
+2) Le <b>nombre de combinaisons</b> de p Ã©lÃ©ments d'un ensemble de n Ã©lÃ©ments est <img align=middle border=0 src=binom2.png alt="">, il se trouve Ã  la ligne n et Ã  la colonne p du triangle de Pascal, il est le coefficient de x^p dans le dÃ©veloppement de <img align=middle border=0 src=devbinom.png alt=""> et pour cette raison est souvent notÃ© binomial(n, p). Certaines calculatrices le notent nCp. La notation mathÃ©matique est <img align=middle border=0 src=binom.png alt="">, (aprÃ¨s avoir Ã©crit <code>&#92;&#91;&#92;binom n p&#92;&#93;</code> en LaTeX afin d'obtenir l'image).
+<br /><br />
+<img align="middle" src="prop0.png" width="77" height="26" alt="$$\binom n 0 = \binom n n = 1$$">,&nbsp;&nbsp;&nbsp;
+<img align="middle" src="prop1.png" width="98" height="26" alt="$$\binom n 1 = \binom n {n-1} = n$$">,&nbsp;&nbsp;&nbsp;
+<img align="middle" src="proppq.png" width="75" height="26" alt="$$\binom n p = \binom n {n-p}$$">,
+&nbsp;&nbsp;&nbsp;
+<img align="middle" src="trian.png" width="129" height="26" alt="$$\binom n p = \binom {n-1} {p-1} + \binom {n-1} {p}$$">.
+</div>
+<h2>Recherche des combinaisons</h2>
+<h3>Application</h3>
+<div class="define">
+<form name="frm" action="">
+<fieldset><legend align=right>Combinaisons</legend>
+<br />
+<textarea name="arr"></textarea>
+<br /><br />
+Combinaisons de k = <input class="tt0" name="k" value="3"> Ã©lÃ©ments d'un ensemble de
+n = <input class="tt0" name="n" value="6"> Ã©lÃ©ments.
+<br /><br />
+<input type="checkbox" name="chk"> en choisissant ces Ã©lÃ©ments, en partant du premier, dans l'ensemble
+<input class="tt2" name="ens" value="a b c d e f g h i j k l m n o p q r s t u v w x y z">
+<br /><br />
+Le nombre de ces combinaisons est <input class="tt1" name="a" value="" readonly>
+<br /><br />
+<center>
+<input type="button" onclick="effectue();" value="Cherche">
+<input type="button" onclick="efface();" value="Efface">
+</center>
+<br />
+</fieldset>
+</form>
+</div>
+<h3>Exemples</h3>
+<div class="define">
+<a href='javascript:ex(-1,5)'>ex. 1</a>,&nbsp;&nbsp;
+<a href='javascript:ex(0,0)'>ex. 2</a>,&nbsp;&nbsp;
+<a href='javascript:ex(0,1)'>ex. 3</a>,&nbsp;&nbsp;
+<a href='javascript:ex(1,1)'>ex. 4</a>,&nbsp;&nbsp;
+<a href='javascript:ex(1,5)'>ex. 5</a>,&nbsp;&nbsp;
+<a href='javascript:ex(2,6)'>ex. 6</a>,&nbsp;&nbsp;
+<a href='javascript:ex(4,4)'>ex. 7</a>,&nbsp;&nbsp;
+<a href='javascript:ex(5,5)'>ex. 8</a>,&nbsp;&nbsp;
+<a href='javascript:ex(6,5)'>ex. 9</a>,&nbsp;&nbsp;
+<a href='javascript:ex(2,8)'>ex. 10</a>,&nbsp;&nbsp;
+<a href='javascript:ex(2,9)'>ex. 11</a>,&nbsp;&nbsp;
+<a href='javascript:ex(3,5)'>ex. 12</a>,&nbsp;&nbsp;
+</div>
+<h2>Construction d'une seule combinaison Ã  la fois</h2>
+<div class="define">
+La combinaison peut Ãªtre construite au hasard ou en donnant un rang entre 0 et le nombre total de combinaisons, inversement ce rang peut Ãªtre retrouvÃ© Ã  partir de la combinaison.
+</div>
+<h3>Application javascript</h3>
+<div class="define">
+<fieldset><legend align=right></legend>
+<br />
+<form name="frm2" action="">
+
+n k <input class="tt0" type="text" name="t" value="25 10">&nbsp;&nbsp;
+<input type="button"  onclick="nbre()"   value=" Nombre de combinaisons ">&nbsp;&nbsp;
+&nbsp;&nbsp;
+<input class="tt1" type="text" name="nb"value=""></textarea>
+<br /><br />
+<input type="button"  onclick="cherche()"   value="AlÃ©atoire">&nbsp;&nbsp;
+<input type="button"  onclick="ncherche()"   value="Combinaison numÃ©ro">&nbsp;&nbsp;
+<input class="tt1" type="text" name="num" value="1">
+<input type="button"  onclick="suivte(-1)"   value="--">&nbsp;&nbsp;<input type="button"  onclick="suivte(+1)"   value="++">
+<br /><br />
+<textarea class="b" name="ar" value=""></textarea>
+<br /><br />
+<!--
+<textarea class="b" name="ar2" value=""></textarea>
+<br /><br />
+<input type="checkbox" name="chk"> en choisissant ces Ã©lÃ©ments dans l'ensemble
+<input class="tt2" name="ens" value="un deux trois quatre cinq six sept huit neuf dix onze douze">
+<br /><br />
+-->
+<input type="button"  onclick="efface()"    value=" Efface ">
+</form>
+</fieldset>
+</div>
+<h2>Algorithmes et programmes C</h2>
+<div class="define">
+Plusieurs algorithmes rÃ©cursifs ou non, pour une ou plusieurs combinaisons alÃ©atoires ou non sont disponibles Ã  la page <a href="combalgo.html">algos et combinaisons</a>.
+<br >
+</div>
+<!--
+<h2>Liens</h2>
+<div class="liens">
+
+<img src="../../images/ptbleu.png" width="21" height="11" alt=""><a href=""></a> &nbsp;&nbsp;
+<br />
+
+</div>
+-->
+<br /><br />
+<marquee behavior="scroll" scrollamount="2" scrolldelay="60" truespeed="1" width="98%" hspace="10" direction="left" bgcolor="#ecebe1">
+D'autres pages sont consacrÃ©es aux nombres de <a target="_pop1" href="../../suites/fact/index.html">permutations, combinaisons et arrangements</a> aux nombres de <a  target="_pop2" href="../../suites/catalan/index.html">Catalan</a> ainsi qu'Ã  d'autres <a target="_pop3" href="../../suites/index.html">suites</a> de nombres entiers naturels.
+</marquee>
+
+<p role="navigation"><a href="http://jeux-et-mathematiques.davalan.org/index.html">Accueil</a> / <a href="http://jeux-et-mathematiques.davalan.org/mots/index.html"> Combinatoire </a> / <a href="http://jeux-et-mathematiques.davalan.org/mots/comb/index.html"> Combinatoire Permutations</a> / <a href="http://jeux-et-mathematiques.davalan.org/mots/comb/comb/index.html"> Combinaisons de k Ã©lÃ©ments d'un ensemble fini </a></p>
+
+<br /><br />
+<!-- CORPS END -->
+
+
+<br />
+
+
+<br>
+<br>
+<br>
+<br>
+
+<div role="navigation" id="Navigation">  | <a class="mn" 
+href="../../../index.html"><ins>A</ins>ccueil</a> | <a class="mn" 
+href="../../../plan.html">Plan du <ins>s</ins>ite</a> | <a class="mn" 
+href="../../../http://linenn.davalan.eu/index.php">Bloc-<ins>n</ins>otes</a> | <a class="mn" 
+href="../../../jeux/index.html"><ins>J</ins>eux</a> | <a class="mn" 
+href="../../../graphs/index.html"><ins>G</ins>raphes</a> | <a class="mn" 
+href="../../../mots/index.html"><ins>C</ins>ombinatoire</a> | <a class="mn" 
+href="../../../arit/index.html">ArithmÃ©ti<ins>q</ins>ue</a> | <a class="mn" 
+href="../../../algebre/index.html">AlgÃ¨<ins>b</ins>re</a> | <a class="mn" 
+href="../../../anl/index.html">Anal<ins>y</ins>se</a> | 
+<br /> 
+ | <a class="mn" 
+href="../../../proba/index.html"><ins>P</ins>robabilitÃ©s</a> | <a class="mn" 
+href="../../../geom/index.html">GÃ©o<ins>m</ins>Ã©trie</a> | <a class="mn" 
+href="../../../divers/auto-index.html">Au<ins>t</ins>omates</a> | <a class="mn" 
+href="../../../lang/index.html"><ins>I</ins>nformatique</a> | <a class="mn" 
+href="../../../divers/index.html">Di<ins>v</ins>ers</a> | <a class="mn" 
+href="../../../l2003/index.html">LycÃ©<ins>e</ins></a> | <a class="mn" 
+href="../../../liens/index.html"><ins>L</ins>iens</a> | </div>
+<br /><br /><br />
+<br /><br /><br>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-407579-1";
+urchinTracker();
+</script>
+<script type="text/javascript"><!--
+bannnv("mots/comb/comb/comb");
+//-->
+</script>
+<p>
+<div id="menubarbaspage"></div>
+<br clear=both><br><br>
+<p>
+<div class="idefine">
+Pour un premier contact, [<a target="_blank" href="http://davalan.info/tinc?key=jhPdUnCs&amp;formname=mycontact1">utilisez ce formulaire</a>] ou utilisez l'adresse de messagerie qui y figure. Merci d'indiquer la page prÃ©cise du site "http//jm.davalan.org/...", cela m'aidera beaucoup. Ne joignez aucun document Ã  votre message.<br />
+
+<div class="idefine">
+Jeux-et-MathÃ©matiques n'est pas un site commercial. Aucun des liens placÃ©s sur ce site n'est rÃ©munÃ©rÃ©, ni non plus aucune des informations donnÃ©es.<br>
+<span style="color:#777777;font-size:10px"><strong>Important :</strong> Si votre question a un quelconque rapport avec un travail personnel (Devoir TIPE Master...) , vous devez absolument me le prÃ©ciser dÃ¨s votre premier message et m'indiquer trÃ¨s prÃ©cisÃ©ment les limites des informations demandÃ©es. Vous devez aussi avertir la personne qui dirige Ã©ventuellement votre travail ou le corrige de cette communication et lui montrer les documents fournis.</span>
+<script type="text/javascript">
+var menubarduhaut=document.getElementById("menubarhautpage").innerHTML;
+document.getElementById("menubarbaspage").innerHTML=menubarduhaut;
+</script>
+<p>
+<p>
+<span style="color:#777777;font-size:10px">J'essaie de rÃ©pondre aux questions posÃ©es, mais ne lis pas les documents mathÃ©matiques amateurs, pas plus que je ne donne mon avis sur les dÃ©monstrations des conjectures de Collatz ou autres. Je ne lis pas les documents word, je ne corrige pas les programmes informatiques et depuis des annÃ©es je n'utilise plus de tableur.</span>
+</div>
+<script>var menubarduhaut=getElementById("menubarhautpage").innerHTML;getElementById("menubarbaspage").innerHTML=menubarduhaut;</script>
+<address>
+&copy; (Copyright) Jean-Paul Davalan 2002-2014<br /><br />
+</address>
+<script type="text/javascript">_stats("Jeux","Pages","mots/comb/comb/comb")</script>
+<noscript><object style="position:relative;width:1px;height:1px;overflow:hidden;" data="http://jm.davalan.org/lang/web/stats.php?cdref=Jeux,Pages,noscript" type="image/png"></object></noscript>
+<!--
+Saturday 22 March 2014
+-->
+<br /><br /><br />
+<!--  fin -->
+<p>
+<!-- CQ Counter code start -->
+<script type="text/javascript">
+_d=document; _n=navigator; _t=new Date(); function t() { _d.write(
+"<img src=\"http://1fr.cqcounter.com/cgi-bin/c?_id=20super&amp;_z=4&_r="+
+_r+"&_c="+_c+"&_j="+_j+"&_t="+(_t.getTimezoneOffset())+"&_k="+_k+
+"&_l="+escape(_d.referrer)+"\" width=70 height=15 "+
+"border=0>");} _c="0"; _r="0"; _j="U"; _k="U"; _d.cookie="_c=y";
+_d.cookie.length>0?_k="Y":_k="N";
+</script>
+<script type="text/javascript">
+_b=screen; _r=_b.width; _n.appName!="Netscape"?_c=_b.colorDepth : _c=_b.pixelDepth;
+_n.javaEnabled()?_j="Y":_j="N";
+</script>
+<a href="http://cqcounter.com/?_id=20super&amp;_lo=fr" target="_top">
+<script type="text/javascript">
+t();
+</script>
+</a>
+<noscript>
+<a href="http://cqcounter.com/">
+<img src="http://1fr.cqcounter.com/cgi-bin/c?_id=20super&amp;_z=4" width="70" height="15" alt="">
+</a>
+</noscript>
+<!-- CQ Counter code end -->
+
+<p><img src="../../../images/blc.png" width="1" height="500" alt="">
+<script type="text/javascript">
+//window.mathPreamble = '\newcommand{\RR}{\mathbb{R}}\usepackage[usenames]{color}\color{} \gammacorrection{1.3}\png \normal ';
+replaceMath( document.body );
+</script>
+</div>  <!-- /div main grid_12 -->
+<div class="grid_1 omega">
+</div> <!-- /div grid_1 -->
+
+</div>   <!-- /div container_15 -->
+</body>
+</html>
+Ytext/html¯$).26:>BFJNRVZ^bgkptx|Ô_WebResourceResponse_.http://jm.davalan.org/mots/comb/comb/binom.pngObplist00ÔefX$versionX$objectsY$archiverT$top † ¯#)*0123KLMNOPQRSTUVWXYZ[\]`U$nullİ	
+ !"R$6S$10R$2R$7R$3S$11R$8V$classR$4R$9R$0R$5R$1€	€€€ €€€€Ó$%'(WNS.base[NS.relative€ €€_.http://jm.davalan.org/mots/comb/comb/binom.pngÒ+,-.Z$classnameX$classesUNSURL¢-/XNSObject#A¼Lâ•1 ÈÓ456@JWNS.keysZNS.objects©789:;<=>?€	€
+€€€€€€€©ABDEFGHI€€€€€€€€€€ZConnectionVServer\Content-Type]Last-Modified]Accept-RangesTDate^Content-LengthZKeep-AliveTEtagZKeep-AliveVApacheYimage/png_Wed, 04 Oct 2006 19:57:24 GMTUbytes_Tue, 01 Dec 2015 16:26:09 GMTS315_timeout=2, max=197_"48c57bdc-13b-41f01a5cdd100"Ò+,^_\NSDictionary¢^/Ò+,ab_NSHTTPURLResponse£cd/_NSHTTPURLResponse]NSURLResponse_NSKeyedArchiverÑgh_WebResourceResponse€    # - 2 7 W ] x {  ‚ … ˆ Œ  – ™ œ Ÿ ¢ ¥ § © « ­ ¯ ° ² ´ ¶ ¸ º ¼ ¾ Å Í Ù Û İ ß )/2;DFHOWblnprtvxz|~ˆŠŒ’”–˜šœ§®»É×Üëöû7=]av•š§ª¯ÃÇÛéûş             i              O;‰PNG
+
+   IHDR         §qz7   0PLTEÿÿÿ™™™wwwUUUîîî333ÌÌÌªªªˆˆˆfff   DDDİİİ"""»»»!•   tRNS @æØf   ¹IDAT•…!Â@E[hŠjÇrÁ’Ô7á(Bp €¨Â²	‚UQO‚A`˜-m‚cÅÏËìÎüù„€
+Dğ¬º+‹w+ÌÈˆ×î„JÁ×t7x€chOhƒœèlˆ#¶‚,Ez|Ò\JôSòİŒc‰±j#ûVYxÚûë…¸%vZ+†Fd—äpƒ«Üî!B_Şq§šú ˆ©fÒeŠğo‰Ø)&†åg| ¹($s	•    IEND®B`‚Yimage/pngÔ_Vhttp://www.forkosh.com/mathtex.cgi?\usepackage[usenames]{color}\gammacorrection{1}\pngO×bplist00Ô]^X$versionX$objectsY$archiverT$top † ¯#)*0123GHIJKLMNOPQRSTUXU$nullİ	
+ !"R$6S$10R$2R$7R$3S$11R$8V$classR$4R$9R$0R$5R$1€	€€€ €€€€Ó$%'(WNS.base[NS.relative€ €€_hhttp://www.forkosh.com/mathtex.cgi?%5Cusepackage%5Busenames%5D%7Bcolor%7D%5Cgammacorrection%7B1%7D%5CpngÒ+,-.Z$classnameX$classesUNSURL¢-/XNSObject#A¼Lâ¹Ã ÈÓ456>FWNS.keysZNS.objects§789:;<=€	€
+€€€€€§?ABCDE€€€€€€€€VServer\Content-TypeZKeep-AliveTDate^Content-Length]Cache-ControlZConnectionVApacheYimage/png_timeout=2, max=100_Tue, 01 Dec 2015 16:26:05 GMTS756\max-age=7200ZKeep-AliveÒ+,VW\NSDictionary¢V/Ò+,YZ_NSHTTPURLResponse£[\/_NSHTTPURLResponse]NSURLResponse_NSKeyedArchiverÑ_`_WebResourceResponse€    # - 2 7 S Y t w { ~  „ ˆ ‹ ’ • ˜ ›  ¡ £ ¥ § © « ¬ ® ° ² ´ ¶ ¸ º Á É Õ × Ù ÛFKV_ehqz|~…˜ ¢¤¦¨ª¬®¶¸º¼¾ÀÂÄÆÍÚåêù#8X\ity†‰¢¦ºÈÚİó             a              õOô‰PNG
+
+   IHDR   ²      áëØ   0PLTEÿÿÿ                                             /İ {   tRNS D™ï‰«T2v"»İÍfº  dIDATHí–;hSQÇÿ7¦É}4‰‚%Ç×à`)F)èr¡¸8EK;Ö‚.qñ:©h	tÒŠ¹ZC	>8c’¥[!âc.Bã’B JŒE«KıÎ¹¹·y4¡
+™ô›ò}ç÷ÿqî—ÁF¯
+Uô¦"ÿ¶YOyk³ ¹]qOxó/.t<³U¸@È®›12`ªkL>êŠèU¸@À3ßÿ
+…wmãÌnmšíKg^ÀîÚ°µy˜Ñ³e“0ÿ‘L¸d_¼rëUærğıî<õ˜ŸJh×3ê³ïu%Oœ0Ç$÷ajÌÔ«Z_ñ¶a×°ü/(²|v¿uÊ:V±wO‘úùOşÄ4N#Á¨CHç|Lr±Tø9İ9-Ó‡Ñ¿iÆ’ÂÓ‰”¢zÒ†:ˆˆE3ê?.cçg® GQ$õ5 ³3ğ1ÉÍ ?ÈœôòŒsî,¥ÄÜ—
+Ã„9Ä(!úÒ1„¾1
+
+†Âì¤Yro¥™èj“Yûé™)…›–c¾KfZ½º:aŞ{Ùlvmf ÜlF‰Ç€E’Ò§ôÇ…9b‘™úÛ&b‡|X,ÖïìLrŞ6ˆ¾Ó¸ä¸aéâ4l¿í£Ï¼úO@fê³	ä30È,˜ºY"0ò’Ks­(·!ÒI»{~O¡cô'3F³ZÜ¼úN*3¥°_ôál™WWL0ÑÚ³8%i€ğÀä)ÁafúfkÈ¢o|åûíÂÖ¢§ÜVI¶ÑZŸ{gÖÌÖklÙN)j;ë|ç6ôÿÍëå6zõGfã76™­»»òı    IEND®B`‚Ô_.http://jm.davalan.org/mots/comb/comb/trian.pngObplist00ÔefX$versionX$objectsY$archiverT$top † ¯#)*0123KLMNOPQRSTUVWXYZ[\]`U$nullİ	
+ !"R$6S$10R$2R$7R$3S$11R$8V$classR$4R$9R$0R$5R$1€	€€€ €€€€Ó$%'(WNS.base[NS.relative€ €€_.http://jm.davalan.org/mots/comb/comb/trian.pngÒ+,-.Z$classnameX$classesUNSURL¢-/XNSObject#A¼LâĞÕ ÈÓ456@JWNS.keysZNS.objects©789:;<=>?€	€
+€€€€€€€©ABDEFGHI€€€€€€€€€€ZConnectionVServer\Content-Type]Last-Modified]Accept-RangesTDate^Content-LengthZKeep-AliveTEtagZKeep-AliveVApacheYimage/png_Wed, 04 Oct 2006 19:57:48 GMTUbytes_Tue, 01 Dec 2015 16:26:11 GMTS623_timeout=2, max=196_"48c57bea-26f-41f01a73c0700"Ò+,^_\NSDictionary¢^/Ò+,ab_NSHTTPURLResponse£cd/_NSHTTPURLResponse]NSURLResponse_NSKeyedArchiverÑgh_WebResourceResponse€    # - 2 7 W ] x {  ‚ … ˆ Œ  – ™ œ Ÿ ¢ ¥ § © « ­ ¯ ° ² ´ ¶ ¸ º ¼ ¾ Å Í Ù Û İ ß )/2;DFHOWblnprtvxz|~ˆŠŒ’”–˜šœ§®»É×Üëöû7=]av•š§ª¯ÃÇÛéûş             i              Oo‰PNG
+
+   IHDR         b/"ã   0PLTEÿÿÿ™™™wwwUUUîîî333ÌÌÌªªªˆˆˆfff   DDDİİİ"""»»»!•   tRNS @æØf  íIDAT8µ•;KA…OÆhÔÍjcgI› ¶BÀRÌHc#V‚h£•1ÿÀJ°Jag³Ø®E*[BªöŠm¼3³wæÎfÑÊ)vçÎwæÌİy-€@¾
+Qr^ä³p•Õ³t&Á¥¨w|Vv3‘A#Yì‹.ŸäH‘A[˜Ü< ?p Ğ
+Îï8&ÉŒÚ:(Ô°vÑŞœê¹Éç•8µƒ`¬&)…
+CÌU?€ç°\‘Ôæ «9…Ú*ëÇ!v[Ü^S²GÂÁ1V[B=jÃ)=º¬*ÓğÍÙfÅ÷’±Ú˜Ç5…Ö“0Ïi§Ößgëè)©n\xOË4SŸcÕ½&ÕÒ˜—Zi™fÚá5E\ Ö/U"vˆ2t0%Ó! óÁßÿšÃ/vnÆ\™IÍ²g’Ğ_«ÙñXÖjòQ;ÑGU<6µ£Ñ>ÎO¨_W4brÍ”ƒc½äm9!:+¹å]ºpZ¬R'+ÜˆÄÊ8ÖNŞŠëBˆÎ+n_€g—îù½c‘ƒc…äXZN(èÓoçğEë±#¿Â1¥VÅò†±Ô©¡Ø´*5ĞÁ=tº%Û6/æß§ñoÚ:D‘,¹ië•«ß`Uv¹d(™¹í-7(„ÿHÿq|¦Ñ"‰Îß    IEND®B`‚Ô_.http://jm.davalan.org/mots/comb/comb/prop0.pngObplist00ÔefX$versionX$objectsY$archiverT$top † ¯#)*0123KLMNOPQRSTUVWXYZ[\]`U$nullİ	
+ !"R$6S$10R$2R$7R$3S$11R$8V$classR$4R$9R$0R$5R$1€	€€€ €€€€Ó$%'(WNS.base[NS.relative€ €€_.http://jm.davalan.org/mots/comb/comb/prop0.pngÒ+,-.Z$classnameX$classesUNSURL¢-/XNSObject#A¼Lâæë ÈÓ456@JWNS.keysZNS.objects©789:;<=>?€	€
+€€€€€€€©ABDEFGHI€€€€€€€€€€ZConnectionVServer\Content-Type]Last-Modified]Accept-RangesTDate^Content-LengthZKeep-AliveTEtagZKeep-AliveVApacheYimage/png_Wed, 04 Oct 2006 19:57:42 GMTUbytes_Tue, 01 Dec 2015 16:26:05 GMTS466_timeout=2, max=197_"48c57be6-1d2-41f01a6e07980"Ò+,^_\NSDictionary¢^/Ò+,ab_NSHTTPURLResponse£cd/_NSHTTPURLResponse]NSURLResponse_NSKeyedArchiverÑgh_WebResourceResponse€    # - 2 7 W ] x {  ‚ … ˆ Œ  – ™ œ Ÿ ¢ ¥ § © « ­ ¯ ° ² ´ ¶ ¸ º ¼ ¾ Å Í Ù Û İ ß )/2;DFHOWblnprtvxz|~ˆŠŒ’”–˜šœ§®»É×Üëöû7=]av•š§ª¯ÃÇÛéûş             i              OÒ‰PNG
+
+   IHDR   M       ¬ÌÌ   0PLTEÿÿÿ™™™wwwUUUîîî333ÌÌÌªªªˆˆˆfff   DDDİİİ"""»»»!•   tRNS @æØf  PIDAT8­“¯NÄ@Æ¿–îr×?<…€¤‚ä’ó§x‚p×7À¢Îc*p=ÂRM'x€!¹„ ˜m¶3·Ã¤m&¿~Û~`Àd©‡€®‰¦ğğf[·‚D3Qcõ0Ç¡ ÃäæñY! É°{7F¼lÑ'‚Õ×B!Z\£—Ò›¼EgÀ=-—›}^êÎ“#3¸„@épœ8ÒÍ€|;—m›ö	Óu´Y¯Mşãtƒ¥‡H÷Ñ¤WÆC•|qôÍ]U•Í"Rzºµ¬Eÿü½~•¹sÄş9ZîËû¼ş£/à>Ÿörş/M¸>RW˜©ÈGè¿±¯û€uçØW}et‘ï«Hù*™q}¡0å·õU¨|J«ÍyGzã«‘’Ù9Â‘ vB3—ÁD"K`ç|ªÏ¹F¿ŞY:µ%Õ    IEND®B`‚Ô !"#_!http://jm.davalan.org/mathtex4.jsObplist00ÔefX$versionX$objectsY$archiverT$top † ¯#)*0123KLMNOPQRSTUVWXYZ[\]`U$nullİ	
+ !"R$6S$10R$2R$7R$3S$11R$8V$classR$4R$9R$0R$5R$1€	€€€ €€€€Ó$%'(WNS.base[NS.relative€ €€_!http://jm.davalan.org/mathtex4.jsÒ+,-.Z$classnameX$classesUNSURL¢-/XNSObject#A¼Lâü& ÈÓ456@JWNS.keysZNS.objects©789:;<=>?€	€
+€€€€€€€©ABDEFGHI€€€€€€€€€€ZConnectionVServer\Content-Type]Last-Modified]Accept-RangesTDate^Content-LengthZKeep-AliveTEtagZKeep-AliveVApache_application/x-javascript_Thu, 13 Aug 2015 13:36:08 GMTUbytes_Tue, 01 Dec 2015 16:25:53 GMTT7199_timeout=2, max=198_"190f153a-1c1f-51d316af56e15"Ò+,^_\NSDictionary¢^/Ò+,ab_NSHTTPURLResponse£cd/_NSHTTPURLResponse]NSURLResponse_NSKeyedArchiverÑgh_WebResourceResponse€    # - 2 7 W ] x {  ‚ … ˆ Œ  – ™ œ Ÿ ¢ ¥ § © « ­ ¯ ° ² ´ ¶ ¸ º ¼ ¾ Å Í Ù Û İ ß"%.79;BJU_acegikmoq{}ƒ…‡‰‹š¡®¼ÊÏŞéîù ;Aaf{› ­°µÉÍáï             i              O(function() {  // Randall Farmer, twotwotwo at gmail.  Public domain, 2007-2009.
+  var esc = function(str) { 
+    var s = escape(str); 
+    return s.replace(/\+/g, '%2B') 
+  };
+  var escHTML = function(str) {
+    return str.replace( // escape for HTML attribute
+        /[\'\"<>\=\$\\]/g, 
+ function(c) { return '&#' + c.charCodeAt(0) + ';' } 
+    );
+  };
+function substr( f_string, f_start, f_length ) {
+    // Returns part of a string  
+    // 
+    // version: 810.1317
+    // discuss at: http://phpjs.org/functions/substr
+    // +     original by: Martijn Wieringa
+    // +     bugfixed by: T.Wild
+    // +      tweaked by: Onno Marsman
+    // *       example 1: substr('abcdef', 0, -1);
+    // *       returns 1: 'abcde'
+    // *       example 2: substr(2, 0, -6);
+    // *       returns 2: ''
+    f_string += '';
+
+    if(f_start < 0) {
+        f_start += f_string.length;
+    }
+
+    if(f_length == undefined) {
+        f_length = f_string.length;
+    } else if(f_length < 0){
+        f_length += f_string.length;
+    } else {
+        f_length += f_start;
+    }
+
+    if(f_length < f_start) {
+        f_length = f_start;
+    }
+
+    return f_string.substring(f_start, f_length);
+}
+
+  var images = [];  // for hide-raw-TeX-on-load hack
+  var mathUrls = {};
+  var mathRegExp = 
+    /\$\$(.*?)\$\$|\$(.*?)\$|\\\((.|\n)*?\\\)|\\\[(.*?)\\\]/g;
+  var mathRegExp2 = 
+    /(\$\$(.*?)\$\$|\$(.*?)\$|\\\((.*?)\\\)|\\\[(.|\n)*?\\\])/;
+
+  if ( !window.mathSite ) 
+    window.mathSite = window.location.hostname + window.location.pathname + 
+      window.location.search;
+//===================================================================================================================================
+//===================================================================================================================================
+//========================================================================
+// ||          Set Your Preference Here                                 || 
+// ||                                                                   ||
+// =======================================================================
+  if ( !window.mathServer ) 
+// window.mathServer = 'http://jpdv.homelinux.org/cgi-bin/mathtex.cgi?';
+//  window.mathServer = 'http://www.openmaths.org/cgi-bin/mathtex.cgi?';
+// modif 14/08/2010 http://www.watchmath.com/cgi-bin/mathtex3.js
+// annulÃ© 17/11/2011 window.mathServer = 'http://www.forkosh.dreamhost.com/mathtex.cgi?';
+window.mathServer = 'http://www.forkosh.com/mathtex.cgi?';
+//window.mathServer = 'http://www.cyberroadie.org/cgi-bin/mathtex.cgi?';
+//http://www.problem-solving.be/cgi-bin/mathtex.cgi   unavailable
+//http://www.openmaths.org/cgi-bin/mathtex.cgi   unavailable
+//  if ( !window.mathJsServer )
+//window.mathServer = 'http://www.forkosh.dreamhost.com/mathtex.cgi?';
+// if ( !window.mathJsServer ) window.mathServer = 'http://www.cyberroadie.org/cgi-bin/mathtex.cgi?';
+//window.mathServer = 'http://www.quantnet.com/cgi-bin/mathtex.cgi ';
+  if ( !window.mathJsServer ) window.mathJsServer = 'http://mathcache.appspot.com/';
+  if ( !window.mathPreamble ) window.mathPreamble = '\\usepackage[usenames]{color}\\gammacorrection{1}\\png ';
+
+//================================================================================
+//||           Don't MOdify Under THis Line Unless You Know What You Are Doing !!  ||
+//==================================================================================
+
+
+  var div = document.createElement('div');
+  var $L = function(i) { if ( window.console ) window.console.log(i) }
+  
+  var isMath = window.mathChecker || function( mathText ) {
+      if ( window.mathNoDollar )
+          return /^(\$\$|\\\(|\\\[)/.test(mathText);
+      if ( /[_\\^]|\$\$|\w\(/.test(mathText) ) 
+      	  return true;
+      if ( /[A-Za-z]{2,} [A-Za-z]{2,}/.test(mathText) )
+          return false;
+      if ( !!/^\$[ \t\n]/.test(mathText) != !!/[ \t\n]\$$/.test(mathText) )
+          return false;
+      return true;
+  };
+
+  
+  var replacement = function( mathHtml ) {
+    div.innerHTML = mathHtml;
+    var mathText = div.firstChild.nodeValue;
+    if ( !isMath(mathText) ) return mathHtml;
+ if (substr(mathText,0,2)== '\${')   return "\$"+substr(mathText,2,-2)+"\$";
+if (substr(mathText,0,3)== '\\[{')   return "\\["+substr(mathText,3,-3)+"\\]"
+if (substr(mathText,0,2)== '$!')   return "\$"+substr(mathText,2,-1)+" ";   
+// if (substr(mathText,0,2)== '\$\$')   var mathText = substr(mathText,2,-2);
+// if (substr(mathText,0,2)== '\\\]')   var src = 
+ //             mathServer  + mathPreamble + substr(mathText,2,-2);
+ //if (substr(mathText,0,1)== '\$')   var src = 
+ //             mathServer  + mathPreamble  + substr(mathText,1,-1);
+var src =  mathServer  + mathPreamble;
+    var alt = escHTML(mathText);
+
+    var num = images.length;
+    var html = '<span class="math" id="math' + num + '">' 
+               + mathHtml 
+               + '</span>';
+    var img = images[num] = new Image();
+    img.onload = function() {
+if (substr(mathText,0,2)== '\\[')  var imgHtml = "<center><img class='mathimg' src='"+src+substr(mathText,2,-2)+"'  alt='" +alt + "' title='" + alt + "' /></center>";
+if (substr(mathText,0,1)== '\$')  var imgHtml = "<img class='mathimg' src='"+src+"\\textstyle "+substr(mathText,1,-1)+"' align ='absmiddle' alt='" +alt + "' title='" + alt + "' />";
+if (substr(mathText,0,2)== '\$\$')  var imgHtml = "<img class='mathimg' src='"+src+"\\displaystyle "+substr(mathText,2,-2)+"' align ='absmiddle' alt='" +alt + "' title='" + alt + "' />";
+
+      var span = document.getElementById( 'math' + num );
+      if ( span ) span.innerHTML = imgHtml;
+      else html = imgHtml;
+    };
+    img.src = src;
+    return html;
+  }
+
+  if ( !window.mathCleaner ) window.mathCleaner = function(orig) {
+      var cleaned = orig.replace(/<\/?(br|p)\b.*?>/ig, '');
+      return /[<>]/.test( cleaned ) ? orig : cleaned;
+  };
+  var replace = window.replaceMath = function(elem, replacer) {
+    if ( !mathRegExp2.test( elem.innerHTML ) ) return;
+    if ( /pre|code/.test( elem.tagName ) )
+      return elem.innerHTML = elem.innerHTML.replace(/([\$\\])/g, escHTML);
+    
+    for ( var child = elem.firstChild; child; child = child.nextSibling )
+      if ( child.tagName ) replace( child, replacer );
+
+    var newHtml = elem.innerHTML.replace( mathRegExp, window.mathCleaner );
+    if ( elem.innerHTML != newHtml ) elem.innerHTML = newHtml;
+    
+    for ( var child = elem.firstChild; child; child = child.nextSibling )
+      if ( child.nodeType == 3 && mathRegExp2.test( child.nodeValue ) ) {
+        // simple case for "only children"
+        if ( child == elem.firstChild && !child.nextSibling ) {
+          elem.innerHTML = 
+            elem.innerHTML.replace( mathRegExp, replacer || replacement );
+          continue;
+        }
+        var s = elem.insertBefore( document.createElement('span'), child );
+        s.appendChild( child );
+        child = s;
+        child.innerHTML = 
+          child.innerHTML.replace( mathRegExp, replacer || replacement );
+      }
+  }
+})();
+_application/x-javascriptÔ%&'(_%http://jm.davalan.org/bann/AA0030.jpgObplist00ÔefX$versionX$objectsY$archiverT$top † ¯#)*0123KLMNOPQRSTUVWXYZ[\]`U$nullİ	
+ !"R$6S$10R$2R$7R$3S$11R$8V$classR$4R$9R$0R$5R$1€	€€€ €€€€Ó$%'(WNS.base[NS.relative€ €€_%http://jm.davalan.org/bann/AA0030.jpgÒ+,-.Z$classnameX$classesUNSURL¢-/XNSObject#A¼LãQ ÈÓ456@JWNS.keysZNS.objects©789:;<=>?€	€
+€€€€€€€©ABDEFGHI€€€€€€€€€€ZConnectionVServer\Content-Type]Last-Modified]Accept-RangesTDate^Content-LengthZKeep-AliveTEtagZKeep-AliveVApacheZimage/jpeg_Fri, 25 Apr 2014 17:33:52 GMTUbytes_Tue, 01 Dec 2015 16:26:09 GMTU22760_timeout=2, max=200_"282912d3-58e8-4f7e15e8058c0"Ò+,^_\NSDictionary¢^/Ò+,ab_NSHTTPURLResponse£cd/_NSHTTPURLResponse]NSURLResponse_NSKeyedArchiverÑgh_WebResourceResponse€    # - 2 7 W ] x {  ‚ … ˆ Œ  – ™ œ Ÿ ¢ ¥ § © « ­ ¯ ° ² ´ ¶ ¸ º ¼ ¾ Å Í Ù Û İ ß &)2;=?FNYcegikmoqsuƒ…‡‰‹‘“¥²ÀÎÓâíòı/5U[p•¢¥ª¾ÂÖäöù             i              OXèÿØÿà JFIF  H H  ÿş Created with GIMPÿÛ C 
+
+
+
+#%$""!&+7/&)4)!"0A149;>>>%.DIC<H7=>;ÿÛ C
+;("(;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;ÿÀ  æ°" ÿÄ              ÿÄ 8   !1AQa"q2‘¡±#BÁÑRbáğñ$rcÿÄ            ÿÄ &      !1"AQ2qa3ÿÚ   ? íC®‡ô|Ñ§$Ë'(§É–ydÉS6c‘‹$ÔY,z¨¥ÙÑ–L¥Õor´fÌÕvU=dRìÃ©×ªtÎ{–8ıUí›Ô³¨Å«<½î›¯'SÔ5nm¤ÎFGo“Êò¼Œrš‡?·7&6ÙWÒgEÂßBúWàò}ÎØĞö›ŞüO°eÚE¢ç8ØöÚ"İ^"©âueK+R$WM‘ZV—Å—Ac““F9"2ˆÉzey%Hn\d•ù3“´Å2$Êş¹½•4Î©ŒÓi<×Ñ‘²ºcH­Eh90Rv=¬”`=ÅÊ³m›ñãÜ‘›jøWG?%Uø»6ğtôÑ¶bÇQĞÓppòW=½º8U#L&—“$%Á?©AÁ7’nU¾3OÉ’~,Ö™õ<xú²¶í^¢JÎ~Wl¿>ZèÇ9Yæù·‘¦?MªfL‘³TÌò<¨œ«<¡ÈE4ËöØ,Ê•hÇ«ºgKéğeÔbûzmNãË+hÕšdÊ=kHª€“à–f¥Dã¥±n¶zk_“vŸ*tqÔ¾Mz|½g‡I¸½›šgcOèóú<ê’líi³Õ+<¾iYWAãMQÍÕéÕµ\æMj>ã›eg^__¦p„pLÑêõx7â’k´yiğÚg³âgí§‰–æ•Y8‘á’Œ©UKş­‚áßŠ}Bã£KÃšĞ¶«Ô¤–ÆÓ¹‰óÿ ùW, 
+y               À                             m 4bÔ5Ã5Ç*’9…¸ò¸ƒl9,ê¶8©ãÌªê¿ª_îaø5éòÜsÇş¬-Tÿ ØÈÀev8§ı »¡"—‹µø |0@ „49veM˜Ë1J¦‰Ênmõ\%–=HæÌ‘Yı=®ÜQÃjÅw42€ RÕ£MËƒ³ƒK9¤èÏèZ?­4ÚàöZ_Jn+í±åy~DÃ-9ùrÕq4úW	[GO:GMzSÿ ¤o@àº<Ì¼‰•síÇõ)8ifşŞY~OqëÏéé¤%»#ö=¼6ìáø–)}(¹ß/„ˆIîvvÄz¨%àó%á Nëz“õ<p®%kúˆ¯ğÌwúæ>ìçò.¸²ÿ Äçÿ 5ìc¡sğ_Òíó·‡HšVÓEx>C/*¼é-yßş.—F\ú¾W“bº9º¬j‡Çäek\f[6%IÍ+:ºè$ÙÃÕ:lõøo³³$e¨ç²™ç²‰[}”¾²:>¤Şî‰GóEø´Í´nÇ¦ã£<¹4SÖZw}.ä¸.Ç¦ç££¥ÓÓ\œ¼½3äã±f›I×ÏáUtkÓ`N+ƒZÁk£ÈÏ–í†3NM2¾ƒ¥ÑÔÉ§IôUô”_¹ÉluOŠ%DeŠÍlM“íbw¦Uƒà¶otjXª‹ñàİà/%EÍ‚Zn8BZ'7ÑÙ†‘RTiÅ£KÁÉj-Ú8åJÊµ:…¾LÇ(Ã³ê¤ùIŸ¢ğy8Zä±§S­I¾J#­ù8™u­¾ÈıÎŒüŒuÕTÆ»¹uŠ¿QÏÏ«r´™†Z—.Ø£'#Äò|œ²ê+Ôò^Ge2ÆìÓOé¦yÚ´˜6P5K	´-XqK‰T¢h‘rEIEŒÙ!É¿³dW$ÚÊ£±5EÉÇ‚}‹n~L_\‘Út²ÄÇ–'F5•™I¦Y´Vâ*hÚÉUfÚÖB.M”E²Ø²,Ò4\•ìä¼UÈJ¼U¬V7†‹â‹6*Í¯«db½‰Ê4Ç‚äÎİ%LÓŠUFtè”'LÏ.Ç³§…òmÅ$fœ¡åÏ}tã•UY=û¼œøä¯$Ö~x'ãv×6Û¹/$'—ŠFu–Èï³ÑÃÍ¸Í#<4Y%dO’>^[Û42º\e?¸¿3àÃ&÷	´k¶¨4Ë”lËŠF˜HViXô±G‚œ°à¾2#—ôŠV¿\M^$›hçÏ†uµ”¬äe~OCŠîW&BÅ)[tÈ½ É²-e›‹+¦ME…7GO©q}.±J­ÿ SÍã‹7éw&>^9YeŒzŒz;.SŞFoÉÓÓóG›3ú§›ùlñz…şt×ıÌ÷Îª<G©Çék³Â=9äêğrü¬uøÓU‚¹ =g§…Ydõ÷ã_ößõ5A6Ñ‹]ÅÊ-şšEb'/Á˜ ó€    0       `       8aÉ“ôÅ×»4CCmnŸ~È[1âÏ/‘”48Ô¹N¹åò]ô£©EsT½££’ır6Kş—ûbÈú„Ÿò;
+)º“ÛïÁp•®ç€öiş•ı×+èå«Øÿ a­>g5ŠnRt’‹m³¨Ò|X{áUÉxæ»„—òMv»uØ–9mS”^ÙZ‹k†×İ]£/ÏÛ5àêíŠwµ'â‘)m’åsø§ı[ı¹ teƒ¸ÙäCølqÿ Oî6wƒ&6½.6®¹=şìx²Œ _ü/<KÀ
+üKú}2ş”9á>ZãİÙ   Kô’K,¯Ì$—ìÈ4ªïù„¶ÍKÙÙnh¨e’M5Ú \½+›uWÂR ˆ@Æ­;BtêúnE4á'Ú£Ÿ¬ÃôsÉx²Z\¯TÑ»Ôq,¸#™wäÇşsÿ Ó½Ç Æ®q^ìİuşĞıHEÑô6(/µsü¦KN›G·„R‰ğÿ ä9®\ÕÅ•İµ‘èâ¼uØci™4p½P±i¥OÁËÃnYÈ'oœÿ ‰õ—9A>/Ë…ûòoõ¬ï6©«¾L;ç‰IEµº;_Ê>çÆÃÓGnXª Ğ¤‰¥]ÿ @ggü4ë×4ÿ Ö¿¹Å_ìu=[}cJÿ ÿ Hÿ s"o‹/ü,¿æ¾Í†Kj-úÉy9PÕT$2k•v|?ñ[^vİ,¹•­f¢)6fÏêI'ÉÈÕzŠ’|\>=Ú±´µ™Óo“‰©Èœ™=N¶-¾N|³©H÷8x®1ÙÇÒèÆİ›4ØmİğËs;:,[’¤W.^±ßÇ6·Úàß‹IÅ´]¦ÒõÁµ`’ğyùòº½$a†ŸFÜV?áå}âÄâú9¹2ÜssI¦ı:I#Zª1c´‘¦2tyùNŞuêŒLÍ4“5JÚ3eÇ&iƒLréD¦£•_d2bŸ³#‹œê}Qr­ø–ö#6“$ÙÖÁ
+ğa{©“gN½1Â’èpIôoÇ„[æ¹rµÉÂÖænGS>JÆù8º—lõøs»qËÛ,²JÆ§6
+–F_òÖ³$±Ûì×Á^8"øÇKì6œ{-Š²
+‹N<{ƒFêŒÙx/”èÉš]“:8§$ø2eÉÉfiÑŠr¶g!Z³êY(ÊÌÖÉÅ²2Å5&I|FLrv¨ËÕ¨ä’fl‰2Y]¹òm*‘Cé.K!Ë¹iLßNƒkFß¤Ÿ‚Ä×{—³>àRLy1´¸*VŠš­1í¢2-ßÁ•6‰¹ğMÅ¼½'’\Š2Fiäm‚ËEzôÃ)ºÔä%:fw—äÔ°ô-:xs/&¨å¾F,œ›1äàÇ<›ã?’k%~µ×ã³/Fø]GAeùÉ~NrÔ|–Ã-“p¨äí¶Sà«y+İ"ds%'hÉ8Ü‹÷tÙ¦3G"ûKá2’t³ÓB˜§“Ìÿ RˆdÈÚÄ·Y5¹nÎf[fİB¶ÌsVwñMF¸¨Q$ Ù5iQµ«Ú¿¦/¦hQÁ{³¬dãK6!\†ÒÇŒİ‚Ñ›£f&sòZÏ*Û…QÓÓ>N<ˆÛƒ5qgŸÉ-DÉÙNàx¿\Š^¥‘û¦…·³ËúãoZåÿ W&¾\Ÿ/ÍÉ$½ˆ¾Ç{/_±¯7VïW—ÿ é($Ú¾ø9Y]å›ï–\cäüˆ  Ü        `    0   $Û¤­²ÌXg–UüÎŸC¾›ã²rÊGOÉÍÓŸ‹I<ı¨ÙI}Fß»6¼;‹T×?iFuÚOµäÊçkÕÃÁÃïÕ+Á(ÆšàœÜm%ã¿ÉÔìúãÃ›m¥o—°E´¥ò¨‹|‚t«ãé>İ•û¶164Qúkİ„¤®5ãŸ’7m¿Ü=3¹‡&Øt%Èú_,¤oi)9(¦ÿ OT—-¡Åm‹Rn< …—Q5Í¿`“¾…¶9’K–6{ÛwËvşFä¶ª|ßA$¶ª¦EuÀ5—ºÿ •’K$£nQêê¬‚iÉ×V	+ğëö*Ë§‹okçû–©óÅIÇcm=Ê×?-.–XËõx§ZµîˆSö7ÊÛ¶îø#¶¹ÿ q²¼lFŒ«üœ2Û[£ß½:ÿ bN1ši®W‘J0¾#uüÁ>–33qéT­5+v¿)/)AÄ
+Ê‰<1Ç<°\ŸJÔ§Wµ{×’ $‡Iºv½ÀÀ $Ó‹i¦ší0LèàÏàxŸ”spÏdÓ',v©UåÙ´KN¯<?%š¨­ÊKÉ*¼ñü…¿Škë?á,‰i"Yõj='ü9™aÓE_ƒ½=oÛV|?•Ço-y·.ë£—R£ìñßâS_JQOÇ¹¿]ê1¿¸ğ½ê/,ÜSggøÿ Û=ÕñOjâæ“Ë¨sñdg(l­¿}Şëÿ aÆ-EÍÚş}”Ùõ²tô¾BÀhwÀ‡`g¡èóÙê8%í4Îr5hd¡¨ŒŸƒ>I¼l+ñô®¨ş£6oQï“‰/Pû{2dÕJo³ÇÃÅï·ÁÓÔz‹}IœìÚÉOÉšY]lìÃ‹[c’–G'lQ—$¾M´ÖWOE9ª=w¥h\’´yH­é´{ßGQÛ+Ë·ztqòiÔÒzbÚ¸7ÇÒã_¤¿KTË£9—Ö×–¹3ĞB+ô™§¥Œ_íäŠ0æI:N9¦Yåk
+Ä—d’HsiŒ“g%ã\¢ØÅ2Jü6Ù¿V9Šdr²éoÁZE[G^xW±KÆ“]+Eƒ1ªEàšÈ‘‡ìçMJUäo%#Ï^HËP\äÑ\£æyò6`Ÿ2gFx¯´g
+ğz¸e#‡lŠ%‰=”ú,ŒM.J™"_ˆF%Ñ\g¥J•.ÈJtJMQlëãæºk,C._c&L½ò]‘ğdše\öV³fÊQ»’ì¸ÛæŠv;*%8«/†"¼QvnÅƒ,î‚Ÿ¤ÈÊè,i¢Ä¨ÃÜ«—’YÅ¦u²`M²iğm†pJÅ4cìÙt0µàyedch—Óà” ËvğsÚZÅ“}KMæš€¥†×ENK7Ÿ£É/ äº7==>‰GŠ6şF³*ådÓ4ŒYSƒäô²Âœ9GÔ4ûmšñònèo·?êdù3¶Ó#¯Õzn†Jò_õäæ©²Å‘×fYa²Ó õ×r}˜÷?rK%üpämNh¾¹ìæıjÔ×’oÕüydíãÊ½ÉÊi£‹Yò[üz^LoÚ/MÒÉL#•6så«‹]‘­'Ë/ø®•u÷ªì®S³Öªì¯øîIœ4òâÉÑr í™±êâûeßÄB»K\,C,-g‰›h? Ôd‹–Á%{1&hËŒòášËµDÓ”î¡}B´z\Ø·K!•Ôi²3EØóW“š²²k,‰¼{^„i†¡xg9™|3³¸YÜüz…îs=cîqüÇ¨a’pÍ·ê[ŠvÒ|Ñ\w÷pqçï5¶J8äİ×˜âŒei7É-ŸwG¤ú>~¡tÓt×|^ƒ“mË—ît$’‹ ×¸½«lüloı3‚5ş]ş[Á‰]cìhkk·l[§<~9ò3=,‘mÅ'ñÁKôø>¥%ù7BÓüƒTÿ Ãv'/‹)½99ty1ó½|vPÓNš¦v¤¯¢3Ã	¥%4ùâÊ™n.O¿Æ¸Àtrút\/©_—Å3éş‚…äŒ¥%m$şß‡k¿ÁRÊãäàäãÿ ¨¤ 
+b   5ét3Í¶sMc|ûn_ú‡ Ñ½FE)§ôÓçäïáÓ(qµW_Æ9òk¨õüñÙsşy|g†–q¥ª÷^KZx¢ãTÚä½¥‹ŠtîÌù/$ŒgåõôYqãÅâªráÉ»l­ôİòNJŞÒ3iw&wjÆÕÿ ¸Ò}× “~Ó›{%äS«'MUkÍöİM"ÿ Iø,•ÖÚ!@ÎÔ¥T'áhî<T«µÈ2´ºãÜsåÅ%T¹kÉf4õ4¡,qXq¼’sš¥á_o‘\[İ`Rş““J	_ªRn£á;¢MßL®7vÿ qÂÏ-¬—·îFInø·|¢Y]Åº§.]/?ÀÒª®VIumpÄ«o¸:ÛWØ$n¨Õ/5Ç$Rïáøi{ı-W-ğ	µ_”¿p|±µÀ$’oÙ~àƒ¿nÛdÚ¨®S¾HºtÉk¡ñ¹÷HT¶[í°!nøü‹šãÉ.£±	¯p$a|¢9qÉIÉ·+æÉKõëÈ3²(kŠ—||æº_ÍX"ÍT®×à F>ˆŒF·vütûD´œgL¦.™n·%¢oË
+½¿¦jÖ<1çÁĞ—¨¶»<–›Tã¬Òµmù<NOymçå‡n¨kïçğyòyµsìéëu$v'Ë1åxT Úı=¤z/¦.ß­©ÍÒv¨Í4¯…FŒÙ#()FÒmñğfo“¶:s×è„0cdCØ®‹´ı¶PiÓªDåğ¯ÆÌv@£2I².D[G¤¬hŠ&‚›©é™6Ér{OJÕíK“çø2¼rLîè}IF¾ãÏòx®]œÜ¯¦èõŠQ\j•KëJ)}ÇG¯Á/ÖpÌn-}·&£ƒ|üöq_­)®%wòO¥å}³<ó‘7&ç=Å¸!ÉŸ[}°GllæË8Šİ¦ÇÑ¾	U1J1ËÁŸòH"ÙE§Ë^R¬“àœ³”ÕI¤S,‚É?,Ë“7&ºÎ¯y9ì®Yy¢‡?ûŠ¥•]ÙsY×Øšº(Éƒdcq+œF9ôçÎEpjÉŠù3N3IvV%‰ïFmôÊĞ_)Ù[‹bNÙ£-ÆÜXÛU-ŠËÁ8ú|¥àêiô—àé`Ğõhö¼Ûèö¯1?K“_§£&_Lqÿ Iïãéñk”SŸÒ"ã{y=ô°Ğ–¾}ü>Ét]wµş—²İrqrAã•{G“ãÜ.ÖÅÒ!6Wõk²;íg­#|‘p²J‰¤-èÕ,KØ”qF%‘‡=
+ä¨ª8‹‚øA¨#;›LYVìI`µÑ§gÀâ…ì«¦9i¾­:³{Š¢·‚½ÙZÉ<<oRÁöº;ù#™«‚ù6âÏT½¶òy1=Ï,LëåÒÛ|½3^JrÊ×ÙÏúLv®M²Çµ²Ë|©t1ËÙ¯7;¨çà)ù`½8±Ä Ô°Ò•±[÷~ábÓjJr^I}i{•€µ¨³ëÍy-Ç­œ;vf\eEÆVÉëwx)ş"Ê‚a^8½å²/#)ä-Õ‹7±§eVN,,N–¢ÄˆAšpby$’Ftä·¤[èº'ÛTPÁ;òIİ•0şİü^´Şh(Ò¥Ğmö|r¾|•­=^><pÇQ’ Uôëày®Ï=‹1Ş9ğVW}Ä$‚)î»&â—‚[>İÍßó%]tJQ[yşc«e*q\rƒJÇöÌ¡k¯ ¢ß-ı6—ãÀãâÕ$û|b±ÃuS‹]x3åÃ¸Ü'<?(è}>*¹ö¢.;’^cÂ_“ñ®|39ªáê4›!qÿ M*K¾í¶e9ciMSi4¾ŞÍ†ñ·Wg'6º”y÷5Ç-¼/Äş+¼YMØı+U)à¸}¹Òp’whÏş")-Ê2V“ïŸsÔz6aÉ»’ÅÌ"İ×Ÿîe¨<ıI/Å«G§ÒCŸÈ²Bã™¶œ[¾6¯Çv7ºT¼á¢É™MÅÁ($Ü¤êÛÜ±znl—¶µ%¹:t¹¦¿÷“ãË*úùŸßÇ2iı'>éÕy3Å_)üğj–	l·’?«j_õ|ÿ OêJzE2ŠnYı0ê¿‘Xââæç–ôÃ{é¤šò¯úø#ôÇ&©~MÏG=*u+IÆ©ôO.‰aÓ­ÏnI:§Õwto#ÍÏ'/éÔiùæ‹0áÇ“68äŸÒÆÚRİÛW½.ÍKO¥¾ImòÓçğS,Gw|õî½ÂÆqÃt©;MÒo?Ø‹U$Ÿ5üÍ’ÁÊ)×Êå¿’Ÿ¤“»§æÅğ­éU’ršŠ‚}E7Àš…ÉÁËo‹\š2aÛ¦ŒıåEj»ã¡&2¾Øª¿%’‹y«l{çÛ±¿Uş•Oq¨ü±¸Û¥É6­6×K‹ ¦\*ú®FâšæìÛ~ÀÎˆÛt=ÍØáÂn»Uÿ "MZO®Æ»R”~Ö(ğ©®Ç’£+îÚ¿ºsm¾ÁıÓÚ¹¤I\qî®¸ ÖåïÕ‚-·6“áqØÒÜöªI[ìQû#}ñD”\U$íü"ªîºmÛ±Î®»ğmû¥ãÜF¹PJ½ÆíÎ—)p¿‹¨6ù”º%
+÷G‹¦Eßêít¥É)/»káG´4Ô*Õ.üŠjŸà’n7'ØåN*/Â¶À•‰«áĞß`¹à®q§ÇDZ¤-© MŠÆ7¼bvPOªHVtU¿ÚE¿UÑ/‚tÜ^œ×Ö:İBy©¿ú‘šsly%\y}•8ÍM:gSFßÛ_Ğ<uüÄ8Ê•{l€lC 5µ>SkÚè @.ÍXÕEà®F•Â3Í9%blB ì(h’Aµh¢‰¤4†M«º%=2-‰[t…£j¯,U)túFI*“¢­‚yä­:=&‹Ò*+ì9y¹0Ág">Ÿ‡6I+lõz,’VUéŞš±Å6¹ü­6¾Ÿ—ÚôÇ{O
+HÑ$†’HHæÛM¦¤<´Q<´ŒyuM>È½¦×Mf#“7œ˜ëyıC–©µÙ>´¦Kóçæ“1Ï?=”fÏve¡{›á‚nM²ÌıÊgš¼™?ˆO¦BYoÉÕ	µ,<Ä–LuÍégtt6)D×)ªÎbÁôì«.×GJ.Dòi¾ÑoGë·šÏ‰ÄÍÓ;½;WÁÍ»„tñşEêXİ³¥£VÑ‹	>(êèôÒM¿ãİïIºÆ‹ip¶:àÅ¢Çµ+GgOïá=1<féÃK¡O
+¦mQ[JrRL›kmGõM:Q—‰õ%²n z’İxoUÃ÷IÑÏåarãÛ­¸o'=–A¶g”›L¿lùÜ±:¾%±à1âl½`~Æ5PŒ‹¢Ó*–9G´ÁI£¢w¦¨´‰©Q•d$¦g£™é§êvgR²jT!î¸*Ê¾¡(äV=–L-®ğ´uT“F=]Sf˜[³øãäŠFyÒ.ÔåÚÙÎÏ©¤Û|øcjñÆÕÜÊ?d_,Â<™I¹?$,ô1ÇÖiëqã0ÇIX¬V[MŠÅa`˜°±–Ò€bÂÄNÌ 6  ˜†Ä	¤ Hì³¡¢ôç•}LœGÂ÷›<p¹]E:lÊø\{LibØ÷îNãÈ¤¨OßÁS;øxfÔ¯u«Kåo´×!NÉBÓªáñÊÉCŠRi4Õøî×Òoùƒ\şKµZwÇô'WLqv¸%ï®CIöKè8aŒÛÉ·U%|Uñv»!}ªEµ¹6ë¿o#„¤½ºz½ªØß¯‚xá*¶«ÿ £DpíÉMõíà¾[ûáÒîŸşCJ™O¬+H¶Ô“ö}|3N4²Ën(î“åGƒ¤½U<o6M?ÒÅ}ÉRwÒFÏNôüÿ V?WŒ%Ï˜W	µ¶ë¾Xä‘†|øã6ãdôİF,ÏM›fºirş=øòAiöËéNf»‹\ñÿ “İËE‹.ªsc„Sk{qãnŞ“_/ßògõAÑiã'¡UÑmIËí‹^Ş|rMõÖË+ä±âa‰K—Ì«—»¿ŸîË`¡&9Òn÷Fİğ¼l^ŸŠúO$vÅ}‘È¦¥~İ?Ü¯•}L‹,/éğœSû—U|×¹‹ÔÃš9:ÌqÉ—,ã%7,µTûö8Ùã<Ìoæêš=fM7™Fi8UµiqÕ]÷×~Ç#6‹©,q¸Á8SR¶Ú\Wo¾ƒ«/.cÉ„Ót´™é±ÎP‹Œ²);†G;øê)*kËg±ôMŠôùJqÇ4©»Rçª¿Çr>è?_U=N§Æ³Æ0P¦Şä©¾R|¸İv¹EúİGğ˜ş–¸Fiô¥^Wş?bò³ìG‰Ç8ğ¸áõ®1ÒáÓíZTíÇ|¤ùáğëı‹4™´ÚÌ²›ÅÇ&ş”SkoıÉÚ\ÿ ›ÿ åòb[%&ÒT÷«m]ÿ Ëä”õË$aü+š„¢Ô•µOß‹9njŸ?²Êìúg¦é=CÕ5zÄâ°Ó” Úûxöòº3	§Ë?¡ôpÉÆ2T¤£×K<şx98=O4ĞÃ'ÓÚÊï†¼®L°õŠ
+3Û·w0·oñá!emŞœ9pç.®NÒÓé¥ŸŒÏ$¥+”´½ü{/Ású4Te(Áı³â’_óÇG3øÉdÜ÷ıò|¾›~ü—¤œ6ÉÛªwùı¿°µ`Êİ÷WdÓãÅ	¬¹7ä’UUr®Ûóøş¦Mv(àÉ)B
+<÷ÍYšY²'’äü\¸_ûìgÍ¨’[%Üé¿Á§Ã“­«“Rºãsº®Ş=Ù7'OµìGë-Ği)4×Çõ.QŠy£So®kåLûªrÁ¬oşŠâÌÉ[¥Ç¹ĞõÏQ5$¡8(BÂ^ÿ /–sä¡	¤®nKñLU6éT•ıÎ½‡U
+»÷^ÃmA(Õ¿k	4åÊªV.6İ½İ!N¢£v¹hœZq|ñ~}ÈÉ\g>ZñÇc*¢^}ÇRQí±¸¯©¶øâş —ß*ëôƒ4i^×|{Ë²l¥Ç%Oê:÷dc*““Woî :„#şg=.íe–éÕÚ]¹q*\Íğ„±OøiçÙP…\œ’îÒã·Ê}{U\Û¥“ÿ b2IÉA_’…îİ5ÿ ’1tÛjÛá7´š[İ¾!çä±%[¥Ãj—ÁÂâ ¼ó&”¶¯<u@©Ò™4í¯ä:¹möI9×Âcşæ	I}ÒöK…È§NßÏUiyhW|]€Ú7öÛ_sJ*ùäœvßéDeqV®ß@šƒn÷.—’wÏo–ËI+êşHK«òÆšŒŸ²ï„4’Š^|„"ßİÏÀÕ¨·@HK—Á&›Qnß<	Çm'Ûäšk’.6Xù¢ *¶šn‘qöé«İO$¾•?>ÅzI$ø*Í“êdrñàÊOÉ8Íe´e'96DWC³Uì:‹UË
+˜àC4D×È‚x’râè¸zl.q´¸'<n&9e6Œ¾«‘4IvA1¦*¥ ÙìÓ§ÒäÌøNˆ¶O£zQr›¨«:ÚI–I'$t}7Ñ›§·ù·Ó½0Qn(óùüÉŒÔgsßQÏô¿Eêã_ÈôX}:0ŠûM¸4ÑÆ’H¿jHñ¹9²Î¢OíšT,‹QàSšFL™ëÉ†¶mo*L„ó£œõ<öGën}‡ª.My³psódmº,”œŠgÈäEÉS’"óI"ÉBÊ'™¬Ò6¯6y4ÌSË&û4ä‹3O³|5b~Yj“epÇğiÇ³K”f*ôs¶¹;Xq<Î54wôy7W&ùáºËã£¾?Ã¹C¡éatèéC®?ä­¼î§Gß:^Ü¿Iì2i/¥Ğst{?1í¸Z_L¿ô\›Uö.‘)U|5Kƒ×ÆãÇ>'ÒääbÒ8×ÜpÚt^‘%ÑF\[<¼ÉsŠ©J£Fùi³NIR9š¼»mÙ¦{¥–ZŒºÌª³Ëú”VG*G_Q¨Üß'#W5O“^^-ã¦2÷ºóùñí‘fz™+	r|æ|3ßMäÛ«¦ÀšGCIt`ÒdJæ–I¤kş®6.NØszzØé­F™ão](FQèãú†Ë£ƒŸÅ×peƒÏ·LjDul™Tr|v\vtç¸´))·’C+Št½»“#e‰é¦1dr4ŒÚ¬Ÿk/Ú¨Ã­mEÓ/	.Kq5ù©µg#6w“í¾v¿.üŸ	ÑŠÏo‹Ö=>?IÚVFÂÍ´×Ù+#c°=€lÀ@i ` @@b # Ä4ÒVÀ·O†Yr(ÅX›­º/OY!õg×ƒ¦ŞØ¨®Döı<8àºQ¢/»7“OG&1Â¢+—_xÚÊ[xM%nû'Ú|kNÑ:T¨Æ‡µ>ıÉíiS]Œ[\Øi[Cb’¶ùqÓNœ—Ád~Öù«àš‚Tß}u@BK§ÍÒìsÅô£M>i¯ŸŸØšŠİmµoñı|šqàm©K¤¿¾|W¸l~¶¯!()8¶ê®ø}ÿ ïó;^—¡Ç“l¥qœeº-¶›®—µSò`–
+$åÓå¾9öøñşãz÷c–-Ğ•îKíuÒ|w?¹7.ºeeËãÒGS	háì¬Š©ÖëtÚ]%Õÿ 'G'øìziIä”ÜÓ_v)\fë§'×û3ú£–ÌùpC$F›âåÍ¶“ø}}V©fÔKvW¶2\}KãÛŠLk½–<ßõÉjçŸÓa™àÛ<pÜå’„z\Ó·ÒWÿ ×/Ö3kàá’yœqåÈÂ1‹Ú”SIÒ^ÿ ËæF·[<‘Ç8ä’["•Z“|óñÑ‰ë2JK8§5JQRwÂ|ÕòEÊ:8x=oÿ ØëÏ‡VçöíÃ$¾ä¿ÔùvŸş9,–§I©Ôáœ¡•C:âN§å*m¿uğp·åÍ÷¨'+ÚåQ¯øÿ ‚?_rÅ<›«ıTëşHİo8¦öô9,¸å8Å)EÔÚáÉ~:ãòqtXÖ}^i$ç’RP…K®}×Í~Å]Ÿ;›n5RûãMxğ¼ü–ÿ ‡ã’Ã•æÛ)j.JQu+|şÕßÈMÚyUê}W66“Ir[¥nNmòªí·çÉçu¾¡—Q‚mÎ¤ÒI[WKıÉúÿ ªcÕeJNXå~6¸÷8ÙuQpun-Wİïæ¸àÏWéññÇ½¡-[ú¿R-©Ûn^÷ß]ìpŠ{EI·ÏâŠÜ—)•O-¶/ú®<§ÏÈ<©­²ÛVŸflœdiKtS¤Ò«Cİãš¾?ÊäÊn´`œ–ôåÇôN9›íixIõÿ ¬Í¹qım“GštãÊ¾R-šÙeqFOö)É9Mß-×t)æ–I9:ï¤¨‚“Iÿ `úÏ;®“ƒP|ÿ rÕšJIô×Uà£tTcQû¿Ôï¿oÁ6éÜšë¦Áœ<™.Ü›oÍ•cáïÛ¹û4FRUÇêoö%Æ1qš{WtÊËQOc¾ßã¦NqİüˆJ_ROÂí“½©+M~–œoŠüÍò’ñà”›Ÿ1´ÁÅ&¢ß|¿ü4Bç—ı‡9?¶;UyòY¶¼ùø!MÊWÏ) …*®Êé¹&’uÛ¢Õrnº\õå•e—nşérÛoö¦Rİ4—	{D·¥ÍW/ı…·ï¯ßËN)ÍÓ26œ²,iÛşÄb—Ôºİ¾™/Ó«ïmuáÇÑ|´“æß|€ÒxÔc)ğæ®×‚†›i_/Étİ+—yÿ ‚—¢¹©I×àGipæ—Q^E½¹;Ú¼Gbí_jØªë–4£ÛİojÁşšòü¯i7i\WaÒŞû°#~ ¿›+»n]xDã¨”[§İÊ©/ÉŒy®CM&š{=¹‘y®o¯ÀåÂIŞçÌ‹T>=Ü6øìœwT#Åy)Ÿt¹oª.ic…ûû”Å6·>ı6Š·ÿ lD×<“’¨ÒéyåøVøávÄø%+«o–&º^A(U+9%Òé
+1¹ ¦å•–f–éûWo
+Èì	5Ğxä@3/ ò!DãÍ$¹!äì‡==ú‡«âÇWíşäÎa…Êş†õ6íè=Xôp¸òÕ³6³ÓšºGĞ×¦Æ8’Q9ZïK¶ÚGÍqùŞÙî°öïoœåÓJ¢—¼ÃSéVİÄçåô˜øG«‡•‹™¼ı1rtœı5§Â4é=5oVo62lîQ—Eé³Ë$äWéŠŞÛ£Òı6*­QêtzhA$’<'Ë·¨ÂÛ’¦ÃWÛı¬1(®‡¢…<Š+³ËË+•T‰¶¢W<©.Ì¹u>ÌË“Qò®ÍšÎn£;¾>£“fi«l¼~¢İ«ú®ËğÉ¶Š>›³F—–´Íª1´7Œpèš0§¥2ÃğgÉ‹àé(¦U<_™	Ü™á²™aø:y1QD ¬ÚeZa†™pé·>†*UÀğÅ$nÄ•–vº?OégRG¥ôÖåG›ÓÃîG§ô¨t}3uÍ;zm8GoO†ÒàæhaöÄîéqğ_‹M®b_Â).Š²i+ÁØ†%·”gÔÅ$Î¼9nôw/&u°%µœ™gÁ¯M©µË6åÆÙ´á{tœõ8ÖÖiYÓ]™59£µòsñïÙykN>¦JÉç=OZ•òu½O=näğş­ª”²4Ÿ±õÇn»£?¨$İ3™¨Ö¹_%%&eÉvìçåò.´¼xÆ\ûŸØg×&	:e¸rrxyòw·Dšvôù)®NÆ—QÂ¶yÌ:äß‹SµöuqóL¦ŠÎŞ…(Õ™5²N/“ŸrŠåÑF}wÔt™<’Sö¿õq¹:1¨;7¿¼‚ÃÉäy8Év›¶ºšfÕ§¿¿„ø<ëœŒ.™ Ù|[$´ôú&±S3¹EÊI6Œz¼MÂMrÒàèÆgõ³IšQVÖ95ù¡ñåùFøÎß<Ë&ÙYfNZ~è­ŸKô  Ò  b lÀ@³  2€À F 2	rv½q–Gø9ÚM+ÔN—Nş“Ã…A"ğ·âÇ½¬”>ŞŠÜk¢é>®èİÓµM­­§O¯”I¨¨õÏ’Ô¾ß-"R„eR]2N(Œ{^IÆ+Ï,”"¾¢æòÉ¨Ô—³ø±4Ú0J¼5ÕQ%ä¢¹öå†ÄŸÛuå×ÿ ¡4æxö5&¸—<ñÇ¿÷ı‹¡3‹jÛ®×õü’u,[û—éuV(¸î¹EÊ>|Ù;Ñ¬n	4Ü%ğÓitjÃ™Ç{²)µ{R»®Óö³&öùáré7÷Ç±^Y¹EıÊ×yÏïMŒ±RŞöÆyd÷(ºI·åÛã‚3ÔG4%Î[]%+áRª¥ÿ ½™·-˜ä›itß‡İ'îeË™Åm¤š~?"·­ªíD“Äå£‘EZIß„ÕşìçJKkU÷weÏRå^ßÿ ,«,VHîİ÷¿_ƒëÖçH,Òkm|yÜ2É(İ.úEX›–EJßmÒ,È·ıÊÚ|&ş	´c-%9AÅ(ÎN)_Ü¹ºç¯ĞôùvÏîNŸrK”Q{_¸áI][§TéşD{m\{Ç9J1ıÇ™¿>ÕñÁ?MÔ<ÃÌ’o™$ıú¯=ùfpÇÃãµù'§ÔIcVİ)Z§Ó÷şƒŒ·¬š3eœåôäÛIÖß	ôA8½=6÷Æ\ªâ½ÿ 6£†y2O.§é,rR†ç7}$Š[¤“}õDåÛ|y?3n1½®ëàƒ’i»CœcôO©%%§ÎçÇ}U*÷òUáóÂ	–{é5+øD¥5ºÔTU%JÊ“ã‘İU®£i¬©òÿ °¾§ÊvŠWri·7kã;’vû[mşh©&¤éÛO´-ÒwÏòe•ÚİÕyoªğ)dİÛë Š¸¹»ø¢ÅĞÊİCM;“¿d'7²¨‹|sàkl“¹Wàl)ÆÕ.-;·¶ÚOŸäC|xKÁ8ÉÔ_ß’ŒÖëŸtA\®M_=¢Jªºoú’Éâ›Q÷}×È'%&“—-÷¯Å‘ÇŒºµıDæ¹mõÅ =œ²-±Šâûe“Éº¾Ô¸às¹Ê£m¾ÈÖ8lTÛ\µÈFy]Ğ¾ù&íErÚ^A§’Ió²4¬J*)¯û©×‰Ëî”aËçŸB1ŒjR|û_¹bİÆ¹ıÜ“„>ß­Ê„8NÒ¹W4W7+Ü×3¿ âœªçË·åüù#j?swìhX^\›bâé]ß	%ÉŸ,œå±;Kûª1[äæÚ¯Iò©¹IÒ¯/Øj›Ú—ÍğIª_Q÷|qi‚PÚßÚ¹§È§â.ª*ß=6—µHŠÉ>cßÈˆ7Îùtı‘I:Ip¸$ò6—î—Em(®?ò4Ô£rÿ 7ù'RWşßÔUôà£VÚ#)<X“O—Â œ¾®Gñß$—
+Òåğ‘§Ššæ\¶YPyª HÏíjûbi?µt¹l_§üÉvúšI/Õ.À•±¤Ôw~Ä¶ıÛSãÜ·OÚ1Víq\°ŸÙîOweR}YNYn›üş‘nÄ —bIììˆ×B}Ì¢øãÓ¢ñåÕÉrŞÔ|÷wM/v}oü'‰hı'«Ìò?Ëò\x=gí6ZRñÆªŒ¹´Ñ•ğ]é rR>Fn9æNN]dßŞ™ı' q²¬˜øèéÃ—(­¼L©ZHz}ƒVî|I.Œn¢ÎÌy²±;iÒEGàéãÍ#†µ
+>E/QQ_¨Îárª•ß²1]˜sk·:LáæõOŸêC­å•Ùs†É³¹;ÌÚì†æÈâƒ’F¼zg*0ÊÈÏ{W‹kòX´×à×‹MğhXí$rŞ&Ó¡“
+3Î#öØ¸ª‹®	Å‘ªÉñÇmäÕÖJ	e]«i‚9Y“$•—fÊ«³Yûã‰ühZFˆjivrá7|—Åğ;„EÍç´øşãÒúZ­§Á*híè3ÓT}'†òa+ÙhZ¤wô#Êú~mÔz=NíÜØ}uÓ¨˜µ™*,²Yª'#Ô5jå™áÛiúfÏ‘[!ZÆ­³›Ÿ^¹äçj=F£ÙÑydº­2ñr˜íéÿ ùxÕnHË©õx4şäÏ¨õ™Æmnà§ÿ —“·¸êÂqI½¼ÌòÏzzQ×oOî<¾®{ò:÷!¨õ'.\¿©‡ø©>Ì</Ö%†?ÛbÅ¹åÁöİá’j›4dIãgŸ—-ÉÓ$yÍF=“¥Ñ:fPiKƒÕ£‚ÛC¡‹-­BJìåG+-Rmíb,nş2MÑ~9¹vÎd{6a—	å¢técv8±İpsGOMŒâçåÙZ³Ÿr\ã¥ø/Óa´‹.“;´\\¹è“]OI^ßÒDg§Mtg9,O«ÏËƒ>eFn”•7GcS§i>F£–ëuJÎÎ½«n;vùÎ»NôÚÚÌÔvırŠ[±ş¿½J¿O2Uı¿dqO¨Ã-ã·­:¨ˆXCL     Ù€      ¡vëz:ÿ 2V¿Òubë£éjÛ]8Ãî6Ãã³¨²”£^EsD¶×=“Æ“•¢¶¡
+Æä¯‡íäRm.Rt™9ÆåUß‘Æ½>•“µEKûù“|Gà—i~BQP’k›]û¡mEÃ½İûİVãP”­rŸšıÈqµÉÉSáØ¤¶]UÚlTâün1‹Šÿ S·işÏãÉÕ\’Ì‡ÔM}¼ù"¤“§Iy~ÿ ûÜŠÓès{šRI]§\şåYg¶¶õMSğYšMAI5Õ.Ê2ÆIÜ/íåÓ|tÃáëpåÆa¶›û_Á—/Û+OÇ}““åÇˆ§åûJ[£^WŸr-^¥„åµÒåWî9IÂÕóÁL­û$’’çÂâˆ«Æëâ¹pË#=É+|jş[#$ÔËq«7>¸á·×#M‡È·v„Óágm«||mæø¯y_Í
+â¼{>9n_šİFOó7{¤ÿ <yS§æß’œßrµíå‘„÷E ĞşK2h“¾H6”š|“ev”_ÛĞò9_İ\$¸IuøşåkŞÿ Ü­Pÿ ißF•«ğñĞ¿ÑüÈß”‹u/&Ü\mTZñîTÜcW»Ï°)+ù)†×­Ğ§Öåkä¯#K„×=Ñ\§+²“WÉQ–ymjê“èNt—ô!)¤­26çMª¾¨líhÄ£Vÿ ‘lfş×i¤½Šœ"şå]vIÉÒ«M÷òÇ"\¸¦»ö"­Ësi+à‹\×ôFR{aÛñØ°V¯„G$›Q„]¯t‡&¢©ãæ½Ê¢Ÿ}WğÑm)7|º’)K%Ê­GöŸÕŸ´ºLj	EU¾Û¾«ÿ ll4¤ëú/èhÇ½Õ×/Ùy+„Şç*JWKçá{)Æãw/7ÌJ‡6¥Ë¥¾ÊÜM¸.$ê=òFRJI?Vú Úç#\WØ¬º9Ëéâi;rï–›*Ic…7÷7Ê¿ØJmI§)>W‘_ù‰×Ø&–(îuÒ]üßÀ³J›KÂå¦Y)¸cU?<òQöıEo…ßäeJ[ãß—	WH#Âª¤¹wä7NSİsé?”¢¢”}¹—›`„Zråş§où”¾£_lG‘µöù—uíìFRj+ë°¾ù]ğW&²æ·ú`JrÛbîK¿b·öEAvû©&òM¾=ßüSŞÖ4¸\¶+XñqÛİ˜ê¾ù‰µ)n|E	:ƒÉ.å×Àšß5:K²I)Îí(Ä¯n5\ÎBŸÙvû%¾RÈÿ Lz!Ë{¿Õ.€%Ä0¹õâ&nÙ¯Ô+Ç…¢<şLWú ßIËn÷±5Ø!@Ğ×b]vO±¡Ê·½·WÅ€ßIÓ½V¿:ãw'Õô)CbºJŸ„ôíê%™®«=ş‘¾óŸåsöÏ×úrsİİ:°·ThÇÊ´ğº³¡¤Ÿ¿YÈ§g”e’HÙ>ÌÕåQL¼&ê´ËªÈ’gW©ÙtÍİ^Ûç“ƒ¬Õrù=.+SÚÌºúòaÍêUäçêuWÅ˜'‘É¾O[ÇŸ¶˜âéÿ ,™6¦zIƒœ¢yoMÀòfMóÑ4Š“£›ÍË<uÉuÔvtš~ÒÅ§KÀ´ø©#n<gÎgèŠ£‡ào#ZÇH§71É®1‡/,¬ÕTŒ9]ZBRà­Ï‚¹N™\²/sIŠsÉµpTó¾Êç;Elß]2M.kòU¹IòS&Ã¦_«æ›!E±‰^)ph…âË'=y\mßc@šäÉ¤Ò7%ÁİÒhúàúo½³®§§ÍÚ=#Ú.JÕpv°biÕ’M/vÕ›7ÙÁç½K$äûgzxÛ‰ÏÕiw]£-ëã³‡9[¯)¨“Wláëõn)¤ÏQêZM©´xX”±îGÏ…ŞŞ–~F7W®—Õi2ã§îÌ¹Í·Ù1İşŞ>RZÜ³Êo–_‡%>ÎlgE±ÏDö;˜³¥ä¶z´¡ÙÁZ¶¼„õnQ|…Ë!Úİnmòã“»çlTL¥fœ|™!Ã5áäœ†š#ÍãDqFÑ¦8ø9sÈ¬hÓ'ÁÜÑÇ…gKhïhÒTpsTk·WIÇÚV¬ÛÃGSkÒ•Ke®‡TÁK“¦ŠÆ=VF)úNl˜ÖHElmÜåúS\óû—ËÜòâŒ~­­ÖeÒisË—”¡Uµïÿ ½—„Îİ»¼?òßoéà}oQzŒ¸±IÉ,¥ñÿ ÙÈ7ê4š…<²ÉÎÆşïğa}ŸOŒÔÓ»eíºBd„ËsXˆ†@   "ˆd`!ˆÌ@ `  âù 8ïz^Dñmò¬Wy­¡âÊñäô˜¤¦“ğÑ¶7§^7qvß·ğJWÑ%·¢PTıƒjˆKo‰]®ı†§÷|ö)ñ.8B¤¶²ñıŞéõD[{ö,çkUÒîÊ]ËÚ“| ¡7n•Œ©5Ï>_ö	4ÚRêÙåÓñÓ¡	Ò..Qn4¤¹»¡w|{¦ÿ  å8Öë§Oùºé”NM¦›Nÿ «Æ§,ÊQ”%ápÛìË“ìæïi¶é®iİßD2EÉI:O§äŠÚ+É+UñÃ)rM.:ìm¸pß_$)IR«ş¬š[òírC±ßà­¿¹²)ïKR÷ä„šİÂ&š’+—’Ó/‡Ú`ù·vFİR§Kšò†«Ô­Å;§M§iş
+±Íß–fåYN7Ë.|qò]f¾nãwÊuÏ’¼Y%e‚•)ÖåïÍ’ri4¤ù\ü¢µ“jpÙrOwŸ<~9ş€œïqt'àmÛ+\?Ébå]“]ålĞE	[JTîÓı„¹Eo¶NQıQÜ©ÒN¹®I™ÿ g'HIğEÉ¶/‰¹'(í•Z|_Å,—Í«~Êˆß„ÈW»à¨Ç,µñ-ÿ k¿ÜQ”—Ri1°q'^Å2´?¹·\>‰Â÷qü„¾çUÙ(v«»ğ1"xê÷?<R¨Ü­Û®BÚ§+‹~H&›ûŸ>Àvé%÷·6ö×H±´šQ‹"¶n´êŸVJS/u_tkw)´ü'm¡JR=‘µğ'7m¯$<Õß=‚-Y·«^-“ƒ‚U.W±»•¿nè”e»ÙûE¸“Ç:‹“Vïš_"Ï6›IÛ}µä„ç*Û»ù{ïûûU95Ï–
+·­	5ö§M.ëÉŞDÔ]B?Õü”®;qóîë¢x¢Ü>œy”¿ Ùïe*Ûkˆ¥ÏçÙŠÚ“klÛmÚñøÛúm.“÷"å)Ë¾_oİ )-ïjWâ+¢¤¶.RïämÜª—îºA±.? š’‹§./ÂöÒ{¥ş•ÇËİ'×°An{¿Ó€ô­½«{sé
+4¹~%õ2RãçÂùošK¥Ç ”c_vIôB	Éï—‘æ•ËbéÚÒQ÷—ÿ ¦>ãmE9Ëõ>W-¾<‰G|Üšát¶cåıÒşÌj+¹Eoçà®Rİ7/n†BøXÿ Ò»4zÓZØdÍ-°‡İoã¯ëF}¾/å’Êş–û§Ëø ¯Y¨–«U<Òm¹?>Å IÅ'%}e4®‚µ& ×‰
+À~€Ä0 J"%8nÂ*İì¿Gêê!»b·Saì¿Ãzo££‹|9rÏU£’´p½>¯	<9”t|§“¼òµÁİÛÒ`Ê’5,©.Ï=Z—’Çê*¿QçŞ*rÇ_6uµòq5úŠ‹ä§Qêt¿QÆÕú§ÉÕÃÁU½³ëµ/O?«Õ¶é2ıv¹6şã‹›6öÏwƒ‡Qxây3¹1BVÌ÷l¿[gm’F•è}m3è‘Fñ
+Ú{ÏLãğ|Ïù»qeŞNŞôF]?4mGÏe—mqIğŒ:‰#VI¤f¯5&kÇwZmQ“–Œ92.‰gÍm™%&ÏCÑÊIògÉ‘§Ù|£Á—*¤ta¦˜ØÕ¶“3IÓfmêÓİdÚîÊ–D˜d—YÉÙÑÃ‡µ+ªècÔQ«¡{œHä~å‹3GĞø¾&6mÏŸOO£Ñ[\İ.‡…Á-&¥Âş‡sI¥M.üpÇ8Ïf]>—ot1àápi†•/Ë"2ätc†™^šœJ–E´Ã¨v™*½<ö¿ø´ëú&·?sèÚºäñ¾½8Ëo'=FyZù¦u²m¹}SÌÍ×g1ÈÃÊmS¸³p<Ÿ&w6-Åúš>¡%#2‘8ÈW¦˜ÈµrŒñeĞfyDØ¶(Ñ‡³2tË±³,’êa|ñ0Jèè`å£‹“¤í·K¸íéQÌÓc:ºhÑÁÉv™].5>LJTBYö³›K•Ñ–h¤ez¯ó;0åÕÛ|˜¯ü×Ï‘úl\õ¬XÚ•]ry_T¶3fÃš*åÏ§Ú³¢õV¹f|óSTtx¼¹peÔtøşf|uñäuøWğ0ÈÜ/3ÛQtã]î_<ry¬˜œ2¼oµG·õ·kª´!êQxò[|ŞßØú–rN—'•‡‘ùF6¨‹ˆésÒbÑH   @C‚  #   01P•3ÑzV§êcØûG›Fİ©àÊğV7U¦j½|=É[N¿c>4sÂâø4ä‹Ó¦UrvùM/tW.ìIÔ“Oà–©ÊM}ÑğFRR¦—çào–Ò}®ˆªI¸¾cßÈÉ²w%ÉÏê5»ím÷Ñ9VİÑm+åË­¶¾¸¶zW'?wØƒ“+µİnŸ}õf|©nM¤ŸÉ§)ÍÔÚğıûBË94¤®ãÍ¯(Œåº-î~õ_îCë7iÅ9~	i)=²Šá?r‡ö´¹®ÉI·tÿ ){ƒ§Óÿ …ıBMFVº|tÕ&O»‹}’Úû±&üKÒI2M¦Š[æï²J~	±xòuªi‰ò…vì> ¶†NbQRşeÙ:hÍu#L\\×YEîÛ*›¦™jvŠçî“t­Ğâ3»‹·+'ÁŸ'l›aÉÖÓ“}_ÌVÈİªæç'9UÉÛ¤’ıa¸/¡>…^FVÓ“nIZ.	ÓuÀ©{…×V8Ë+ºoúW‘ÚÛ_ÔŠç¿#íŒ$¾_]l¯ÏÁÒuìñÃìô¹Îİ¹U±$ä+k–ÊßwÇ†[Šju_5Cîö•8%º-!IEıÜğ)n®şTAŞÔ“U@V§[Úå%TZœRûywÇpŒ’´¯Ûàš’QI-ßÈ
+'¨-ÕR^CzÙoí®ˆ·º<]¯>ÿ È\[J6»ù\â”¤Ò›|EWç“:Ú¥ËTºmôO†Ÿ\.HÊ¹®—M§Å¿n')måS¿
+“MrëóùË}ğ½èÃsİ$·pˆÚŠºï¤ˆ/µr…öİqî4¤¢“æ_sïà›[!—o¾Ã{mÏú ÛØ»|¶•}©Ú]{	7Ë¥Kİ´¶.ßmËéA¤“~ã‡{¤VêS»ûW@B1I9KùŠ¥º­¾TŸ</q¹(ò¿WÚâ»a“íJCWo¶Fû“ğ §öAEvûdR[¯´„“›l|&ı¥sQ~ye9çõ2·ûîÛS}Ë„f <m4“~z¤äÕ¾•/À€ ø 4N$	ÇÈ—gsü5£ş#RòIq†ùg¶ÿ étU¯ÖÎO3“ÓŠ£;¬]ÈáÙQšnÑ»$~Şf©µgƒ‡å\šW-d£Ó+zé>ädÏ&¬Ã“4ÑÕ§#¡ŸZë³›«Ö6ªÊe•¾Ù›#m³¯ŠF˜Æ|³rnÙCM³KÄÛèF¼’ÈÓj!·Ñ¿I¹.O§r|£³¥Òğ¸9ù¹µç–›½+N'±ĞJ¢3£Á±£¿¥•$|ï—ù×-û·£ÓÍRäÔ²pqğgI+fµ¨UÙâåÇv×Œ¹oƒ“¬ÉÙ«&k]œíD·6oÅ†ªØr6Û+H¹Ã’QÙ+-¢×\ğtl+œS/µW3Ó•8´ú"“³|ğÛèğÿ Lä‡îÆâÚè¦XÙÓxhªxx6ãåÕ^99®C“V\te—úË×KÊKhÓiUôuôøTWEX.„U#·“/ĞÃBÚ¤‰—É“F\èæj¥I\Ëƒ‹¯uı1í6éÈÖçQ‹ç“ËzŒ–TÎ‡ªêöÍ«8Ùs©&xşmËÛLïo)ën[£ÎäÇMËÔ`§y}F'ãçÖ“×L/ âÑ·iŠÎ¹“]²"q%8QÁ_MtYldgLšdXziS.Å.QH»ù2Ëv:¸%Tu4Óå\³§¦—G.,kÑiZi3§‡£‹¢ÉÂG[Ï/’vM:1æšEÙrpaÍŒa]³jµp™‹ë;»'¨Ÿ&9O“¯z·ãÌßl½4ãÙÌÇ>{7`–âsÇKÖÙõ‘rGšõM5¼ÒİÕ¯+ÿ ³–Ÿ|z9^¡¡İº:|^y†Mø²¼wo˜Í^§£z<õ·le×|ğc³Ş–Y¸ëÙ‰ŒC€ h  1    0` 0ÀÀ  N„ nŸ¦úŒ´ù»^Qéñjc›œÅ6Jõ†Jkì¹Zñòjê½Ùğ¹'ÂÓ»è­ºt7TÅsÓè*—»ä®]‘mÅSè:4§6Û¥Jº*s¸¤¸~Dæû›\ì%Q\ån™(ÒwmF*I]óçØ¢Oc¦x¥6£Ğ}w+u‘}¶©sÇ÷'6›´¼qe{S·×hšr¢¥WÃ¶lR¤š÷°•Iù^ÏØ¯skóÚ&®e£m5Ïwİ•9·Ãø—_/òH·d¸c_r®Ÿ¹4%dãM¾+Ø7{bæZ½ŒÉ$d}šg+¹™ö^.O"î®IÃ†©®Å’[Ût•øDqÈlh—x£Š”éWû—^:ãt¿§ü•dË¶7xÜ”›q§uı¹c‹à,.<µÑĞ0°»jÄÓgÿ ¯²÷+ºÛÍşH0°”¿¸Gnå¾êù®èMÛìL¿iG…wAË»ğ&Ğ.]_ ü>ß#®i‘Jßc¾n«àùt5iW¹ûªÕ	ÓM'ü†V¦åW»¶<ku6é"´ßòH”7?ÓÛ~ ·µË"ŠëÅ'd7Éùä8N«®ùWPUÏÀÔ²8É8Ú’^üy<[\t„ùvİP£NnrWğ!´’iÛÔJQO¯O3“çîşä9quì4Ú›“ş~HÅ¨µÂ¯fÊßê§Û|’¿İvvÜ›ıÉB»oİ|yòÅ)ZÚ€Ûë…à’’Rnîº ÛOàjÛª@S{›¯½Î½‰)F)ñËè2{¾Ğåp»òM%Ûí›K„îÀ¨muûwIÍ®‚—Û }Óãö+Èíı5Ñ9½¿Ÿ¥mòNöF—lƒ‹r¡¯ú«—Ñb_M6ü+`JuRWEñÉœrvÛ÷"´CWuà  ``²<"²Èt(Ç~D—–}/Ñ0­>‡/1‚¿ÉóïMÅõ5¸ø´¥g»Òj)$yäm²cüù~—Ñ1çÒnèÑƒP¤ªÍl‘áÌ®5Í·Ï iô`Í£ñ´õÙ0)x2OB¤ú:pò5ôöò2Ğ6ú}2ùhõ?üm¾v?Jã”k|İ~Ç»É¯L—ˆ‡ÿ +æ,öpô¾?I5éKş’?ß9y<›%_iÔÓhd’ûNä}=Gı&œzU_°Õ®f#IpiŒe¥	.ˆÏ®KÉ±èÉÎ,·øÊYNl\Ú3ÉÖRî5½_É“s2¨;-Œ%Aë İXäŠäÆá"./ØI±UEûBÃiİF8l“ÂhŒR$Ò'Ú®1O#>H$Ù¹WfØV’¹™âsò.N¦xösóDô8³±¤»ºigÊ7§háióÕ{zµUgÕçî/ºk””W,¡åOØÏŸSòdş%[ä™…^Û3dàâzE±š³j’gÔõÉF\ø/	¤åfSÖòÿ éÑËyxì»Ôó}LÌÇÏÊÕÊÔOŠ³§4ìãk0ıÇ~xíp`Ôéœ¼¼yúÖwªál ÚiÉ‹kå8µäì™mR²e™šä×•ögk“|kXŠ&™
+*©;,ƒä©‹¦E…c¡‚tt´ù~N.)Ñ¿jk““—²±ètÙöµÉÕÁªO¶y¼9¾MØsüw'Ó#¹<é£l—e?Ä6W“&äe—ë³ÊíY™²ÜÙC\8Í0³K±vtt¯”sq›´òäÏ’:xã³*Q*Ôéc8†½+4ÉîÁŞ5Ù0–<?­h–MÊjME~•*lò.Ó§Ú>‰ë¹/;ÕôpÇ·6ÒküÅ};ÿ èúO—ÛVrõëı9–; ;;ÆÌÀ€b     `!€0ö` 0Œœ]ˆÊ½¤zŠKée—ÖÈ“i§Ùâ±äp’iƒÒõË2X²?¹tÙN.Mõ]ïÇ(„øe­.JfÚTÁÓ*™ğÿ $%’ù®}‹$“E2TØ¶f¤š~æ|³Ü¶øì’u.P\eRWîìÕ©n¸¾8à„“‹İãã†MSM?>½ÒŒ¿+qvùWÃáñıIpÓıE™cµ·ÛÇeWkÇ$—Ä[jÓá‰ªù$ùTøä­¿v-ÎùàWbr~_\/€Ø±S$«¶¬MùQ|ğS2Ù;äªEG?!C²Ç(µÕ4¿vV»$¹t6XŞ´„‰c|P¤…	WLºÉr^ä¬!Ñ¸W7oÀ7b¾FÎĞÀWÈØÓ²l’tˆ6)¹1ß,i­ÉÉ7å'V2ÙÚIùamÅ¡xxì¥n’-¥ª¹_±$¡şÂ”­‚¾,IÕ¿åÉ4œ-òˆ*Jûb”·>¼ŞÛë‘]G‡_ÌVísÏ¸¦ãßM©TcÊO–Š”¤Ÿ–Êß?°¼ƒ;S‹Ö©İªv8Ê¹òÈ®®¸&Ú\ù`p÷í/ÜI:¶Èn·Ë~xHÓ\ÿ ¹7$—•&ûvù ²45ÍÉ‘»wà‹vş Ór·ğµ6ùbŠ¶Ÿ„J“€-%¶6ÆåÅ´AËšB“·@a=Îßòä²%I*¢»·àyŞÌ5|È·5–tÚŒcËfMNE<®ÅpŸ¸ÔR  d¿>—&ŸÎPk47ÅFVÒºçØ mØ%n—aÿ  )ÂXç(d‹Œ¢é§ÃL@  ‚È/´­vkÒay²C\¶,®¦Ã«èšFÓÌãğü7Dİé¾ŠğéaµK“FON”W>s›ÊÇ<ëƒ’û]±bÍ(->¦ûg;&xßEqË(>lÇ,fs¦zz\sR\—Ãdq4Ú¾•m>mÕÉÃÉ…Äm¶!ìh†ûÁ÷y7c‚83Ê®b©`^ÃxW±®8şXíËW#Ÿ8%àŠ«4eÆÊ~œ¬ßŠøiZ!8*.Œ¥i `ËÌòÃÉÒ–&üËL“cÓH*ÅE..Ç²Ò$Ze”ì–Ğª”I®	8•ÊÃê.)ıO’/)L¥´­É²¦)],–S*aboƒIĞöfÍvxrÎ^LYcgGK™>›#£D3´eÎ•Ÿw­Ï©û_'>zİ¶ÜŠµyÚLóúı{Ç|‹-c6×[[êÑ„ZİıO+ê>µ¹¸ÆVÎn¿ÔrdN)Ò9#r¶ÎN{—QRoºê,¯,­óf¬8Ô¼4îÎ®™tpòa¸Ñ'¦M³im>¢ª#<i£ÌÎ\j,ymn—oÜ‘ÇÊéÑëõºmÑ|[_ƒée|>?'·HÇî˜g*”Kû"âwJÚ( ¢r‰ö¡ABYhÅ’ŒÑ²Ø™å
+ÇGgÁ¿o“ŠM1dhåäÂ3½:ñÍh—ÔMøeù/Y89n-¬šWÃ(|2neS™R%n6kÅ*£›œökÅŒñk‹§‡%y5Ç-Ç³™Fˆ6ÑÍ–;ucÉ¨¹nÇÉÀÔéâ÷C$.2Mpw³)IÜğ·Ê:ø2ôøçÏ?Ëqâuzw¦ÎñËù£ÕtWm_æAT~O38KÜ'EÓO´{|yÌñÛmîlš¤öA³Àö1     `     € -ÁšX¦¤QS”º¯Q¡õj`£7S_ÔÕ4¤¯Éä°æ–)¦QßÒkã©‚‹xİÜ\İU³{Jå÷Dº\®Lòu/ö&ºÉ¶S)µ~ëµî]'ïû•6Ÿ´$ÕJouût™7“w&¼¡F{f¤ÕÓé‰;O{ºjÊZ®|66ÚŠ¾~H¹ø} î_Ï±wOšóÇL…û¶kë’2ëà¯”Ç¹sØ¬…ò-'ØÛ²ì¥Ğârî •´­+òÇdXZ·V—‹)†ô“+éÙ22Y%pJÊÜ“›qT¼+²V+·€÷5­Óå¯pY$ÛáXòä–\’É*İ'n’Kö]º“s”¥&å);mòÛ_„†Ø“–úÅ’}tFÆ˜5N‰]Zk±X]òØV¬"ÖîzòGÜk„Á[I»Kîÿ Àn%Íß?ûûV&émcšê¼İwÈ›¾4Z-Ù(şH®9ş€"k®9De-Ï»bré>+@öæÉ&	×rÇ(Â3p’„¯lštëº WÚğNíğ’\ôIIÅ¤ß	ğGåù&¸|€MZT…)W•ÅEû•_Ÿ v¤í*ì.—$l*Ø%4¸±Ó|İJ‘n7²/+§]X	ÔMãÆ±.æF6O$ÜäÛv@•Ù&úV!©8İ6­SÄhÑbÇŸQôòC4÷F[c†7'*uÇµÕüº
+.İŒ( Àˆ¥Éê¿Á~˜õŞ§ãq'–‚¹Rÿ ñÖãÂóµÚàóÿ Èòÿ ×íwQìğztc‰%9}>-~“³†	Ç¢SÂšèù)½²˜¼–¯Ó>¯Ó”[£Şj4Ü>¿Ei´¸óËÚrÅä”6HèèóÓVÌú¼OŸ²í‘×q÷ŒlzÍDèëá§G”ÑjÒ®Nş—W—'ŸÉÅek‹³&‰8&eÅ¨Mv\³*&qÆÓJòa·ÑWĞ4<‰Ş¬¯HZŠşˆ}‚å4Æ¤Š˜Áë}‚2ÁğmŠL–ÄÊôƒÕÊÉ¦¿yi±Û–ü½:ö¥MÁÅşß@ôŒë½2öÓ|q£ÑÅ–šIÏO%àïKMğW-/À»…pyÙà—±SÅ%àô3Ñ§àªZ$üQ^É¼n„—‚¹YÜ†ü"‰è?í.d‹ÆâÉòÇƒ·=x1ê4´Ÿ¸äÏÖ½Û‚ì§"i: ?AŸ.V¶N™å=Qñ yoâËöòúœsE—6 yWëiñ¿O.®Ÿ-$ <¾\s;.Œ· ÉçMUš)ÅkÕ°FŸ¸‡ü‘~¸=J‰%Àë6)Ã‹)q +ƒCH µ,Œñ <¨«£X¸ 0¬jÈÍ¢Øät E„>«!,œ ¡ §É«F Ns¥GC®øUĞÃšãOÑMí^&Ø<vìe¥=ëº(/ÿ b
+¤ŸİË{¯Ïä õ¼[}´Óşœ  =5         @      `    eAvÒÅ4âú Õw4º—¨ÇÊåËm® «ÓÆïT·ÅTû $ÑÈ×ÔmE$úER«|v "¨SNŸ$qã´ÀÎ“IEÊİßUÁi´À ‘ÜÃÅ€M·+|*WÂKÉ   
+Ù7KrñµÉÇæé?÷ 
+‰ 1IÊÔVÔ©U¯<ùX ÑÔ† Kb®°Äd  û~“áîÜ¼ñ\€Äx¯‘øJ€ ±öé ¢üP(¹I¥Å&ÿ e`ED  ×#m].€ Êù²Q­Õ+¯€ x%õ&ñ¬nMÂ.Ôo„ÀeÛ 4 ¢åRmpê•ò°ø„UØ Ò8å=¼ö qåØõRÚ£p—  ¦f  gH  7ší3”eº2iû§@  À Ã $õ‹òÒ>ßşÓCOéxTRæ6 xæmÖ1‡/éê0Ï‹“´ x˜RŸäŠhæêğE§`‡—Çšõ-"ç”yÜø¾œİ0«†°Èğg”×ÒjçÇ, ®Y4[vtÚ©:»7GRë¦ yù}\¢Z—òVõMx ±[¾™~=C`¤Ù‡+fÌ|€»iF) pH íÆM* àˆì@e ƒjöÆ€¨hË
+*–Ğ@®XQT±D ŠŠ¦xbsµxcL x¢¿ÿÙZimage/jpegÔ*+,-_)http://jm.davalan.org/css/grid1200_15.cssObplist00ÔefX$versionX$objectsY$archiverT$top † ¯#)*0123KLMNOPQRSTUVWXYZ[\]`U$nullİ	
+ !"R$6S$10R$2R$7R$3S$11R$8V$classR$4R$9R$0R$5R$1€	€€€ €€€€Ó$%'(WNS.base[NS.relative€ €€_)http://jm.davalan.org/css/grid1200_15.cssÒ+,-.Z$classnameX$classesUNSURL¢-/XNSObject#A¼Lã-
+ ÈÓ456@JWNS.keysZNS.objects©789:;<=>?€	€
+€€€€€€€©ABDEFGHI€€€€€€€€€€ZConnectionVServer\Content-Type]Last-Modified]Accept-RangesTDate^Content-LengthZKeep-AliveTEtagZKeep-AliveVApacheXtext/css_Sun, 01 Jul 2012 23:33:29 GMTUbytes_Tue, 01 Dec 2015 16:25:50 GMTT4277_timeout=2, max=200_"a9d4846b-10b5-4c3cd1bd58ca6"Ò+,^_\NSDictionary¢^/Ò+,ab_NSHTTPURLResponse£cd/_NSHTTPURLResponse]NSURLResponse_NSKeyedArchiverÑgh_WebResourceResponse€    # - 2 7 W ] x {  ‚ … ˆ Œ  – ™ œ Ÿ ¢ ¥ § © « ­ ¯ ° ² ´ ¶ ¸ º ¼ ¾ Å Í Ù Û İ ß$*-6?ACJR]gikmoqsuwyƒ…‡‰‹‘“•—¢©¶ÄÒ×æñö17W\q‘–£¦«¿Ã×å÷ú             i              Oµ.container_15 {
+	WIDTH: 1200px; MARGIN-LEFT: auto; MARGIN-RIGHT: auto
+}
+.grid_1 {
+	POSITION: relative; DISPLAY: inline; FLOAT: left; MARGIN-LEFT: 10px; MARGIN-RIGHT: 10px
+}
+.grid_2 {
+	POSITION: relative; DISPLAY: inline; FLOAT: left; MARGIN-LEFT: 10px; MARGIN-RIGHT: 10px
+}
+.grid_3 {
+	POSITION: relative; DISPLAY: inline; FLOAT: left; MARGIN-LEFT: 10px; MARGIN-RIGHT: 10px
+}
+.grid_4 {
+	POSITION: relative; DISPLAY: inline; FLOAT: left; MARGIN-LEFT: 10px; MARGIN-RIGHT: 10px
+}
+.grid_5 {
+	POSITION: relative; DISPLAY: inline; FLOAT: left; MARGIN-LEFT: 10px; MARGIN-RIGHT: 10px
+}
+.grid_6 {
+	POSITION: relative; DISPLAY: inline; FLOAT: left; MARGIN-LEFT: 10px; MARGIN-RIGHT: 10px
+}
+.grid_7 {
+	POSITION: relative; DISPLAY: inline; FLOAT: left; MARGIN-LEFT: 10px; MARGIN-RIGHT: 10px
+}
+.grid_8 {
+	POSITION: relative; DISPLAY: inline; FLOAT: left; MARGIN-LEFT: 10px; MARGIN-RIGHT: 10px
+}
+.grid_9 {
+	POSITION: relative; DISPLAY: inline; FLOAT: left; MARGIN-LEFT: 10px; MARGIN-RIGHT: 10px
+}
+.grid_10 {
+	POSITION: relative; DISPLAY: inline; FLOAT: left; MARGIN-LEFT: 10px; MARGIN-RIGHT: 10px
+}
+.grid_11 {
+	POSITION: relative; DISPLAY: inline; FLOAT: left; MARGIN-LEFT: 10px; MARGIN-RIGHT: 10px
+}
+.grid_12 {
+	POSITION: relative; DISPLAY: inline; FLOAT: left; MARGIN-LEFT: 10px; MARGIN-RIGHT: 10px
+}
+.grid_15 {
+	POSITION: relative; DISPLAY: inline; FLOAT: left; MARGIN-LEFT: 10px; MARGIN-RIGHT: 10px
+}
+.alpha {
+	MARGIN-LEFT: 0px
+}
+.omega {
+	MARGIN-RIGHT: 0px
+}
+.container_15 .grid_1 {
+	WIDTH: 60px
+}
+.container_15 .grid_2 {
+	WIDTH: 140px
+}
+.container_15 .grid_3 {
+	WIDTH: 220px
+}
+.container_15 .grid_4 {
+	WIDTH: 300px
+}
+.container_15 .grid_5 {
+	WIDTH: 380px
+}
+.container_15 .grid_6 {
+	WIDTH: 460px
+}
+.container_15 .grid_7 {
+	WIDTH: 540px
+}
+.container_15 .grid_8 {
+	WIDTH: 620px
+}
+.container_15 .grid_9 {
+	WIDTH: 700px
+}
+.container_15 .grid_10 {
+	WIDTH: 780px
+}
+.container_15 .grid_11 {
+	WIDTH: 860px
+}
+.container_15 .grid_12 {
+	WIDTH: 940px
+}
+.container_15 .grid_15 {
+	WIDTH: 1180px
+}
+.container_15 .prefix_1 {
+	PADDING-LEFT: 80px
+}
+.container_15 .prefix_2 {
+	PADDING-LEFT: 160px
+}
+.container_15 .prefix_3 {
+	PADDING-LEFT: 240px
+}
+.container_15 .prefix_4 {
+	PADDING-LEFT: 320px
+}
+.container_15 .prefix_5 {
+	PADDING-LEFT: 400px
+}
+.container_15 .prefix_6 {
+	PADDING-LEFT: 480px
+}
+.container_15 .prefix_7 {
+	PADDING-LEFT: 560px
+}
+.container_15 .prefix_8 {
+	PADDING-LEFT: 640px
+}
+.container_15 .prefix_9 {
+	PADDING-LEFT: 720px
+}
+.container_15 .prefix_10 {
+	PADDING-LEFT: 800px
+}
+.container_15 .prefix_11 {
+	PADDING-LEFT: 880px
+}
+.container_15 .suffix_1 {
+	PADDING-RIGHT: 80px
+}
+.container_15 .suffix_2 {
+	PADDING-RIGHT: 160px
+}
+.container_15 .suffix_3 {
+	PADDING-RIGHT: 240px
+}
+.container_15 .suffix_4 {
+	PADDING-RIGHT: 320px
+}
+.container_15 .suffix_5 {
+	PADDING-RIGHT: 400px
+}
+.container_15 .suffix_6 {
+	PADDING-RIGHT: 480px
+}
+.container_15 .suffix_7 {
+	PADDING-RIGHT: 560px
+}
+.container_15 .suffix_8 {
+	PADDING-RIGHT: 640px
+}
+.container_15 .suffix_9 {
+	PADDING-RIGHT: 720px
+}
+.container_15 .suffix_10 {
+	PADDING-RIGHT: 800px
+}
+.container_15 .suffix_11 {
+	PADDING-RIGHT: 880px
+}
+.container_15 .push_1 {
+	LEFT: 80px
+}
+.container_15 .push_2 {
+	LEFT: 160px
+}
+.container_15 .push_3 {
+	LEFT: 240px
+}
+.container_15 .push_4 {
+	LEFT: 320px
+}
+.container_15 .push_5 {
+	LEFT: 400px
+}
+.container_15 .push_6 {
+	LEFT: 480px
+}
+.container_15 .push_7 {
+	LEFT: 560px
+}
+.container_15 .push_8 {
+	LEFT: 640px
+}
+.container_15 .push_9 {
+	LEFT: 720px
+}
+.container_15 .push_10 {
+	LEFT: 800px
+}
+.container_15 .push_11 {
+	LEFT: 880px
+}
+.container_15 .pull_1 {
+	LEFT: -80px
+}
+.container_15 .pull_2 {
+	LEFT: -160px
+}
+.container_15 .pull_3 {
+	LEFT: -240px
+}
+.container_15 .pull_4 {
+	LEFT: -320px
+}
+.container_15 .pull_5 {
+	LEFT: -400px
+}
+.container_15 .pull_6 {
+	LEFT: -480px
+}
+.container_15 .pull_7 {
+	LEFT: -560px
+}
+.container_15 .pull_8 {
+	LEFT: -640px
+}
+.container_15 .pull_9 {
+	LEFT: -720px
+}
+.container_15 .pull_10 {
+	LEFT: -800px
+}
+.container_15 .pull_11 {
+	LEFT: -880px
+}
+.clear {
+	WIDTH: 0px; DISPLAY: block; HEIGHT: 0px; VISIBILITY: hidden; CLEAR: both; OVERFLOW: hidden
+}
+.clearfix:after {
+	LINE-HEIGHT: 0; WIDTH: 0px; DISPLAY: block; HEIGHT: 0px; VISIBILITY: hidden; CLEAR: both; FONT-SIZE: 0px; CONTENT: ' '
+}
+.clearfix {
+	DISPLAY: inline-block
+}
+* HTML .clearfix {
+	HEIGHT: 1%
+}
+.clearfix {
+	DISPLAY: block
+}
+Xtext/cssÔ/01_´http://jm.davalan.org/lang/web/stats.php?dlh=http%3A//jm.davalan.org/mots/comb/comb/index.html&dlhs=http%3A//jm.davalan.org/mots/comb/comb/index.html&dlprot=http:&url=http%3A//jm.davalan.org/mots/comb/comb/index.html&dref=https%3A//www.google.com/&dtit=Combinaisons%2C%20parties%20ou%20sous-ensembles%20d%27un%20ensemble%20fini&dlhost=jm.davalan.org&dlpath=/mots/comb/comb/index.html&dlsearch=&wl=http%3A//jm.davalan.org/mots/comb/comb/index.html&scw=1366&sch=768&cdepth=24&wn=&navan=Netscape&navav=5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2010_11_1%29%20AppleWebKit/601.2.7%20%28KHTML%2C%20like%20Gecko%29%20Version/9.0.1%20Safari/601.2.7&navuagt=Mozilla/5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2010_11_1%29%20AppleWebKit/601.2.7%20%28KHTML%2C%20like%20Gecko%29%20Version/9.0.1%20Safari/601.2.7&rand=99610053&nlang=fr-fr&dch=UTF-8&nplugl=8&nplug0=Adobe%20Acrobat%20NPAPI%20Plug-in%2C%20Version%2011.0.13&nplug1=Default%20Browser%20Helper&nplug2=Shockwave%20Flash&nplug3=Google%20Talk%20Plugin&nplug4=Java%20Applet%20Plug-in&nplug5=Google%20Talk%20Plugin%20Video%20Renderer&nplug6=SharePoint%20Browser%20Plug-in&nplug7=PDF%20int%E9gr%E9%20%E0%20WebKit&CSite=Jeux-et-Mathematiques&CPage=Jeux%2CPages%2Cmots/comb/comb/comb&CNbre=2&CDate=Tue%2C%2001%20Dec%202015%2007%3A05%3A00%20GMT&CSpre=Tue%2C%2001%20Dec%202015%2016%3A25%3A58%20GMT&CPrem=Tue%2C%2001%20Dec%202015%2016%3A25%3A58%20GMT&CUser=6953874942851111&CNew=0&cdref=Jeux,Pages,mots/comb/comb/combO	+bplist00Ô]^X$versionX$objectsY$archiverT$top † ¯#)*0123GHIJKLMNOPQRSTUXU$nullİ	
+ !"R$6S$10R$2R$7R$3S$11R$8V$classR$4R$9R$0R$5R$1€	€€€ €€€€Ó$%'(WNS.base[NS.relative€ €€_´http://jm.davalan.org/lang/web/stats.php?dlh=http%3A//jm.davalan.org/mots/comb/comb/index.html&dlhs=http%3A//jm.davalan.org/mots/comb/comb/index.html&dlprot=http:&url=http%3A//jm.davalan.org/mots/comb/comb/index.html&dref=https%3A//www.google.com/&dtit=Combinaisons%2C%20parties%20ou%20sous-ensembles%20d%27un%20ensemble%20fini&dlhost=jm.davalan.org&dlpath=/mots/comb/comb/index.html&dlsearch=&wl=http%3A//jm.davalan.org/mots/comb/comb/index.html&scw=1366&sch=768&cdepth=24&wn=&navan=Netscape&navav=5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2010_11_1%29%20AppleWebKit/601.2.7%20%28KHTML%2C%20like%20Gecko%29%20Version/9.0.1%20Safari/601.2.7&navuagt=Mozilla/5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2010_11_1%29%20AppleWebKit/601.2.7%20%28KHTML%2C%20like%20Gecko%29%20Version/9.0.1%20Safari/601.2.7&rand=99610053&nlang=fr-fr&dch=UTF-8&nplugl=8&nplug0=Adobe%20Acrobat%20NPAPI%20Plug-in%2C%20Version%2011.0.13&nplug1=Default%20Browser%20Helper&nplug2=Shockwave%20Flash&nplug3=Google%20Talk%20Plugin&nplug4=Java%20Applet%20Plug-in&nplug5=Google%20Talk%20Plugin%20Video%20Renderer&nplug6=SharePoint%20Browser%20Plug-in&nplug7=PDF%20int%E9gr%E9%20%E0%20WebKit&CSite=Jeux-et-Mathematiques&CPage=Jeux%2CPages%2Cmots/comb/comb/comb&CNbre=2&CDate=Tue%2C%2001%20Dec%202015%2007%3A05%3A00%20GMT&CSpre=Tue%2C%2001%20Dec%202015%2016%3A25%3A58%20GMT&CPrem=Tue%2C%2001%20Dec%202015%2016%3A25%3A58%20GMT&CUser=6953874942851111&CNew=0&cdref=Jeux,Pages,mots/comb/comb/combÒ+,-.Z$classnameX$classesUNSURL¢-/XNSObject#A¼LãGR ÈÓ456>FWNS.keysZNS.objects§789:;<=€	€
+€€€€€§?@BCDE€€€€€€€€ZConnection\X-Powered-By\Content-TypeVServerTDateZKeep-Alive_Transfer-EncodingZKeep-AliveZPHP/5.2.17Yimage/pngVApache_Tue, 01 Dec 2015 16:26:09 GMT_timeout=2, max=200XIdentityÒ+,VW\NSDictionary¢V/Ò+,YZ_NSHTTPURLResponse£[\/_NSHTTPURLResponse]NSURLResponse_NSKeyedArchiverÑ_`_WebResourceResponse€    # - 2 7 S Y t w { ~  „ ˆ ‹ ’ • ˜ ›  ¡ £ ¥ § © « ¬ ® ° ² ´ ¶ ¸ º Á É Õ × Ù Û“˜£¬²µ¾ÇÉËÒÚåíïñóõ÷ùû	+8?DOcnyƒŠª¿ÈÍÚİâöú.1G             a              IO¥‰PNG
+
+   IHDR   Q      º†Å   lIDATX…íÕ1
+€0ĞÄ]gÏ¦÷ëÙtönEêğ)ˆå“¼áÃßšZ’„˜iôpfÎ 8æ­ÎpÍH±g6UWëU¾>Ï/ør.{ášÕó
+Üs¼fä7LƒbÏÎ¬Á™58³gÖàÌn±ø©‡”?ù    IEND®B`‚Ô345_9http://jm.davalan.org/bann/j-et-m_RougeTrans_1200x230.pngObplist00ÔefX$versionX$objectsY$archiverT$top † ¯#)*0123KLMNOPQRSTUVWXYZ[\]`U$nullİ	
+ !"R$6S$10R$2R$7R$3S$11R$8V$classR$4R$9R$0R$5R$1€	€€€ €€€€Ó$%'(WNS.base[NS.relative€ €€_9http://jm.davalan.org/bann/j-et-m_RougeTrans_1200x230.pngÒ+,-.Z$classnameX$classesUNSURL¢-/XNSObject#A¼Lãhj ÈÓ456@JWNS.keysZNS.objects©789:;<=>?€	€
+€€€€€€€©ABDEFGHI€€€€€€€€€€ZConnectionVServer\Content-Type]Last-Modified]Accept-RangesTDate^Content-LengthZKeep-AliveTEtagZKeep-AliveVApacheYimage/png_Fri, 21 Mar 2014 17:50:13 GMTUbytes_Tue, 01 Dec 2015 16:26:11 GMTT9376_timeout=2, max=197_"2826507e-24a0-4f52184892efe"Ò+,^_\NSDictionary¢^/Ò+,ab_NSHTTPURLResponse£cd/_NSHTTPURLResponse]NSURLResponse_NSKeyedArchiverÑgh_WebResourceResponse€    # - 2 7 W ] x {  ‚ … ˆ Œ  – ™ œ Ÿ ¢ ¥ § © « ­ ¯ ° ² ´ ¶ ¸ º ¼ ¾ Å Í Ù Û İ ß +4:=FOQSZbmwy{}ƒ…‡‰“•—™›Ÿ¡£¥§²¹ÆÔâçö"BHhm‚¢§´·¼ĞÔèö!             i              #O$ ‰PNG
+
+   IHDR  °   æ   Å¹|6   sRGB ®Îé   bKGD ÿ ÿ ÿ ½§“   	pHYs     šœ   tIMEŞ15I T    IDATxÚíİw¸tE}ğï}é]E@D@QQ°"ŠŠÆ.Vbï4*jì½%¶D	Kl‰&±€T‚¢‚bDŠ4¥Mşxç&‡áì½gï{woñóy}ŞwwÏoÎœ3³{væÎÌI                                                                                         `zJ²~IîU’    –’ìZ’ÃKòÓ’”’ê¬0OyRIN/ÉÏJrgg   X%Ù¸${”ä%yZIŞU’Sk§U÷±‡³ÅõèÉM}9ÍY  †4&nÓÓ úx3È”ëëLI.P7¿º?C/[áçş¹ñü’¬Y&ùİ£$Ÿ.Éq%¹‹OÏ²(“MKò»z³¾³  ËÃÌ2nPl–d×¬ıw«$·Oò¢\½zI’w$ùf’³“ü6Ég’‹ïŸ}£t&Éæ3ÉSØ×š${&¹v’’Ü<É!I®Ûlzy’kM)OŸIr··¾”ä½I~’µù8c&ùİJ-¿’lS¿#’d“$÷LòÚf³cg’ƒ–Á1íä˜N~/I²İ4êƒÏúœñû$9±yù¬™dGg  XH#ãã=!¬3CÛ˜-É%9¾$'-a>¶(É{êìÁSØ÷]FŒD:¥$ë­öò+Éï›ã~Å28®Ûöäë’’léS»´ŸõšFûYy›3  ,´‘ñ±FÆµœjıØ $¯4³õãè%ÎÓQ=uöŞçz%9yDÖ«½üJ²¦$—N»Óp<íS§1vótAIà“»ôŸõ’lÒYì¿”ä‡%¹3  ,´‘Ñ.ÌüSg…NıØ»§Ãæ	Kœ§O÷äéÛŞç#çXê«½üJ²[O:Û,áqõu^]’}j—Ïg½$Û•ä™õó³•³  ,´q±^IşÔ4X>ãÌĞ©#ëiÔ^	ó³qI.Ñ‘´Í„ö¹iIÎìŒği÷{Øj/¿’Ü¿Iãô%<¦Û5Wç–ä!e¯?è³  ,GkVP^¯—dÃæµ)B:voŸ1“œ±„ùÙ?É¦#Ş»ó„öù7Iv¨ÿï›ªø›?ƒòÛ«yşµ¥8˜²öÆŸËÿ¯qõ®$7™Işm&)>®«ê³  LØJêÀÚ½çµÓ!sÔ‘ã—8?÷èüÿ›Í{wYìÕ5{[Ÿ“ä‹=›ıöÏ ünŞ<?qÚR;¯>›d‹$?NràLòØ™ä<ÓUùY  &l%u`İ°ç5#°˜«|}‰ó3Ûõ‹$G6ïİeû{i’Í“\–äéé¿ÁÁoşÊoI;°J²oÖv^m’äÕIöšéïLdõ|Ö  ş¯QøÖ5Ovrf¨õc¦g¡ìÛ.a~víäã]ÍóÙÇÎ‹¸¿›—äŠšîkëk[)ë-Vù•dË&?–«O=äqìT’/ÖÅû÷ôÉ\ıŸu  €¶Ñò™¦ÁrqYY#È˜lıØ¶©——dã%ÌÏS;yyXmtÿ¬Éã£±A\MóÌ²vVJrxOÖ«¹üJ²_“Î	>>ë  ÀÊ·’×À:m&¹r‘F›Õ‘2›¯C[—µS‡Ö%[ü¹VÈu(ƒ¶~üh&ùãJwı«/ÔE»?ßl³XÓœµÆ'Éá3É…õÿíÂKóÿïM£,×/ÉúS.¿v÷ÇÌó%Ùa±;Ç×õ»¥Ş…õºãŞ½°–Áur×Ãz.®;?,Q]ió°ùbÜ´$Û•ä¹õ.ß)ÉI%ùPIU’›t¶Û«$G–d³•~YŒkgOZ;–d#?Ó  Xiu¦GÍ>>´Hiï\’W—äû´¯(É±åêkéÌ•ÎAQ0¿ç‡|I¶*É£Kòî’ü¤$¿Úh,É5Jò–’üOI.­±Ç–ä 1ö@I>W’‹j:÷rù®sÔó×­ÿº„õuã:B°”ä;×Ñäñ—éXèiì9;Ú¨›^IjöwÖ"ßµÎ}¯Ö™+Jò»’|­$o*É=Jrÿ’ü°$Ï™fùÕn:wÇÚÉpa;qŒ•IÖë­Jò’’œSãß0 f½’< Nc¼´Æ½màşfJrï’|²$—ÕØ¯ÆºÒIïV%ùhÉUJòĞuøÜ¿¢$—ôŒ|ì>N.ÉµlÎú°T×˜I_;kZÛ”äõÜ\ÙŒ®;¥$¯,É~ °:°nÒÓxÅ:¦¹cIŞÛi´ô=.,ÉÍæIg—’|ª'ööcäåQMìñãÖ/É—çÈÿ¡óÄ¯©6îiS*×Å*ƒk”ä?š¸¿+Én%Ù£$·.É_”äá%¹ëën|¼±óú=Ç·Ç:îë•´önŞkÏÉwÖq_»”äÃó4ÎÛÇ}¤»håW;¯3V;X‘÷[/U½®I,É¹MÜ©óìû®µÁßîïœùŞ¯çü•’\°JëÊµëútm>Ş¼€ã½EINóxKIŞ3ğ\.É5f’ßÛ5­JòÒN‡ÿ|çùE ÀrïÀºOÏÙG,0­5%yfplIT§|lU’—ä¼f?‘Îz%yÆ?¼Ç½õMìËÆ½zû(É¶s4w‡	—çb•ÁÎµñú‡1Œ‡O¡¾¾¹³¿ƒ›÷~Øäçéë°Ÿ]ë"å¥$ïêyÿÍ¾¾°åõ‚’ü©¦siIÎ(ÉO;¯zl=Gº‹Z~õ3yQ·ÓfÔè–’lX;ÿ.›c_·X¢z½KïËÓ‰#b¶Ñ3û8e|oY’·ÏûıÕTWêwßÃJò›qO³ÜÿªºúaIX’İK²iI6)ÉJòø’|~Ä¾;O}^ÒkÌ$êw'½İKòİ:šì°’Ü°bÛ®ˆ|cOy?Ò/"  –{Ösz~¼ï½€t¶®SåşX’CFlÓNOù}Ï6»uF>}wD#x‹1òuB{§15S-F=;"ş#¶¿r1Ö1™d”äN%9ºgZéÇşS¨¯§Õ}]ÖÖƒ’¼­ÉÏ®Ã~>>;B¦$×éy¿‰óïØÇ5ëT´Ù)î®KSGŞ¶Nsûn³¿ïHs"åWÄC:ˆnP’oÌæ±$ÿ5â³´í”ëõLíì¸ $?ïé€,%ùçtïĞ¹AÀ#F”½kDö¯——äøÎyé>Ş½ZêJíùX}ÿóu
+_w«Ç;Óyâ|kYÕúÙvdí9bÛ%¿ÆLâÚÙÙv¿:ñ³%Ùjívlò~S¿ˆ  XîXïèùñ¾Õ˜iÜ Ó±ğ9¶Û®ÙÏ›ËãêôˆãJrËúúš˜‘¯Mš‘	œïZ%Ù¾N-º°.|İ:æ{ÎÓ	=ñªïWGl]ãÿ¥$?š`9®sÔ÷¨åĞ}tG)ü¶çıÙÇ&®«»uòñå÷ĞÛïJ²Şös÷#M~Şìëˆ1÷±II¾RcS’]ÆÈS)ÉÛGl7‘ò+Éç›nT’{Ö†ówKr`çõ#šØ_±6Ñb|·\§N»¤$/¬#Qfz:!İ¤ùøÚ¹ñİ’\cfJrv÷„&n½:Rê²’¼³$;Õ×û¦¹>r5Ô•’Ü¯$¿®çôô»ù8oÈç±ãª1*ÉÖ•îôÇKÚuÖ–Ë5fßÛín]GqıdÈKêõé·õÖ  ,ó¬ãÆ]Ï¥‰¿~e0ïš#õNTİ}ıOç½-ë_ìİ,–}¿&æ}cäí€q§y•äµÁºkOã§]+å²nc¥Ni¹°.Ö¾kÏ±ßpBe¸(e0G‡^wû£—°®>­“—ŒhŒ­ÓhÂ:ımv*âé£îÔÕY|AëÆ•äıØ‡Øş%Íş:p?‹R~%yU“Î›÷«#yŞÒ6àKòº&ö3Sşny~Ò~&ÛQX»tŞ{áìí=Çsî¨‘>uzÛÇj'İİš¸-zêçN+½®Ôéo?.É³» %¹]“ŞGP×£ş¢÷µ÷—Å5fRßÛõ¦³ë#?\×5ü  `Z¿l~7Fì¦»$]\’æÙ~ß¹¦Ïô ©‹Ğ.h•N#töñ¢13£F¢”äæ=Ğ½ê{•ä[um ]¦X~‹Z=ÛÜlÿÒ%¬«ÿ5ßZbõN[^˜¸6Âgcï=b›zêÁ3ÆØÇAİé]CîXV’Ï4ûÛqà¾¥ü:Ó×fï†¶EçóòÒÚ™ûØ±^ÀçpÑêu%3ÓÓ]üŒÎëÏªÓŸĞ³q3%ò³£Šjê	5İë÷ÄŞ¸Éãi«¥®ŒøînG6=u@:ûtÎï•C¿K{F·5F>§z™Ô÷vIï¼¿Ã˜X	  ,óÎ«¾Gÿæ1ïøÔ.f¼Ïc{‘¿¯5±û-Â9k×±9¤¾şºº¨ò¾S.Ã‰–AI^ÜlğÕÕMê´ Ùu©6±İß7ù=fŒ}lßYØøss,R~…Şø vø|¯÷¤1ë×c4jn±Ë¯æùW}w\¬~—êì«Û|ÜL¡^¯éÔ§ÿë¨S%/U%¹i³ŸÏu¾KOªß[ˆ}hûO«­®4é½¿IïÆb>×ÙşÓcìëşÍ¾2FìÔ¯1“¨ßM^6ã>X’Ãü" `¹w`İª§!şì±ÛtîÒVJrÇy¶¿q³VÈ;ìcM]Ç¨»¾È†ów½æ¸.;Oº/jr¯‹5_9Î(œE*¿i”ÁÇ›ãİn‰êjw]ŸOÍ±];Šä’QÓ {bßSc.ŸkAã’ìÑó¹¹ûÀ}ØäíbÚ©Xÿ2Æy[çò+ÉN}Üu!ñKKr¯9b·h	¿p¾Ïá”êõÎÍ1ıUayñ\E%9¤½ã\‘wl]ÿéšsÄşc_ç÷jª+Íww·Óó—ó­{Ö3Âõ1ö×NSİwŒ|Nõ3©ú]’ó;Û\Ï/  V[ÖCzâ90ö˜³çjœÔµGºwÆúâ¿{¦Üœ0Æ±ıMßH‰E8gíT­w';zèÂÔ‹X~Ó(ƒîº2¿XÂºúÖ!Óõêq^¾€;Ovşo™gÛıºÖVI>Ú‰ùàÀ˜vM£ÇqŞÖ¹üzF·<¦.}qI5Oì]›ØO/“zı—íTàºvİ[ç‰k×»{IªëbÍ7ì{ãÜ‰q%Ö•NZ·w]©’¼©é°ÛlŒı°».Å5fRõ»¹›âküÂ `µu`½¸§!¾û€¸™¦±ó9¶İ¾N­™İö½CïVW’G6y{ÓÀ¸5%ùQû·‹tÎ6î¹íú9ó5F'Pv/ƒ’lÛçÇ–°®ş¸“›Ù˜}Å€úrRç.o×šgûûô|nvp×kF#İmà±Ÿ<îgt1Ë¯$¯nÒ9°Ö½×ˆm;|_&ß-İµ‹~R’OÖTÍwts<Ï¬ezç1Ëâ;«±®Œ8¿W»ÃcÏöëÕïÑÙí?1Æ¾®ÑtZsÁ©^c&Y¿ëõİüü£‘X  ¬¦¬÷÷ÜUoƒq·šï.Wõş¡i$gÖõefÆÈßÍ~20î=,âyûÖBF­-rÙM¼ši{¥$/^¢zzƒ¦³p¾©H¯gTEIÛÙöÉòóèúµÅ€¸—u¶¿`àt£õt–NµüJrL3ÅêÄz÷ÒõÄ¶kİf™|·|´9¦+äm¦éd¹¸Ò‘×N=|ój¬+ô¾Ò¤·ó<Ûï³kXµk‹ıûr½ÆL²~—ä=y*%ùvI,ÉKrÛö®š  °R:°ÚÆåÆµ#·®Ûyoë’<µŞÙ¨”äg%ùë¡##šıœ¼€Q.3%ùjOÇÜ¦‹xŞŞ9N£|Be7ñ2h¦º,IG]ÍÇ_wòğÛØäûò’l9bÛktŠßØ)ó¬&ıK‡tÔôÇáR’¿[‡Æù:—_mLŸß¤sñÀÏâ5›QD¿Ÿ½cß2øn9³ÙÏûÄìÔÓ9ğ«Qu«‰=jœ²X‰u¥ùLuGD> æeÍşo2Æşkb_¸\¯1“¬ßu±KGtbuªSŸ´Ï  ,E§ÀL³xíàiMÇ×u½“g—äóõ‡üŸJò‰’ÜwH‡Àˆ}lÖ4‚ÎØIğĞ’ü¶¹Õı×&Ø¡RJò˜%(¿i”ÁGšãÜq‰êê§‡NEªÛoÒ,’\F-4Ş¬»sàÀü´Óâ~9 f—&æ‰b¶ìé<zú4ËoÄ‚õÏ{ÿq§¥M©^oßsL7^Àñ)T¿kÚ‰¹¢$[­¶ºÒIëAMZGˆ9¾³ı¯Ç9vË2¹×r½ÆLº~—äµƒ¹|œ¹˜£“ `RÛôü˜}Ã€¸Í›î³ï–ä-õ‡÷–‹¿ıÇí\«#>Î,Ék²®Éy»Ó$Ó_FepF'íßL{‘úNgÔ%ãŞ]«$_hÎÍ{¶¹i§û‘1òtÄ8ëÕ˜g41×óò2¾Å4Ë¯gºäÙcŒy{{Ø2©×÷[àâÛ¯oâ~=ä—ÍØy;;Vj]é¤ÕP}ğ<ÛoØ|Æ?3p?3µã§,¤ómÚ×˜)ÖïëÕôÎØ‰uÑ\w] €åĞu‡²·_ÏB±ÛN ‡7ûyÁ€ÆÌ¿•ä}=Óa¸Èyk;0>?å²›xÔé,KvŒ|ÜcÜ)®5®]DúÛ=õåØÎH»‘ö‡š´¿8 ¦Û¡vö€íwéIqş|Sğ»üJò&ç{Z»ç2ùnyC³Ÿ‡Œ;nÜÿ÷Ô&î5«±®t>Wgy·ÅÛŒs~:q(É÷›iª¿côÖT¯1ÓªßM~w/ÉÃJòÆ:Êí²XÿæW  Ë¹«o!êıÄ¶éÈßG›ıÜuíŸP’Óëú+_jb·_Ä|ĞYG¤»ÎÌËnâeP’ƒ–r”Y'ÿĞÉÃÛÇˆ»}OıŞ¦ó~w:Ø«ÆÌÓ1ã¬5T’õ›†OÍ³ıš:²äMãüèi—_INmÖÛn`ÜÎ=kE­Y&ß-_ip² ÿ=D7¸¿O4q­ÆºRÓÚk£ÛkÑ¡b¶¯Sş·ĞÎ·i_c¦U¿çÉÃV%ynOGÖ¹~ üy[³ÌówÃ×†Œp¹Uóü§ø‘=“ävW})'Í±ı’¼>Éı“\–dßnşfŒb˜¯M’üsÖ®åÓm(m“Eì$[eäÖÍóï.Q=½GçÿÇ÷$6¯Ø)ÇÙ)…ggàˆk5Ï3Ïö7ÍU§İ}síŸµS%ßÕ||yšåW’k&Ù£óÒf†7tÛÎ€/Î$W.ƒï–M’ìİyéK3ÉBoŞ”á·g|_Ö)†İµÕ.MòÕÕVW:îŞ<Ò¡´ç8å^×†z_’%ùcóö·—ñ5fßÛsšIÎŸI^—ä¥Í[[ûÉ ğçm¹w`íŞ<??É¯ÄµS­~=¼í˜«vı`fmşú7ÎÚ¥§Í¬ıkÿşI6èlrÂ"æëåY;åi¹zãu¿)–İ4Ê ml:í
+ZÖv²îÖi`~qhìÌÚFæñÍËw©ÿdçúÿçÎ\½£k>mÖoçÙ~ïæùÉsóI^œµëµûã§\~whrŒØ«u`-“z}Û$vv`Ü¾Íó¡#}î˜d³ÎóÿI.^…ueVÛõ…1»5Ï1Ç1Ïdí±í’ümÖv,v²Œ¯1«ß%ÙxÌEß?Øsı €å©¹M{)É×Æı¨‰Ûxykïbõ¾Û]¿ŞjüÅ×ş¾‰}ò"åiß:Eç)õùÛõL¦XvÓ(ƒŸ4ûØjå¤ó°qëgÿ¬æN¯SÛfŒ>±, £¹çnoÏ˜gû#›ío3G}>·$ªÏ»w_¼dÈ‚á‹Y~%y]“ÆMî{M2Øİ}™Ôë7û¸ÕÀ¸vİ³{Œ{S÷âÕXWêû[”äÒ¡w[ìÄ}sÈşë¶[ï{ƒúü³Mì^Ëõ3©ú]?o*kGãÓáµäk ÀĞ¼—ùßû»&nÃ	ä¯m Ş³ÍJò‹’ÕmX•äÛó5 Çí´¨w:£$_í¬…5ûøi™Ò¨»I—A=Ş«¬_4b»CêZ0ëOè8?ÓÉÃ«Ëu°¾Üùÿ>Hsı41OL{§´ëõls­º õ›;ŸÑß³Püb—_INhî¸7tqì[4û?«/¶ı¼Lé»¥»@ú†,tŞ³0ùCÖÍÑiqÀ\ça¥Ö•ºÍ}š´Nuıi·wËUŸSïâwÏÎkçtâ.Zg–â3©ú]’jzãt`m×äåI~ °\;°®×ÓáÀØËrËòNüFs-b\·ùê\%¹{m¼¿ÛØ)Éµ›¸+ºå®ÑG×Û–oÖ¤¹^ß_Äk‡Ågkãè¦×·é9‡wq<×_ä…ä'Z%ùË&ıoö4 ?P“ÏŸÄ(¬’lVØÍÃ]ÆšzW²¾»nıËóÕWîÏó¹F^ÔN„o”äS³õ¹$7mb^ŞS†{OªüJ²ySÏÆYüs-r_’~[IşiÊõz“¦N30İ]›|:0n§&îÊÒYßªïûh%Ö•Î¶onÒz[óşuJò¯í(´’\ĞÄmŞó9ø¸ÎëÛ6q'QW–â3‘úİ¹»á8X÷êäã'åªë® À²êÀºKO#ü±ç6q÷c¿7-ÉÉ%ùÒ<íİ¾Øé<x[}ííè‰’Ü»‰»¨vLÍ”dÿÚh¹¤$OibuKÛàÚ°6¸JI^Ö“×_6ûûpÏ6÷)ÉyeíºY‹U~“.ƒWöM/­çñauÔÃï‡N£Zà1>¼³ÿËJ²éÓùº~qIvX`z7êIïÀybÎi¶ß¬óŞÎ%ù^­››v^|sß¦#à+£î~¸åWğİ4^1Æ9ú÷¾ÎÂúY<´¸ùQ;}o
+õú®9¦’üÕB:?{â.šıÎª£o¿Vb]é¤õµ&­×t:^«é|}vú_'îŠ&î–M'ÕÕ×ŸÚÄµwO|ÏÀrYªkÌDêwıLÛõ»pî  XÆXOîi„ß|`l»æÈ'Ä¬_’Ãë:ï˜«3¢$×íÉÛYu¿³Ó_5bŠÆKGLûAıÿ·ÊUïªÖıE]Ûèµãêö%ùï÷ı¾5eJòá¾‘lu-˜[wòï2UiŒò›t|¬gäÈ{ëy(u”È&X?×«µÙıÿ`ÒzJO½rÒ; '½;ÏÓ¼¸GI6(Écë(¯Õ;şucjb«ïÖ O—ä“*¿)V‡ŒqNkbÏ¯éı°>?²2¥zıÚ®cõÏMÜÓÆ½¶oä_§CæjßG+±®t:¼.jÒ:§®vfí¤zU¹êâç³±—7q,ÉMj¹7{L=qÏg-ºep™Hı.ÉjzÏxü÷êt^ì  Ë½ëM=–MÆ>¡çü¡#¶]S’×Ñç–ä>ÒßcÄ”¯Ù¿v?tØ£FÄ]^Gl8"n“zúbÿ8j¡ç’<j¼Î>Ş²ØkcM¡Nšãxšät“:uğİ=Ë˜ŞÛ5~J²åÓš)É=çäµóÄµkß\Öiìß—Ÿ)NWtÖ9zå\¢‹Q~u
+T7îfcœ§‹Gìû¬yF}Mº^ŸÜ¤½õÀã9½‰»ıÀ¸wû}´ëJMçšs¤sZ¹ú]»±çÍóßqïm¶½ÓÀ¼Nı3Éú]×&›YúÈQ×›Î¨º‹êèá}ı `%t`İŞmŒØKrjOØ;êÔÄ[Öi¯/ÉÏë{GÑX¼ÎˆÂqåê·[ocßÚwÒ|w±Ø÷ìq=d¸­êBĞ£C/šĞúP“.ƒc{åÌ’Ü{‚uòE%ùhÏşşoİ¡z²–ä%¹şNİ©O#O{Õ©t‡–ä%u*Ö¨²şlIY×Ú§;â¥§ãdöñ®Qw‹ëYü»”ä7CFL¬kùÕ©jmİÚxŒóöëø#GšF½îù^9mà±ìØÓ94´³ÿíã~­´ºÒIg“t.­£Ğ6™'ö[#ùç%¹Åq§4Û_k¹^c&U¿ëhÕv±Sêè´ıëwØşuTŞìÏ½  ÀrèÀúqóƒ÷ccÆïÖ“F_çÏÇçj€Ì‘şë;ÕşrIî;dS¶wagêË#ŞeìĞë$=x@ìózbÏ+Éƒ&\†+ƒ’Ü¿3­çŒºxóæ<–Œdk#ı÷wF‚l0FÜ9È×ìãşt^Õ¼÷ûºĞó\b·‹ybè ÖµüJò€ÿÚ`à˜åù’Îè¡Sÿ&U¯ëZt*É‰uTäAãîVÏÅ)µ3ácìsïq¿VZ]iÒzGgÔê{KrÃqßSÆ.ÉµçˆÙ°vÍnÿ³å|™Tı®‹ìŸ:ğ;éuúàL  `…t^mĞ³æÈóÎæõ¶æ'ÖFÖåõ¯şÇÕu v[Ç|n½icu
+ÚvcÆÜ¬6´Ï«Çò1_ë•ä5uäĞ™uzæöS*Ë‰•AI®Qoµ>³
+êücÚN¥)ïÿšµägõnjÛˆyJíDıÊBëR~µNo¶Ç¼í:t„,z½®¤. nı…Ş@`!ßG+­®4éÌ”dûq§—d‡:ŠìÂ:’ñ/ÄìÙ\Ã>¾œ¯1“¬ßõ¼ß±$o¬£¬~WÓüUÑ÷Æ’ÜIÇ  +±1“¿ÌîçÌ °B®ch®a/wV  `áÖ,Ó|íÙ<?/É‰Š€b¯æù)N	  ,ÜríÀºuóü#3ÉåŠ€âæÍóy·  IDATo;%  °ÊtîD4û¸³À
+ºİ¹†ı¡,ß?  üÑİz‡£Ùş_qV XA×±m›?Â¸ À:Z>4W½ÑË +H»şÕœ  X7Ëª«$[$yfç¥ÿœIQL ¬ íúW§;%  °J”d½’|°3åâ—%ÙÖ™`…]ÏŞÛL!|€³  +ûGşA%Ù³$—äóûç—ä6Î +ğÚvJÓµ—³  +ûGş¯šù¥$ÿS’[8; ¬ÀëÚ†%¹´¹®máÌ  ÀÊş¡xIÎ*É%%9¹$Ï)É¦Î +ôº¶gÓyu¡³   À²Q’'5Xp €E°Æ) €Eóæù9N	  ¬;X °Jr·$4/ëÀ €E°¾S  ‹âîI¾—ä„$_Orj’ï;-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          LÔÿæÉiŞ'Æ    IEND®B`‚Ô789-_&http://jm.davalan.org/css/menutop2.cssO bplist00ÔefX$versionX$objectsY$archiverT$top † ¯#)*0123KLMNOPQRSTUVWXYZ[\]`U$nullİ	
+ !"R$6S$10R$2R$7R$3S$11R$8V$classR$4R$9R$0R$5R$1€	€€€ €€€€Ó$%'(WNS.base[NS.relative€ €€_&http://jm.davalan.org/css/menutop2.cssÒ+,-.Z$classnameX$classesUNSURL¢-/XNSObject#A¼Lã~ö ÈÓ456@JWNS.keysZNS.objects©789:;<=>?€	€
+€€€€€€€©ABDEFGHI€€€€€€€€€€ZConnectionVServer\Content-Type]Last-Modified]Accept-RangesTDate^Content-LengthZKeep-AliveTEtagZKeep-AliveVApacheXtext/css_Tue, 18 Mar 2014 17:57:49 GMTUbytes_Tue, 01 Dec 2015 16:25:50 GMTT1618_timeout=2, max=200_"a8569230-652-4f4e54630a87a"Ò+,^_\NSDictionary¢^/Ò+,ab_NSHTTPURLResponse£cd/_NSHTTPURLResponse]NSURLResponse_NSKeyedArchiverÑgh_WebResourceResponse€    # - 2 7 W ] x {  ‚ … ˆ Œ  – ™ œ Ÿ ¢ ¥ § © « ­ ¯ ° ² ´ ¶ ¸ º ¼ ¾ Å Í Ù Û İ ß!'*3<>@GOZdfhjlnprtv€‚„†ˆŠŒ’”Ÿ¦³ÁÏÔãîóş.4TYn’Ÿ¢§»¿Óáóö             i              OR.menutop {
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
+  font-size: 0.9em;
+  font-family: "Verdana","Arial","Helvetica",sans-serif;
+  background-color: #000000;
+  color: #444444;
+  z-index: 1000;
+  text-align: center;
+  /* centrer le texte */ }
+
+.menutop ul, .menutop ul li {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.menutop ul li {
+  float: left;
+  font-family: "Verdana","Arial","Helvetica",sans-serif;
+  font-size: 0.85em;
+  background-color: #eeeeee;
+  border-right: solid 1px #ccc;
+  height: 24px;
+  line-height: 24px;
+  text-align: left; }
+
+.menutop ul li:hover {
+  background-color: #dddddd;
+  position: relative;
+  z-index: 1000; }
+
+.menutop ul li a {
+  padding: 0px 0.5em;
+  color: #444444;
+  display: inline-block;
+  text-decoration: none; }
+
+.menutop ul li ul {
+  position: absolute;
+  z-index: 10000;
+  display: none; }
+
+.menutop ul li:hover ul {
+  left: 0;
+  top: 24px;
+  display: block; }
+
+.menutop ul li ul li {
+  float: none;
+  width: 160px;
+  background-color: #eeeeee; }
+
+.menutop ul li:hover ul li:hover {
+  background-color: #dddddd; }
+
+.menutop ul li ul li a {
+  color: #444444;
+  display: inline-block;
+  width: 160px; }
+
+/* --- */
+.menutop ul li:hover ul li ul {
+  position: absolute;
+  display: none; }
+
+.menutop ul li:hover ul li:hover ul {
+  display: block;
+  left: 160px;
+  top: 0; }
+
+.menutop ul li:hover ul li:hover ul li {
+  background: #eeeeee; }
+
+.menutop ul li:hover ul li:hover ul li:hover {
+  background: #dddddd; }
+
+/* We change the level 3 link color */
+.menutop ul li:hover ul li:hover ul li a {
+  color: #444444; }
+
+/* Clear float */
+/*
+.clear{
+    clear:both;
+}
+*/
+Ô;<=_#http://jm.davalan.org/images/JM.pngOıbplist00ÔefX$versionX$objectsY$archiverT$top † ¯#)*0123KLMNOPQRSTUVWXYZ[\]`U$nullİ	
+ !"R$6S$10R$2R$7R$3S$11R$8V$classR$4R$9R$0R$5R$1€	€€€ €€€€Ó$%'(WNS.base[NS.relative€ €€_#http://jm.davalan.org/images/JM.pngÒ+,-.Z$classnameX$classesUNSURL¢-/XNSObject#A¼Lã”u ÈÓ456@JWNS.keysZNS.objects©789:;<=>?€	€
+€€€€€€€©ABDEFGHI€€€€€€€€€€ZConnectionVServer\Content-Type]Last-Modified]Accept-RangesTDate^Content-LengthZKeep-AliveTEtagZKeep-AliveVApacheYimage/png_Wed, 04 Oct 2006 18:14:08 GMTUbytes_Tue, 01 Dec 2015 16:26:12 GMTS493_timeout=2, max=198_"30c1002a-1ed-41f00347e5c00"Ò+,^_\NSDictionary¢^/Ò+,ab_NSHTTPURLResponse£cd/_NSHTTPURLResponse]NSURLResponse_NSKeyedArchiverÑgh_WebResourceResponse€    # - 2 7 W ] x {  ‚ … ˆ Œ  – ™ œ Ÿ ¢ ¥ § © « ­ ¯ ° ² ´ ¶ ¸ º ¼ ¾ Å Í Ù Û İ ß
+$'09;=DLWacegikmoqs}ƒ…‡‰‹‘œ£°¾ÌÑàëğû,2RVkŠœŸ¤¸¼ĞŞğó	             i              Oí‰PNG
+
+   IHDR   ‚   <   ğ»   PLTEÿÿÿÄÄÿAğ%   tRNS @æØf   bKGD ˆH   	pHYs    Òİ~ü   tIMEÕ,¼‚”z  `IDATxœµÒ1KÃ@ à„ëªàÒĞ–:9·<Qı)Õ€]Y:8¤KºAŠCB q8Ó?P´ÒĞÒ6¾‹¹`‡ú¦ããñŞ»»'I»
+Sg	¼rÈK¨+”
+Ê/Céóòö¡\ñòJ6r(Ô–œÔ'¾×Ñğ}åCşSÈ‚¿Eş47SN6sJUAR¡°P™€Ğk&Ì³Óh
+Ò+œÉÀ‘í\~#.Gb-âºƒÓ9vN{û’ÔA&—ÎİhµHÓmÆ}&A:Ÿ%Y”¡´âE÷µPWÇ­±¡QMPîBÍî–mM\Àg”{ªÚİºÿ-‡S”3&+«Z‚…õå¢ —kÖë¼˜³l£´™ÈVu=
+f	ë¥Z*V­?©ùš­£ŒAóQ.Abë‰¥fpDK\dRñû6²*4‚Eœ/»lâÙcì¹ùİ‹á¯½Üüòo_ûÉUºÓB    IEND®B`‚Ô?@A_$http://jm.davalan.org/images/blc.pngOıbplist00ÔefX$versionX$objectsY$archiverT$top † ¯#)*0123KLMNOPQRSTUVWXYZ[\]`U$nullİ	
+ !"R$6S$10R$2R$7R$3S$11R$8V$classR$4R$9R$0R$5R$1€	€€€ €€€€Ó$%'(WNS.base[NS.relative€ €€_$http://jm.davalan.org/images/blc.pngÒ+,-.Z$classnameX$classesUNSURL¢-/XNSObject#A¼Lã¹à ÈÓ456@JWNS.keysZNS.objects©789:;<=>?€	€
+€€€€€€€©ABDEFGHI€€€€€€€€€€ZConnectionVServer\Content-Type]Last-Modified]Accept-RangesTDate^Content-LengthZKeep-AliveTEtagZKeep-AliveVApacheYimage/png_Wed, 04 Oct 2006 18:11:31 GMTUbytes_Tue, 01 Dec 2015 16:26:02 GMTS151_timeout=2, max=199_"30c1005b-97-41f002b22bac0"Ò+,^_\NSDictionary¢^/Ò+,ab_NSHTTPURLResponse£cd/_NSHTTPURLResponse]NSURLResponse_NSKeyedArchiverÑgh_WebResourceResponse€    # - 2 7 W ] x {  ‚ … ˆ Œ  – ™ œ Ÿ ¢ ¥ § © « ­ ¯ ° ² ´ ¶ ¸ º ¼ ¾ Å Í Ù Û İ ß%(1:<>EMXbdfhjlnprt~€‚„†ˆŠŒ’¤±¿ÍÒáìñü-3SWlŠœŸ¤¸¼ĞŞğó	             i              O—‰PNG
+
+   IHDR         %ÛVÊ   PLTEÿÿÿÿÿÿU|õl   tRNS @æØf   bKGD ˆH   	pHYs    Òİ~ü   tIMEÓ,W –k   
+IDATxœc`    H¯¤q    IEND®B`‚ÔCDE_.http://jm.davalan.org/mots/comb/comb/ssens.pngO	bplist00ÔefX$versionX$objectsY$archiverT$top † ¯#)*0123KLMNOPQRSTUVWXYZ[\]`U$nullİ	
+ !"R$6S$10R$2R$7R$3S$11R$8V$classR$4R$9R$0R$5R$1€	€€€ €€€€Ó$%'(WNS.base[NS.relative€ €€_.http://jm.davalan.org/mots/comb/comb/ssens.pngÒ+,-.Z$classnameX$classesUNSURL¢-/XNSObject#A¼Lãài ÈÓ456@JWNS.keysZNS.objects©789:;<=>?€	€
+€€€€€€€©ABDEFGHI€€€€€€€€€€ZConnectionVServer\Content-Type]Last-Modified]Accept-RangesTDate^Content-LengthZKeep-AliveTEtagZKeep-AliveVApacheYimage/png_Wed, 04 Oct 2006 19:57:47 GMTUbytes_Tue, 01 Dec 2015 16:26:02 GMTT2114_timeout=2, max=199_"48c57be9-842-41f01a72cc4c0"Ò+,^_\NSDictionary¢^/Ò+,ab_NSHTTPURLResponse£cd/_NSHTTPURLResponse]NSURLResponse_NSKeyedArchiverÑgh_WebResourceResponse€    # - 2 7 W ] x {  ‚ … ˆ Œ  – ™ œ Ÿ ¢ ¥ § © « ­ ¯ ° ² ´ ¶ ¸ º ¼ ¾ Å Í Ù Û İ ß )/2;DFHOWblnprtvxz|~ˆŠŒ’”–˜šœ§®»É×Üëöû7=]bw–›¨«°ÄÈÜêüÿ             i              OB‰PNG
+
+   IHDR   ¯   Š   ë-êÂ   TPLTEÿÿÿÌÌÌ™™™ffÌÌÌÿ™™ÌfffÿÌÌ333™™ÿÿ™™Ìff   Ì™™33ÌÌ33ÿff  ™™  33™ff™ffÿ3 Ì 3ÌÌ 3f f3fÌ  Ì¥„êë   	pHYs  a  a¨?§i   tIMEÖ4*ÑI  IDATxÚí\é‚ò(LsæBã;v÷ıßs»!£¢?dfEÑ44Í® d·òÓ¼P !„ä¤€•û1>Ïk‘H)b•Rvøtó$Ğß”yFMwÄ±X©şwiHòNÄ3‰UàG¤ÒÜçäB­ª\S¥¢G?=éöŠWVY¸ó§N«¿¯:öâªl0ç‚¹¬Ú$6ës3D,b+-_[ 6şŒlr‡ØF|´9ŸãZÄ1–»íuU˜Akc>Ív*GöEë:>k«áóv
+G÷œ~z?ŞÏ>\×òàêÓ'c­	'h­_®5Fq.Œ£b›×¢mvë•Æ Ú*ŠÂÃÔVïƒ²W4sàÉ|höiw¬j–³×f\`u›İ£eòÄ»ĞDİĞA<ŞMÿ†Õï¤¡‹Æ+e%¸¦ÇïÄÆâİ¢W¡AK0º+—á‚^€ğÍ°ÕW=JbÈ¦—µ#†ŠÍÅôú S$1ä7¶¤ ×qıdCoQ·Á„õj6ÿHâzõf7agI@Ş‹‰y*ˆX¸Ædôp‡¢±ò4ÈA÷)Ïê €¬„<œ]çÎèu	½?nH¡ú³ÇÓ)/†°Çˆäòúxs¦?}€­N-ÔY$ˆ]‡‚>Åd8xe¼&~î]½–­s6ëÁ› ^ òŸ¼õ¢F—W•oŸæ3æ+©Y¦²Jc	¼}ÒL8,è½Æ½ë!ªâÙmÛ+“Î¯Ñƒ‰ÄÅ¦—‹±
+~D»Š«Û?ôx~°‘j{3îLÄè³½ÆAIxM‚[S€_zÇPo#×ÛL/	Lò*­-À/0v?9àñóJüúúŠ´¹6=É¯¯+NœLÄ~~}Öl,áXò]üBE~›¡8¿lLâ·ŞH~a¯‡_vkj¿ø%“•6»íõïvë__½ÛÄ$ğ…—¦R“ô[ÄÃËÇ«šÊü–Å£m¡y‡úü6Á¯ßÅ9Ş\·ñƒM€U3w)·a©Ó4¯5»ùİïñüx(`Ï
+xh‘G™kˆàJ»Ï*äÀo	Xí
+à!GØ¿Ö,ºÅÁÈ¢-LÍ©hìçwhÆm‚½üê>	V‰5\Nâ½n¦ÿ›¶À”õ1Sh¬Uş5KşÉÍÊSìº/\5PE¾ÑÊu+×:›P¥w%äùíkÅÖù‚Åuas„”İeˆ/¾Ç|ëF”Ûâ~w{$ÑºÅ›•gÒhgÆÖ¡ÙÕùfµ88¤<uYD3å¾É_Áâƒ^N)É”ŠØ„“c",ŞæCÜCÙB¬Müª£’ûñ¢0Ãt¶C^M£][wz˜8ú5ÖG˜é¨Ö”cÓNİšs‡ˆï».Z1e?"©ËPvšiİC¯§`.ô>.ÕØ)‘
+›ptoŒıMéIb‰¯±±5¾Ÿ²Ÿak¯ 8©=0¯VOWÃ NÏş©€sLªàÏÓp^óyZ£‹È˜ÙÃ¾^pT¶ü½şº}TvO€·Sìë½ğ1DÉ^ÏıcwrŠXZ¼ş¯îå‘p£Eş›Ûimîæ×÷1Ò§Æòë{\,Ç!2NÚqê×/Hş%l+¨/ã4İ¹Aî~ï¶…wu7B¦™NùçCbøo,¤|<U…×ky2Upb
+ŸÎÔ~…UrMWE?BV6˜À¿JYazDWäl tr¢ä^-‹ãú©K»ëHvü):„K¦ì¹^ÏÙı‹`ûœ¶J^a:†¦¡£»ÖÌ;‚¬ë y± ü'tRÊù½l^?ĞtÍ;¼Ã;¼Ã;¼Ã;¼Ã;d¹Ré˜Ââõæ–KµI;G’ßê|P-k³²–§J±ë…j×–Î®·j‘´Š±‡´K!ó +µxu¡½^Ğ:Ô¤t§µø‹8Ä{dIÙ: Ç©pp«º F¼ÙÛó%şaLº²ÙÀœ×L°‘šSd3ñTÃnë–KS±*:±À WâMOÅƒ¢4Ã‘1¬æE­¢V %ÅĞoCO‘€T«F:Äâ ½quÉæ]zjˆWM	ÌÉ±£7ô‹=Œ“l(*>¨éaÖ*¿ 0WÌ¥‚¶DÕ¦¢3%”"*²²·)À›X$”Ñ¨(ÆAKgÚ%M—jªdh§ì˜ÆÁÏ)9¯¥²9°.­ù0üçÙ¯¡Ü2b»±¥Ó¾[Í£r*QÊ–Ç8Ò9]¾µ|ÿ46×Gª/'ALÑ%ğ“ªˆva`ÙG‚ƒŸ¨©øˆì	™-ûà–*€©hé>VÁb!XhÈÉhA ™Íğ¶ˆãRpZ´¬¶.§©J1…Xh®¤QËGFé’j€À#‚Ü¶Ó±eTPVÏªßm¸f´O|¹Uè¾]tnoÛKjE¶ùÛ8`#[VçìÛ)FógÕ:ØtìÙn);³-Î9%ÒÌ)óì©ü^/*R$a}ò    IEND®B`‚ÔGHI-_!http://jm.davalan.org/css/add.cssOúbplist00ÔefX$versionX$objectsY$archiverT$top † ¯#)*0123KLMNOPQRSTUVWXYZ[\]`U$nullİ	
+ !"R$6S$10R$2R$7R$3S$11R$8V$classR$4R$9R$0R$5R$1€	€€€ €€€€Ó$%'(WNS.base[NS.relative€ €€_!http://jm.davalan.org/css/add.cssÒ+,-.Z$classnameX$classesUNSURL¢-/XNSObject#A¼LãõQ ÈÓ456@JWNS.keysZNS.objects©789:;<=>?€	€
+€€€€€€€©ABDEFGHI€€€€€€€€€€ZConnectionVServer\Content-Type]Last-Modified]Accept-RangesTDate^Content-LengthZKeep-AliveTEtagZKeep-AliveVApacheXtext/css_Thu, 05 Jul 2012 20:22:23 GMTUbytes_Tue, 01 Dec 2015 16:25:50 GMTS970_timeout=2, max=200_"a9d48445-3ca-4c41ae7bdfe7c"Ò+,^_\NSDictionary¢^/Ò+,ab_NSHTTPURLResponse£cd/_NSHTTPURLResponse]NSURLResponse_NSKeyedArchiverÑgh_WebResourceResponse€    # - 2 7 W ] x {  ‚ … ˆ Œ  – ™ œ Ÿ ¢ ¥ § © « ­ ¯ ° ² ´ ¶ ¸ º ¼ ¾ Å Í Ù Û İ ß"%.79;BJU_acegikmoq{}ƒ…‡‰‹š¡®¼ÊÏŞéîù 	)/OSh‡Œ™œ¡µ¹ÍÛíğ             i              OÊimg {border:0}
+fr {float: right}
+fl {float: left}
+pre {width:92%;font-size:13px;color:#333;background-color:#f3f3f3;padding:2px 20px}
+input.tt0, input.tt1, input.tt2, input.tt3, input.tt4 { height:24px; font-size:14px;font-weight:bolder;border:2px solid #7f9db9; padding:1px 2px;color:#3f00ff; }
+input.tt0 { width:60px}
+input.tt1 { width:120px;}
+input.tt2 { width:240px;}
+input.tt3 { width:480px;} 
+input.tt4 { width:640px;}
+textarea {width:95%;height:250px;border:2px solid #7f9db9; padding: 1px 2px;font-size:1em;font-weight:normal;line-height:1.3;}
+textarea.ar0 {width:95%;height:80px;}
+textarea.ar1 {width:95%;height:150px;}
+textarea.ar2 {width:95%;height:250px;}
+textarea.ar3 {width:95%;height:150px;}
+
+fieldset {width:95%;}
+fieldset.v {background: #eeffdd url(images/vert.png) repeat;}
+fieldset.b {border:1px solid #44f;background:#ffffff url(bleu.png);}
+fieldset.j {border:1px solid #562;background:#fff8cc url(jaune.png);}
+legend {font-size:14px;color:#008e8c;}
+ÔKLM_/http://jm.davalan.org/mots/comb/comb/proppq.pngO	bplist00ÔefX$versionX$objectsY$archiverT$top † ¯#)*0123KLMNOPQRSTUVWXYZ[\]`U$nullİ	
+ !"R$6S$10R$2R$7R$3S$11R$8V$classR$4R$9R$0R$5R$1€	€€€ €€€€Ó$%'(WNS.base[NS.relative€ €€_/http://jm.davalan.org/mots/comb/comb/proppq.pngÒ+,-.Z$classnameX$classesUNSURL¢-/XNSObject#A¼LäX ÈÓ456@JWNS.keysZNS.objects©789:;<=>?€	€
+€€€€€€€©ABDEFGHI€€€€€€€€€€ZConnectionVServer\Content-Type]Last-Modified]Accept-RangesTDate^Content-LengthZKeep-AliveTEtagZKeep-AliveVApacheYimage/png_Wed, 04 Oct 2006 19:57:47 GMTUbytes_Tue, 01 Dec 2015 16:26:05 GMTS474_timeout=2, max=198_"48c57be8-1da-41f01a72cc4c0"Ò+,^_\NSDictionary¢^/Ò+,ab_NSHTTPURLResponse£cd/_NSHTTPURLResponse]NSURLResponse_NSKeyedArchiverÑgh_WebResourceResponse€    # - 2 7 W ] x {  ‚ … ˆ Œ  – ™ œ Ÿ ¢ ¥ § © « ­ ¯ ° ² ´ ¶ ¸ º ¼ ¾ Å Í Ù Û İ ß!*03<EGIPXcmoqsuwy{}‰‹‘“•—™›¨¯¼ÊØİì÷ü8>^bw–›¨«°ÄÈÜêüÿ             i              OÚ‰PNG
+
+   IHDR   K      ²¼‹   0PLTEÿÿÿ™™™wwwUUUîîî333ÌÌÌªªªˆˆˆfff   DDDİİİ"""»»»!•   tRNS @æØf  XIDAT(‘¥“/OÃ`ÆŸµĞ•@Ò–İ' !³Kê—ì`pS0 hú°¨	¦¾ˆ)ìš Hª&æIÉ†{{ï¿v@H8ñöv¿g×»ë½ " NÛ"û3_œŞµüÖŸ˜Õ?«,P·R3asÿgaÅGÍÜ<rP° Æñíx3*
+	ëm>V æVØß‘¹²€;©Œ¹és…IªeSõîƒvˆå$Ã™–åò™ô™>ÃPÆœXË†è±¥ªÛ´ºìÊˆ­¥ë­ttİ•+”OÎ~Y–ìu¬hÉ¶¼ïeÿÏ¦ëı¥bˆš¥ëèÖx‰åbc.iÒ™RHì'’Œ¾sïpì¦ZF¡f·¨ïB1±5¯À‹y‡Ú­Æ$æÔÚ)pbU<çİâ¶%Ã;‹±“X%y·„iVÃ9§*¸2šùáç8jÀ\@Ã"tofû:öãI^31Ñï_    IEND®B`‚ÔOPQ_/http://jm.davalan.org/mots/comb/comb/binom2.pngO	bplist00ÔefX$versionX$objectsY$archiverT$top † ¯#)*0123KLMNOPQRSTUVWXYZ[\]`U$nullİ	
+ !"R$6S$10R$2R$7R$3S$11R$8V$classR$4R$9R$0R$5R$1€	€€€ €€€€Ó$%'(WNS.base[NS.relative€ €€_/http://jm.davalan.org/mots/comb/comb/binom2.pngÒ+,-.Z$classnameX$classesUNSURL¢-/XNSObject#A¼Lä8ó ÈÓ456@JWNS.keysZNS.objects©789:;<=>?€	€
+€€€€€€€©ABDEFGHI€€€€€€€€€€ZConnectionVServer\Content-Type]Last-Modified]Accept-RangesTDate^Content-LengthZKeep-AliveTEtagZKeep-AliveVApacheYimage/png_Wed, 04 Oct 2006 19:57:23 GMTUbytes_Tue, 01 Dec 2015 16:26:02 GMTS723_timeout=2, max=199_"48c57bdb-2d3-41f01a5be8ec0"Ò+,^_\NSDictionary¢^/Ò+,ab_NSHTTPURLResponse£cd/_NSHTTPURLResponse]NSURLResponse_NSKeyedArchiverÑgh_WebResourceResponse€    # - 2 7 W ] x {  ‚ … ˆ Œ  – ™ œ Ÿ ¢ ¥ § © « ­ ¯ ° ² ´ ¶ ¸ º ¼ ¾ Å Í Ù Û İ ß!*03<EGIPXcmoqsuwy{}‰‹‘“•—™›¨¯¼ÊØİì÷ü8>^bw–›¨«°ÄÈÜêüÿ             i              OÓ‰PNG
+
+   IHDR   Ñ      Û;¤«   0PLTEÿÿÿ™™™wwwUUUîîî333ÌÌÌªªªˆˆˆfff   DDDİİİ"""»»»!•   tRNS @æØf  QIDATH‰ÅV¿o1}uJ¸4I/…ƒ*V"Ôé$¶VğtÉ‚è‚@°ÀDÔNHLØX¬®—á¦¬Db¨T1d`§BHºğ}¾_¾³/.ÄKê³ßû|Ï|0 pcédÛç•Ö¤A(qÈEÀ&íWNÊÉîõ`Ç)¸¢ "zéÖ“…Ûiêdz8r
+)”ş$=v±ú0ƒHì÷1/-6|ı)™k­púZˆ¦°z/§>½>”¸ùæğİvbŞvÚXı\ª´OÇŠºÆJa¸£
+'ş¶è~ ×m'æßÙôq(UÚ'Ÿ“éT
+[Ÿã"g¹ ÍØ¬WjŞÆnï©2´šS)l?•9Ñj¶ğ’Š‰íD|b;®æiø„×)A>0…Ç'©7º±äuº•ñB:†ß„Ú{ëî s"´
+Ÿ3>tŒ¾µcã<OáÌˆğ-«·—¿áôGwDq	è4×¼ß#û ¬Êm'îæ²pë>œÿ×9ı+ä;ÂÈÏ*‡Ø®Êë°.ÊŞå›ÓJ€ˆôp¹)¯‹ÊO®¾×5:Õ¬È-~Tí›°.êˆóÀú$gzcNi¤~"8@:{›ğEÑ»qmŸc”3]ÒÆ’\ú|Q”5ğñøR0]²IªÃ¥#}Ôá‰
+§´ÿîÅÉd'JYƒ$•øá‹ºöÄæ¨ zcNi¤~Òã€Äkä:ƒÓ†(s¹÷H¢ŸüğFƒÉ’0ÏI"âòğG‘ıÓ—£~GüüBOº¾"ıáØ    IEND®B`‚ÔSTU-_"http://jm.davalan.org/css/base.cssOıbplist00ÔefX$versionX$objectsY$archiverT$top † ¯#)*0123KLMNOPQRSTUVWXYZ[\]`U$nullİ	
+ !"R$6S$10R$2R$7R$3S$11R$8V$classR$4R$9R$0R$5R$1€	€€€ €€€€Ó$%'(WNS.base[NS.relative€ €€_"http://jm.davalan.org/css/base.cssÒ+,-.Z$classnameX$classesUNSURL¢-/XNSObject#A¼LäIË ÈÓ456@JWNS.keysZNS.objects©789:;<=>?€	€
+€€€€€€€©ABDEFGHI€€€€€€€€€€ZConnectionVServer\Content-Type]Last-Modified]Accept-RangesTDate^Content-LengthZKeep-AliveTEtagZKeep-AliveVApacheXtext/css_Fri, 21 Mar 2014 23:49:54 GMTUbytes_Tue, 01 Dec 2015 16:25:58 GMTT5122_timeout=2, max=199_"a9d51171-1402-4f5268ae2affe"Ò+,^_\NSDictionary¢^/Ò+,ab_NSHTTPURLResponse£cd/_NSHTTPURLResponse]NSURLResponse_NSKeyedArchiverÑgh_WebResourceResponse€    # - 2 7 W ] x {  ‚ … ˆ Œ  – ™ œ Ÿ ¢ ¥ § © « ­ ¯ ° ² ´ ¶ ¸ º ¼ ¾ Å Í Ù Û İ ß	#&/8:<CKV`bdfhjlnpr|~€‚„†ˆŠŒ›¢¯½ËĞßêïú
+*0PUjŠœŸ¤¸¼ĞŞğó	             i              O@charset "UTF-8";
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+#Navigation, dl, ol, ul, input, select, p, a, .haut, .sect, .liens, .define, .def, .tab, td, th, body, h5, h4, h3, h2, h1 {
+  font-family: "Verdana", "Arial", "Helvetica", sans-serif; }
+
+textarea, input {
+  font-size: 1em;
+  font-family: "ms courier new","courier new", "courier",monospace;
+  font-weight: normal;
+  background-color: #f4f4f4;
+  color: inherit; }
+
+textarea, input, h5, h4, h3, h2, h1, .liens, .define, .def, .tab, li, a.ht, a.ht:link, a.ht:visited, a.ht:active, body, a, a:link, a:visited, a.game, a.game:link, a.game:visited, a.game:active, a.game:hover, a.mn, a.mn:link, a.mn:visited, a.mn:active {
+  text-decoration: none; }
+
+textarea {
+  width: 95%;
+  height: 250px; }
+
+h5, h4, h3, h2, h1, .sect {
+  font-family: "Trebuchet","Helvetica Narrow","Helvetica","Avantgarde","Gill Sans",Verdana,Arial,sans-serif;
+  word-spacing: normal;
+  text-decoration: none;
+  text-transform: none;
+  text-indent: 0px; }
+
+h5, h4, h3, h2, .sect {
+  text-align: left; }
+
+h1 {
+  color: #006405;
+  background-color: inherit;
+  font-size: 2.6em;
+  font-weight: normal;
+  /* font-stretch: narrower; */
+  line-height: 1.5;
+  text-align: center;
+  text-shadow: #b0b0b0 3px 3px 3px; }
+
+h2 {
+  color: #007b06;
+  background-color: inherit;
+  margin-left: 0;
+  font-weight: normal;
+  /* font-stretch: narrower; */
+  font-size: 2.0em; }
+
+h3 {
+  color: #008806;
+  background-color: inherit;
+  margin-left: 0px;
+  font-weight: normal;
+  font-size: 1.5em;
+  line-height: 1.1;
+  margin-top: 8px;
+  margin-bottom: 8px; }
+
+h4 {
+  color: #009107;
+  background-color: inherit;
+  margin-left: 15px;
+  font-weight: normal;
+  font-size: 1.3em;
+  line-height: 16px;
+  margin-top: 6px;
+  margin-bottom: 8px; }
+
+h5 {
+  font-family: "Book Antiqua","Sylfaen","Times New Roman","Garamond","Book Antiqua","Bookman Old Style","Sylfaen", serif;
+  color: #333;
+  background-color: inherit;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-left: 18px;
+  font-size: 1.1em;
+  line-height: 15px;
+  margin-top: 6px;
+  margin-bottom: 8px; }
+
+div.haut, #Navigation {
+  text-align: center; }
+
+h4, h5 {
+  padding-top: 0;
+  padding-bottom: 0; }
+
+h5, .liens, .define, .def, .tab, li, div.haut, #Navigation, body, ul {
+  font-weight: normal; }
+
+.liens, .define, .def, .tab, li, body {
+  color: #000020;
+  background-color: inherit; }
+
+.liens, .define, .def, .tab, li, div.mgeb, div.mgl, div.mge {
+  position: relative; }
+
+.liens, .define {
+  padding: 0 15pt 0 15pt; }
+
+.def, li {
+  font-size: 12px; }
+
+.define {
+  line-height: 1.0; }
+
+.liens, .define, .tab, body {
+  font-size: 13px; }
+
+.liens, .define, .tab, body, a.mn {
+  line-height: 1.3; }
+
+.sect {
+  color: #000099;
+  background-color: inherit;
+  font-size: 14.5px; }
+
+div.haut, a.mn:link {
+  color: #000066;
+  background-color: inherit; }
+
+div.haut {
+  font-size: 8pt; }
+
+a.ht {
+  background: #9df;
+  line-height: 8pt; }
+
+a.ht, a.ht:link, a.ht:visited, a.ht:active {
+  color: #000088;
+  background-color: inherit; }
+
+a.ht:hover {
+  background: #8af; }
+
+a.ht:hover, a:hover, a:active, a.mn:hover {
+  text-decoration: underline; }
+
+a.ht:hover, a.game:hover, a.mn:hover {
+  color: #ffffff;
+  background-color: inherit; }
+
+#Navigation {
+  font-size: 0.75em; }
+
+body {
+  background: #fff;
+  top: 0;
+  left: 0;
+  padding: 0 0 0 0; }
+
+ul {
+  font-size: 11pt; }
+
+a, a.game {
+  color: #3870ff;
+  background-color: inherit; }
+
+a:hover {
+  background: #fef;
+  color: #0000ff; }
+
+a:link, a.game:link {
+  color: #0000dd; }
+
+a:visited, a.game:visited {
+  color: #6600ff; }
+
+a:active {
+  background: #fdf; }
+
+a:active, a.game:active {
+  color: #0066ee; }
+
+a.game:active, a.game:hover {
+  background: #ffffff; }
+
+a.mn {
+  line-height: 1.1;
+  text-decoration: none;
+  color: #000000; }
+
+a.mn:hover {
+  text-decoration: underline;
+  background-color: #d0e0ff;
+  color: #ffffff; }
+
+a.mn:link {
+  text-decoration: none;
+  color: #000066; }
+
+a.mn:visited {
+  text-decoration: none;
+  color: #003366; }
+
+a.mn:active {
+  text-decoration: none;
+  color: #003399; }
+
+div.mgeb {
+  width: 105px;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-bottom: 20px; }
+
+div.mgl {
+  padding: 2px 3px 4px 5px; }
+
+div.bord, div.bd {
+  background: #ffffff;
+  color: inherit;
+  padding: 3px 5px 5px 3px;
+  text-align: center;
+  font-size: 10px; }
+
+div.bord, div.mge, div.mgl {
+  border-radius: 5px;
+  margin: 5px 10px 5px 5px;
+  border: 1px solid #039; }
+
+div.mgl, div.mge {
+  border: 1px solid #003399; }
+
+div.mgl, div.mge, address {
+  font-family: Verdana,Arial,sans-serif;
+  font-size: 12px;
+  line-height: 1.4; }
+
+div.mge {
+  padding: 10px 3px 10px 10px; }
+
+div.txt {
+  background: #ffffff;
+  color: inherit;
+  border: 1px solid #eeeeee;
+  padding: 5px 5px 5px 5px; }
+
+address, div.cita {
+  color: #a0a0a0;
+  background-color: inherit; }
+
+div.cita {
+  font-size: 10.5px; }
+
+Q:lang(en) {
+  quotes: '"' '"' "'" "'"; }
+
+Q:lang(fr) {
+  quotes: " « " " » " "<" ">"; }
+
+Q:lang(no) {
+  quotes: "«" "»" "<" ">"; }
+
+Q:before {
+  content: open-quote; }
+
+Q:after {
+  content: close-quote; }
+
+img {
+  border: 0; }
+ÔWXY_.http://jm.davalan.org/mots/comb/comb/prop1.pngObplist00ÔefX$versionX$objectsY$archiverT$top † ¯#)*0123KLMNOPQRSTUVWXYZ[\]`U$nullİ	
+ !"R$6S$10R$2R$7R$3S$11R$8V$classR$4R$9R$0R$5R$1€	€€€ €€€€Ó$%'(WNS.base[NS.relative€ €€_.http://jm.davalan.org/mots/comb/comb/prop1.pngÒ+,-.Z$classnameX$classesUNSURL¢-/XNSObject#A¼LäY¸ ÈÓ456@JWNS.keysZNS.objects©789:;<=>?€	€
+€€€€€€€©ABDEFGHI€€€€€€€€€€ZConnectionVServer\Content-Type]Last-Modified]Accept-RangesTDate^Content-LengthZKeep-AliveTEtagZKeep-AliveVApacheYimage/png_Wed, 04 Oct 2006 19:57:46 GMTUbytes_Tue, 01 Dec 2015 16:26:14 GMTS526_timeout=2, max=198_"48c57be7-20e-41f01a71d8280"Ò+,^_\NSDictionary¢^/Ò+,ab_NSHTTPURLResponse£cd/_NSHTTPURLResponse]NSURLResponse_NSKeyedArchiverÑgh_WebResourceResponse€    # - 2 7 W ] x {  ‚ … ˆ Œ  – ™ œ Ÿ ¢ ¥ § © « ­ ¯ ° ² ´ ¶ ¸ º ¼ ¾ Å Í Ù Û İ ß )/2;DFHOWblnprtvxz|~ˆŠŒ’”–˜šœ§®»É×Üëöû7=]av•š§ª¯ÃÇÛéûş             i              O‰PNG
+
+   IHDR   b      ¾ú”‘   0PLTEÿÿÿ™™™wwwUUUîîî333ÌÌÌªªªˆˆˆfff   DDDİİİ"""»»»!•   tRNS @æØf  ŒIDAT8•”¯OÃ@Ç¿íÆ(a[G08:ÂÄfÉ$I? ‚Pö`Qó˜…àŠ˜š¥	U1!$K‚w¿z}·ŒdOôzŸwŸ^ïİå l ğ[(…Çzm8ˆtíªŒîØ€³Ä1ŞÎ,iÙ€Úct1{x?¶¤Ò—À2ö¸FØ¾‹¾T#±ˆæ'3*ÖZ4fÓ¢j$áu˜‹¿˜d8îRÍÍÏMÔâªÏÌP
+—ôH	"m,ã¦Ú~dß;¬÷ªÛplH/”â—õ¦º­å†4û®qa^ÂëÇ1F¦G/ëišÒÓ$¡ÔŞì;g†ÍÏ*îiû–šİúù’stV;ÅÊ‘›—ù•7YOT÷‹«+r¼ºm=«ÙiwEnÀŒ¦~b¹²îÖØeF¬éJñ÷teİmåN˜A§]Ò7‹zªîÅ~ÚÃ¡2,úQu/ß9hôÅô	ÕÒwhZQw”;â‚¾üÅ7öCŞ>Ø*#~ûx‰cÈ.øç†ã>ş Ó¡Z÷ñ*f    IEND®B`‚Ô[\]_ghttp://www.forkosh.com/mathtex.cgi?\usepackage[usenames]{color}\gammacorrection{1}\png%20\binom%20n%20pOêbplist00Ô]^X$versionX$objectsY$archiverT$top † ¯#)*0123GHIJKLMNOPQRSTUXU$nullİ	
+ !"R$6S$10R$2R$7R$3S$11R$8V$classR$4R$9R$0R$5R$1€	€€€ €€€€Ó$%'(WNS.base[NS.relative€ €€_{http://www.forkosh.com/mathtex.cgi?%5Cusepackage%5Busenames%5D%7Bcolor%7D%5Cgammacorrection%7B1%7D%5Cpng%20%5Cbinom%20n%20pÒ+,-.Z$classnameX$classesUNSURL¢-/XNSObject#A¼Läi× ÈÓ456>FWNS.keysZNS.objects§789:;<=€	€
+€€€€€§?ABCDE€€€€€€€€VServer\Content-TypeZKeep-AliveTDate^Content-Length]Cache-ControlZConnectionVApacheYimage/png_timeout=2, max=100_Tue, 01 Dec 2015 16:28:09 GMTS480\max-age=7200ZKeep-AliveÒ+,VW\NSDictionary¢V/Ò+,YZ_NSHTTPURLResponse£[\/_NSHTTPURLResponse]NSURLResponse_NSKeyedArchiverÑ_`_WebResourceResponse€    # - 2 7 S Y t w { ~  „ ˆ ‹ ’ • ˜ ›  ¡ £ ¥ § © « ¬ ® ° ² ´ ¶ ¸ º Á É Õ × Ù ÛY^irx{„‘˜ «³µ·¹»½¿ÁÉËÍÏÑÓÕ×Ùàíøı%,6Kko|‡Œ™œ¡µ¹ÍÛíğ             a              Oà‰PNG
+
+   IHDR      )   Ô”T¹   0PLTEÿÿÿ                                             /İ {   tRNS 2D«"Í‰ïvTİf™»ÿQ™X  PIDAT(U‘?KÃPÅOLú'ik+â&˜ÍÑN¥àPt‚‚ƒ:qpÌ¢.Á¥£ÁE¨b«ƒ ÀQ'EÄ¡›.•]Ï}¯ÆäÂ}çüŞË»—Ü †ËV$+c\Ë–kQ«é*Í55Ú7J×5b,ÿK û'çuÀéBŒLîà’ö–¹ÆÆ_´{Ìmf¡æH7~hÄ¢j@)@Q¶ïQ=jùrñf›âÄ(DÔaóNß˜	 vÑIVpÆe¦ñ›ildñ1‹l©ÒwûÙ¾×˜j¦PuÿÑş”_N‚£¨ÔIÅöªHO;[Óƒ= ÖdlªÎ;Wªÿ4İÓÑ§Ì2K.gæ]nÊèË=Öx¾ãÕ¼GÄ’¼‚˜·€	y‰9µ–=ã- sê
+ñ¢e^*®kx¨êìÑïCQJbi    IEND®B`‚Ô_`a#_&http://jm.davalan.org/bann/banniere.jsObplist00ÔefX$versionX$objectsY$archiverT$top † ¯#)*0123KLMNOPQRSTUVWXYZ[\]`U$nullİ	
+ !"R$6S$10R$2R$7R$3S$11R$8V$classR$4R$9R$0R$5R$1€	€€€ €€€€Ó$%'(WNS.base[NS.relative€ €€_&http://jm.davalan.org/bann/banniere.jsÒ+,-.Z$classnameX$classesUNSURL¢-/XNSObject#A¼Lä‚{ ÈÓ456@JWNS.keysZNS.objects©789:;<=>?€	€
+€€€€€€€©ABDEFGHI€€€€€€€€€€ZConnectionVServer\Content-Type]Last-Modified]Accept-RangesTDate^Content-LengthZKeep-AliveTEtagZKeep-AliveVApache_application/x-javascript_Fri, 25 Apr 2014 17:35:03 GMTUbytes_Tue, 01 Dec 2015 16:25:58 GMTT2513_timeout=2, max=199_"282912ff-9d1-4f7e162bfe6a0"Ò+,^_\NSDictionary¢^/Ò+,ab_NSHTTPURLResponse£cd/_NSHTTPURLResponse]NSURLResponse_NSKeyedArchiverÑgh_WebResourceResponse€    # - 2 7 W ] x {  ‚ … ˆ Œ  – ™ œ Ÿ ¢ ¥ § © « ­ ¯ ° ² ´ ¶ ¸ º ¼ ¾ Å Í Ù Û İ ß!'*3<>@GOZdfhjlnprtv€‚„†ˆŠŒ’”Ÿ¦³ÁÏÔãîóş @Ffk€Ÿ¤±´¹ÍÑåó             i               O	Ñvar nbannieres=55,currentbanniere=0, defautbanniere="AA0073.jpg"
+
+function bann_gcd(a, b) {
+	var x=Math.abs(a), y=Math.abs(b), u
+	while(y!=0) {
+		u=y
+		y = x%y
+		x=u
+	}
+	return x
+}
+
+var BannDecal=7
+var idChgBann=null, pauseDiapo=10000, dureeDiapo=1, nodiapo=0;
+
+function Bann2009B() {
+	document.write('<!-- BanniÃ¨re Bas -->');
+}
+
+
+
+function namebann(n) {
+        var a = ""+(n+1)+""
+        while(a.length<4) a = "0"+a
+        return "AA"+a+".jpg"
+}
+
+
+function Bann() {
+	for(BannDecal=Math.floor(Math.sqrt(nbannieres)+10*Math.random()); 
+		bann_gcd(nbannieres,BannDecal)!=1; BannDecal++);
+
+	currentbanniere = Math.floor(nbannieres*Math.random())
+	defautbanniere="AA0073.jpg"
+
+	var u= namebann(currentbanniere)
+
+	var masque='<img id="jeux-et-mathematiques" src="http://jm.davalan.org/bann/j-et-m_RougeTrans_1200x230.png"'		+ ' width="1200" height="230" alt="J et M">'
+
+	var s = '<div id="banniereduhaut" onclick="clicBann();" ondblclick="dblclicBann();"  '+
+		'style="cursor:pointer;height:230px;background:#ffffff ' +
+		'url(http://jm.davalan.org/bann/' + defautbanniere +') no-repeat fixed top;">' + 
+		masque +
+		'</div>' +
+		'\n<!-- BanniÃ¨re 2014-->'
+	document.write(s)
+}
+var bannInterval = 100000
+
+function bann(s) {
+	Bann()
+	if(idChgBann != null) {
+		clearInterval(idChgBann);
+	}
+	idChgBann=setInterval("chgeBann();",bannInterval);
+	return;
+}
+
+function bannnv(s) {
+	for(BannDecal=Math.floor(Math.sqrt(nbannieres)+10*Math.random()); bann_gcd(nbannieres,BannDecal)!=1; BannDecal++);
+
+currentbanniere = Math.floor(nbannieres*Math.random())
+defautbanniere=namebann(currentbanniere)
+
+
+var u= namebann(currentbanniere)
+chgeBann();
+if(idChgBann != null) {
+        clearInterval(idChgBann);
+}
+idChgBann=setInterval("chgeBann();",bannInterval);
+
+return;
+}
+
+function dblclicBann() {
+	bannInterval = 10000
+	dureeDiapo = 1000
+	pauseDiapo=12000
+	clicBann()
+	idChgBann=setInterval("chgeBann();",bannInterval)
+//alert(bannInterval+" ")
+}
+
+function clicBann() {
+//BannDecal=1
+	if(idChgBann != null) {
+        	clearInterval(idChgBann);
+	}
+	chgeBann()
+	// dÃ©sactive le diaporama avec //
+	//idChgBann=setInterval("chgeBann();",pauseDiapo);
+	nodiapo=0
+}
+
+function chgeBann() {
+	if(nodiapo<dureeDiapo) {
+		currentbanniere = (currentbanniere+BannDecal)% nbannieres
+		var u= namebann(currentbanniere);
+		document.getElementById("banniereduhaut").style.background = 
+		   '#ffffff url(http://jm.davalan.org/bann/'+u+') no-repeat fixed top'
+		nodiapo++
+	} else {
+		if(idChgBann!=null) clearInterval(idChgBann);
+		nodiapo=0
+	}
+}
+
+Ôcdef_mhttp://1fr.cqcounter.com/cgi-bin/c?_id=20super&_z=4&_r=1366&_c=24&_j=Y&_t=0&_k=Y&_l=https%3A//www.google.com/Ošbplist00ÔijX$versionX$objectsY$archiverT$top † ¯#)*0123MNOPQRSTUVWXYZ[\]^_`adU$nullİ	
+ !"R$6S$10R$2R$7R$3S$11R$8V$classR$4R$9R$0R$5R$1€	€€€ €€€€Ó$%'(WNS.base[NS.relative€ €€_mhttp://1fr.cqcounter.com/cgi-bin/c?_id=20super&_z=4&_r=1366&_c=24&_j=Y&_t=0&_k=Y&_l=https%3A//www.google.com/Ò+,-.Z$classnameX$classesUNSURL¢-/XNSObject#A¼Lä“É ÈÓ456ALWNS.keysZNS.objectsª789:;<=>?@€	€
+€€€€€€€€ªBDEFGHIJK€€€€€€€€€€€VPragma\Content-TypeZSet-Cookie]Last-ModifiedVServer]Cache-ControlTDate^Content-LengthWExpiresZConnectionXno-cacheYimage/gif_-mdi=1; expires=Wed, 31-Dec-2036 23:59:59 GMT;_ Monday, 31 Dec 2020 05:00:00 GMTVApache_no-cache, must-revalidate_Tue, 01 Dec 2015 16:26:05 GMTS182_Mon, 26 Jul 1997 05:00:00 GMTUcloseÒ+,bc\NSDictionary¢b/Ò+,ef_NSHTTPURLResponse£gh/_NSHTTPURLResponse]NSURLResponse_NSKeyedArchiverÑkl_WebResourceResponse€    # - 2 7 Y _ z }  „ ‡ Š  ‘ ˜ ›  ¡ ¤ § © « ­ ¯ ± ² ´ ¶ ¸ º ¼ ¾ À Ç Ï Û İ ß áQVajps|…‡‰˜£®°²´¶¸º¼¾ÀÂÍÏÑÓÕ×ÙÛİßáãê÷%*9ALU_²¹Õõù$149MQes…ˆ             m               O¶GIF89aF  ‘   p– Š¨ÿÿÿ   ,    F   „™Áí£œOYK³ŞîúÃ…bõyã"Âºl6¯€Ê´xÀ¹°ÇÁZƒ q.ÊĞÙ„,Æ8s6Sh£wÄ–'ÍK•†Åá×µ˜Ğ)É\èÍ-RÍr†ß²Éğòû{3Æu–„”·&È÷'X—pÄR4é3ç%6'ÕôX’g4JiIJjŠ‘ÚZ  ;Yimage/gifÔhij_1http://jm.davalan.org/mots/comb/comb/devbinom.pngObplist00ÔefX$versionX$objectsY$archiverT$top † ¯#)*0123KLMNOPQRSTUVWXYZ[\]`U$nullİ	
+ !"R$6S$10R$2R$7R$3S$11R$8V$classR$4R$9R$0R$5R$1€	€€€ €€€€Ó$%'(WNS.base[NS.relative€ €€_1http://jm.davalan.org/mots/comb/comb/devbinom.pngÒ+,-.Z$classnameX$classesUNSURL¢-/XNSObject#A¼Lä¤+ ÈÓ456@JWNS.keysZNS.objects©789:;<=>?€	€
+€€€€€€€©ABDEFGHI€€€€€€€€€€ZConnectionVServer\Content-Type]Last-Modified]Accept-RangesTDate^Content-LengthZKeep-AliveTEtagZKeep-AliveVApacheYimage/png_Wed, 04 Oct 2006 19:57:39 GMTUbytes_Tue, 01 Dec 2015 16:26:04 GMTS975_timeout=2, max=196_"48c57be3-3cf-41f01a6b2b2c0"Ò+,^_\NSDictionary¢^/Ò+,ab_NSHTTPURLResponse£cd/_NSHTTPURLResponse]NSURLResponse_NSKeyedArchiverÑgh_WebResourceResponse€    # - 2 7 W ] x {  ‚ … ˆ Œ  – ™ œ Ÿ ¢ ¥ § © « ­ ¯ ° ² ´ ¶ ¸ º ¼ ¾ Å Í Ù Û İ ß#,25>GIKRZeoqsuwy{}‹‘“•—™›Ÿª±¾ÌÚßîùş	:@`dy˜ª­²ÆÊŞìş             i              OÏ‰PNG
+
+   IHDR  4       nŸ™•   0PLTEÿÿÿ™™™wwwUUUîîî333ÌÌÌªªªˆˆˆfff   DDDİİİ"""»»»!•   tRNS @æØf  MIDATX…ÍXAhAıÙÄMÛmš¨®ëAĞ âMÙK/VB/=1·zQcj	Å´wÁ
+zğÖK‚àö°§^D
+B!J)èAK)Öş™Ù™lw“ô§_èìüİÿş¾üìü?[€Xî”ëV/¼÷èFË(-i9ıÖq™Ù
+¿Ò6‰f1Gtz GÂp‚ùş™Ohqr=£Ñ´Õ4³ÂÆé:)ÎgèÜI';·ê‰|ö^¬‘Ü;ØÛmÀO
+7kÃÙ§ ‘c0àr<Æéu€%¼ÅIJ˜ds;@#Çá’ƒÃş7€T–á{0îtÍı[•³{Öë:ypÖî&†¹­[wuc,ÏFó‡‘òé<$+]K%m¥Á#ĞÉ#f©›7µùQV4sÆŸÈ¢dØlp'D¸] •:vNáärÉr]ÈT 0ö’?e¡,–Ÿü+uùŒŸÑaÿ˜õØ8ª´[líÂR$¿}TåÉ÷ “EôgEĞò
+Qr×áâù	ef¼lqF¹Í‹ãˆ#foó&áK3j“¢]`$^_¤İ¬Ii› ‘ïğè"ña5Œ¯kª¹»ÙĞLîè²ŸÿI-;< :u”ƒ
+åÂê‹²^U'7Ú$
+ù[!-¬‘4]wM“&1m‡¤¡³Ö$,ÑÁğ£T×—…€,NjÒDËò!îØb ?¤åÖF1&k0VKÎ*k©wƒa}QvTÖ$9&kŒß¢e}äûyÍ­e<İ®i·àN¾³·öcu%pÁú¢ì(i­d~ÁÃÏ°4òéº––Šì¹Nò¿¤\Ğ€8X±'å28@n¿B¡µ®µn„ü’”
+C‚å‡r›nàO­”\Ööı&–‰ä8ì°aÿšÃ‚dTQÙ&’c`–åÎÛ{âÄ8À1‡†ºßDrgà¦èå'€.nŠ ³M$wÆ\hW .S¸Ù€‘ÜÉº9eC*O"cÊß®QÉíp
+×=¾¶E|{ym!’Ûaë>šÀiZÑ9‰ähàÖ…µJ^ÒY‰Ó›ó¡À^‘ÉähŒ–PÚÖô‘Æ<ˆ,ğgíƒáôY@<´=c_ğ´}Áãé    IEND®B`‚Ôlmno_)http://www.google-analytics.com/urchin.jsOjbplist00ÔmnX$versionX$objectsY$archiverT$top † ¯!#)*0123OPQRSTUVWXYZ[\]^_`abcdehU$nullİ	
+ !"R$6S$10R$2R$7R$3S$11R$8V$classR$4R$9R$0R$5R$1€	€€€ € €€€Ó$%'(WNS.base[NS.relative€ €€_)http://www.google-analytics.com/urchin.jsÒ+,-.Z$classnameX$classesUNSURL¢-/XNSObject#A¼Lä´ ÈÓ456BNWNS.keysZNS.objects«789:;<=>?@A€	€
+€€€€€€€€€«CEFGHIJKLM€€€€€€€€€€€€VServer\Content-Type_X-Content-Type-Options]Last-ModifiedTVarySAgeTDate_Content-Encoding^Content-LengthWExpires]Cache-ControlWGFE/2.0_text/javascriptWnosniff_Thu, 05 Nov 2015 22:24:16 GMT_Accept-EncodingV439927_Thu, 26 Nov 2015 14:13:46 GMTTgzipT6847_Thu, 10 Dec 2015 14:13:46 GMT_public, max-age=1209600Ò+,fg\NSDictionary¢f/Ò+,ij_NSHTTPURLResponse£kl/_NSHTTPURLResponse]NSURLResponse_NSKeyedArchiverÑop_WebResourceResponse€    # - 2 7 [ a |  ƒ † ‰ Œ  “ š    £ ¦ © « ­ ¯ ± ³ ´ ¶ ¸ º ¼ ¾ À Â É Ñ İ ß á ã(.1:CEGNVamoqsuwy{}ƒ‘“•—™›Ÿ¡£¥§®»Ôâçëğ(0BJj|ƒ£¨­Íçìùü-;MPf             q              hOX–//-- Google Analytics Urchin Module
+//-- Copyright 2007 Google, All Rights Reserved.
+
+//-- Urchin On Demand Settings ONLY
+var _uacct="";			// set up the Urchin Account
+var _userv=1;			// service mode (0=local,1=remote,2=both)
+
+//-- UTM User Settings
+var _ufsc=1;			// set client info flag (1=on|0=off)
+var _udn="auto";		// (auto|none|domain) set the domain name for cookies
+var _uhash="on";		// (on|off) unique domain hash for cookies
+var _utimeout="1800";   	// set the inactive session timeout in seconds
+var _ugifpath="/__utm.gif";	// set the web path to the __utm.gif file
+var _utsp="|";			// transaction field separator
+var _uflash=1;			// set flash version detect option (1=on|0=off)
+var _utitle=1;			// set the document title detect option (1=on|0=off)
+var _ulink=0;			// enable linker functionality (1=on|0=off)
+var _uanchor=0;			// enable use of anchors for campaign (1=on|0=off)
+var _utcp="/";			// the cookie path for tracking
+var _usample=100;		// The sampling % of visitors to track (1-100).
+
+//-- UTM Campaign Tracking Settings
+var _uctm=1;			// set campaign tracking module (1=on|0=off)
+var _ucto="15768000";		// set timeout in seconds (6 month default)
+var _uccn="utm_campaign";	// name
+var _ucmd="utm_medium";		// medium (cpc|cpm|link|email|organic)
+var _ucsr="utm_source";		// source
+var _uctr="utm_term";		// term/keyword
+var _ucct="utm_content";	// content
+var _ucid="utm_id";		// id number
+var _ucno="utm_nooverride";	// don't override
+
+//-- Auto/Organic Sources and Keywords
+var _uOsr=new Array();
+var _uOkw=new Array();
+_uOsr[0]="google";	_uOkw[0]="q";
+_uOsr[1]="yahoo";	_uOkw[1]="p";
+_uOsr[2]="msn";		_uOkw[2]="q";
+_uOsr[3]="aol";		_uOkw[3]="query";
+_uOsr[4]="aol";		_uOkw[4]="encquery";
+_uOsr[5]="lycos";	_uOkw[5]="query";
+_uOsr[6]="ask";		_uOkw[6]="q";
+_uOsr[7]="altavista";	_uOkw[7]="q";
+_uOsr[8]="netscape";	_uOkw[8]="query";
+_uOsr[9]="cnn";	_uOkw[9]="query";
+_uOsr[10]="looksmart";	_uOkw[10]="qt";
+_uOsr[11]="about";	_uOkw[11]="terms";
+_uOsr[12]="mamma";	_uOkw[12]="query";
+_uOsr[13]="alltheweb";	_uOkw[13]="q";
+_uOsr[14]="gigablast";	_uOkw[14]="q";
+_uOsr[15]="voila";	_uOkw[15]="rdata";
+_uOsr[16]="virgilio";	_uOkw[16]="qs";
+_uOsr[17]="live";	_uOkw[17]="q";
+_uOsr[18]="baidu";	_uOkw[18]="wd";
+_uOsr[19]="alice";	_uOkw[19]="qs";
+_uOsr[20]="yandex";	_uOkw[20]="text";
+_uOsr[21]="najdi";	_uOkw[21]="q";
+_uOsr[22]="aol";	_uOkw[22]="q";
+_uOsr[23]="club-internet"; _uOkw[23]="query";
+_uOsr[24]="mama";	_uOkw[24]="query";
+_uOsr[25]="seznam";	_uOkw[25]="q";
+_uOsr[26]="search";	_uOkw[26]="q";
+_uOsr[27]="wp";	_uOkw[27]="szukaj";
+_uOsr[28]="onet";	_uOkw[28]="qt";
+_uOsr[29]="netsprint";	_uOkw[29]="q";
+_uOsr[30]="google.interia";	_uOkw[30]="q";
+_uOsr[31]="szukacz";	_uOkw[31]="q";
+_uOsr[32]="yam";	_uOkw[32]="k";
+_uOsr[33]="pchome";	_uOkw[33]="q";
+_uOsr[34]="kvasir";	_uOkw[34]="searchExpr";
+_uOsr[35]="sesam";	_uOkw[35]="q";
+_uOsr[36]="ozu"; _uOkw[36]="q";
+_uOsr[37]="terra"; _uOkw[37]="query";
+_uOsr[38]="nostrum"; _uOkw[38]="query";
+_uOsr[39]="mynet"; _uOkw[39]="q";
+_uOsr[40]="ekolay"; _uOkw[40]="q";
+_uOsr[41]="search.ilse"; _uOkw[41]="search_for";
+_uOsr[42]="bing"; _uOkw[42]="q";
+
+//-- Auto/Organic Keywords to Ignore
+var _uOno=new Array();
+//_uOno[0]="urchin";
+//_uOno[1]="urchin.com";
+//_uOno[2]="www.urchin.com";
+
+//-- Referral domains to Ignore
+var _uRno=new Array();
+//_uRno[0]=".urchin.com";
+
+//-- **** Don't modify below this point ***
+var _uff,_udh,_udt,_ubl=0,_udo="",_uu,_ufns=0,_uns=0,_ur="-",_ufno=0,_ust=0,_ubd=document,_udl=_ubd.location,_udlh="",_uwv="1.4";
+var _ugifpath2="http://www.google-analytics.com/__utm.gif";
+if (_udl.hash) _udlh=_udl.href.substring(_udl.href.indexOf('#'));
+if (_udl.protocol=="https:") _ugifpath2="https://ssl.google-analytics.com/__utm.gif";
+if (!_utcp || _utcp=="") _utcp="/";
+function urchinTracker(page) {
+ if (_udl.protocol=="file:") return;
+ if (_uff && (!page || page=="")) return;
+ var a,b,c,xx,v,z,k,x="",s="",f=0,nv=0;
+ var nx=" expires="+_uNx()+";";
+ var dc=_ubd.cookie;
+ _udh=_uDomain();
+ if (!_uVG()) return;
+ _uu=Math.round(Math.random()*2147483647);
+ _udt=new Date();
+ _ust=Math.round(_udt.getTime()/1000);
+ a=dc.indexOf("__utma="+_udh+".");
+ b=dc.indexOf("__utmb="+_udh);
+ c=dc.indexOf("__utmc="+_udh);
+ if (_udn && _udn!="") { _udo=" domain="+_udn+";"; }
+ if (_utimeout && _utimeout!="") {
+  x=new Date(_udt.getTime()+(_utimeout*1000));
+  x=" expires="+x.toGMTString()+";";
+ }
+ if (_ulink) {
+  if (_uanchor && _udlh && _udlh!="") s=_udlh+"&";
+  s+=_udl.search;
+  if(s && s!="" && s.indexOf("__utma=")>=0) {
+   if (!(_uIN(a=_uGC(s,"__utma=","&")))) a="-";
+   if (!(_uIN(b=_uGC(s,"__utmb=","&")))) b="-";
+   if (!(_uIN(c=_uGC(s,"__utmc=","&")))) c="-";
+   v=_uGC(s,"__utmv=","&");
+   z=_uGC(s,"__utmz=","&");
+   k=_uGC(s,"__utmk=","&");
+   xx=_uGC(s,"__utmx=","&");
+   if ((k*1) != ((_uHash(a+b+c+xx+z+v)*1)+(_udh*1))) {_ubl=1;a="-";b="-";c="-";xx="-";z="-";v="-";}
+   if (a!="-" && b!="-" && c!="-") f=1;
+   else if(a!="-") f=2;
+  }
+ }
+ if(f==1) {
+  _ubd.cookie="__utma="+a+"; path="+_utcp+";"+nx+_udo;
+  _ubd.cookie="__utmb="+b+"; path="+_utcp+";"+x+_udo;
+  _ubd.cookie="__utmc="+c+"; path="+_utcp+";"+_udo;
+ } else if (f==2) {
+  a=_uFixA(s,"&",_ust);
+  _ubd.cookie="__utma="+a+"; path="+_utcp+";"+nx+_udo;
+  _ubd.cookie="__utmb="+_udh+"; path="+_utcp+";"+x+_udo;
+  _ubd.cookie="__utmc="+_udh+"; path="+_utcp+";"+_udo;
+  _ufns=1;
+ } else if (a>=0 && b>=0 && c>=0) {
+   b = _uGC(dc,"__utmb="+_udh,";");
+   b = ("-" == b) ? _udh : b;  
+  _ubd.cookie="__utmb="+b+"; path="+_utcp+";"+x+_udo;
+ } else {
+  if (a>=0) a=_uFixA(_ubd.cookie,";",_ust);
+  else {
+   a=_udh+"."+_uu+"."+_ust+"."+_ust+"."+_ust+".1";
+   nv=1;
+  }
+  _ubd.cookie="__utma="+a+"; path="+_utcp+";"+nx+_udo;
+  _ubd.cookie="__utmb="+_udh+"; path="+_utcp+";"+x+_udo;
+  _ubd.cookie="__utmc="+_udh+"; path="+_utcp+";"+_udo;
+  _ufns=1;
+ }
+ if (_ulink && xx && xx!="" && xx!="-") {
+   xx=_uUES(xx);
+   if (xx.indexOf(";")==-1) _ubd.cookie="__utmx="+xx+"; path="+_utcp+";"+nx+_udo;
+ }
+ if (_ulink && v && v!="" && v!="-") {
+  v=_uUES(v);
+  if (v.indexOf(";")==-1) _ubd.cookie="__utmv="+v+"; path="+_utcp+";"+nx+_udo;
+ }
+ var wc=window;
+ var c=_ubd.cookie;
+ if(wc && wc.gaGlobal && wc.gaGlobal.dh==_udh){
+  var g=wc.gaGlobal;
+  var ua=c.split("__utma="+_udh+".")[1].split(";")[0].split(".");
+  if(g.sid)ua[3]=g.sid;
+  if(nv>0){
+   ua[2]=ua[3];
+   if(g.vid){
+    var v=g.vid.split(".");
+    ua[0]=v[0];
+    ua[1]=v[1];
+   }
+  }
+  _ubd.cookie="__utma="+_udh+"."+ua.join(".")+"; path="+_utcp+";"+nx+_udo;
+ }
+ _uInfo(page);
+ _ufns=0;
+ _ufno=0;
+ if (!page || page=="") _uff=1;
+}
+function _uGH() {
+ var hid;
+ var wc=window;
+ if (wc && wc.gaGlobal && wc.gaGlobal.hid) {
+  hid=wc.gaGlobal.hid;
+ } else {
+  hid=Math.round(Math.random()*0x7fffffff);
+  if (!wc.gaGlobal) wc.gaGlobal={};
+  wc.gaGlobal.hid=hid;
+ }
+ return hid;
+}
+function _uInfo(page) {
+ var p,s="",dm="",pg=_udl.pathname+_udl.search;
+ if (page && page!="") pg=_uES(page,1);
+ _ur=_ubd.referrer;
+ if (!_ur || _ur=="") { _ur="-"; }
+ else {
+  dm=_ubd.domain;
+  if(_utcp && _utcp!="/") dm+=_utcp;
+  p=_ur.indexOf(dm);
+  if ((p>=0) && (p<=8)) { _ur="0"; }
+  if (_ur.indexOf("[")==0 && _ur.lastIndexOf("]")==(_ur.length-1)) { _ur="-"; }
+ }
+ s+="&utmn="+_uu;
+ if (_ufsc) s+=_uBInfo();
+ if (_uctm) s+=_uCInfo();
+ if (_utitle && _ubd.title && _ubd.title!="") s+="&utmdt="+_uES(_ubd.title);
+ if (_udl.hostname && _udl.hostname!="") s+="&utmhn="+_uES(_udl.hostname);
+ if (_usample && _usample != 100) s+="&utmsp="+_uES(_usample);
+ s+="&utmhid="+_uGH();
+ s+="&utmr="+_ur;
+ s+="&utmp="+pg;
+ if ((_userv==0 || _userv==2) && _uSP()) {
+  var i=new Image(1,1);
+  i.src=_ugifpath+"?"+"utmwv="+_uwv+s;
+  i.onload=function() { _uVoid(); }
+ }
+ if ((_userv==1 || _userv==2) && _uSP()) {
+  var i2=new Image(1,1);
+  i2.src=_ugifpath2+"?"+"utmwv="+_uwv+s+"&utmac="+_uacct+"&utmcc="+_uGCS();
+  i2.onload=function() { _uVoid(); }
+ }
+ return;
+}
+function _uVoid() { return; }
+function _uCInfo() {
+ if (!_ucto || _ucto=="") { _ucto="15768000"; }
+ if (!_uVG()) return;
+ var c="",t="-",t2="-",t3="-",o=0,cs=0,cn=0,i=0,z="-",s="";
+ if (_uanchor && _udlh && _udlh!="") s=_udlh+"&";
+ s+=_udl.search;
+ var x=new Date(_udt.getTime()+(_ucto*1000));
+ var dc=_ubd.cookie;
+ x=" expires="+x.toGMTString()+";";
+ if (_ulink && !_ubl) {
+  z=_uUES(_uGC(s,"__utmz=","&"));
+  if (z!="-" && z.indexOf(";")==-1) { _ubd.cookie="__utmz="+z+"; path="+_utcp+";"+x+_udo; return ""; }
+ }
+ z=dc.indexOf("__utmz="+_udh+".");
+ if (z>-1) { z=_uGC(dc,"__utmz="+_udh+".",";"); }
+ else { z="-"; }
+ t=_uGC(s,_ucid+"=","&");
+ t2=_uGC(s,_ucsr+"=","&");
+ t3=_uGC(s,"gclid=","&");
+ if ((t!="-" && t!="") || (t2!="-" && t2!="") || (t3!="-" && t3!="")) {
+  if (t!="-" && t!="") c+="utmcid="+_uEC(t);
+  if (t2!="-" && t2!="") { if (c != "") c+="|"; c+="utmcsr="+_uEC(t2); }
+  if (t3!="-" && t3!="") { if (c != "") c+="|"; c+="utmgclid="+_uEC(t3); }
+  t=_uGC(s,_uccn+"=","&");
+  if (t!="-" && t!="") c+="|utmccn="+_uEC(t);
+  else c+="|utmccn=(not+set)";
+  t=_uGC(s,_ucmd+"=","&");
+  if (t!="-" && t!="") c+="|utmcmd="+_uEC(t);
+  else  c+="|utmcmd=(not+set)";
+  t=_uGC(s,_uctr+"=","&");
+  if (t!="-" && t!="") c+="|utmctr="+_uEC(t);
+  else { t=_uOrg(1); if (t!="-" && t!="") c+="|utmctr="+_uEC(t); }
+  t=_uGC(s,_ucct+"=","&");
+  if (t!="-" && t!="") c+="|utmcct="+_uEC(t);
+  t=_uGC(s,_ucno+"=","&");
+  if (t=="1") o=1;
+  if (z!="-" && o==1) return "";
+ }
+ if (c=="-" || c=="") { c=_uOrg(); if (z!="-" && _ufno==1)  return ""; }
+ if (c=="-" || c=="") { if (_ufns==1)  c=_uRef(); if (z!="-" && _ufno==1)  return ""; }
+ if (c=="-" || c=="") {
+  if (z=="-" && _ufns==1) { c="utmccn=(direct)|utmcsr=(direct)|utmcmd=(none)"; }
+  if (c=="-" || c=="") return "";
+ }
+ if (z!="-") {
+  i=z.indexOf(".");
+  if (i>-1) i=z.indexOf(".",i+1);
+  if (i>-1) i=z.indexOf(".",i+1);
+  if (i>-1) i=z.indexOf(".",i+1);
+  t=z.substring(i+1,z.length);
+  if (t.toLowerCase()==c.toLowerCase()) cs=1;
+  t=z.substring(0,i);
+  if ((i=t.lastIndexOf(".")) > -1) {
+   t=t.substring(i+1,t.length);
+   cn=(t*1);
+  }
+ }
+ if (cs==0 || _ufns==1) {
+  t=_uGC(dc,"__utma="+_udh+".",";");
+  if ((i=t.lastIndexOf(".")) > 9) {
+   _uns=t.substring(i+1,t.length);
+   _uns=(_uns*1);
+  }
+  cn++;
+  if (_uns==0) _uns=1;
+  _ubd.cookie="__utmz="+_udh+"."+_ust+"."+_uns+"."+cn+"."+c+"; path="+_utcp+"; "+x+_udo;
+ }
+ if (cs==0 || _ufns==1) return "&utmcn=1";
+ else return "&utmcr=1";
+}
+function _uRef() {
+ if (_ur=="0" || _ur=="" || _ur=="-") return "";
+ var i=0,h,k,n;
+ if ((i=_ur.indexOf("://"))<0 || _uGCse()) return "";
+ h=_ur.substring(i+3,_ur.length);
+ if (h.indexOf("/") > -1) {
+  k=h.substring(h.indexOf("/"),h.length);
+  if (k.indexOf("?") > -1) k=k.substring(0,k.indexOf("?"));
+  h=h.substring(0,h.indexOf("/"));
+ }
+ h=h.toLowerCase();
+ n=h;
+ if ((i=n.indexOf(":")) > -1) n=n.substring(0,i);
+ for (var ii=0;ii<_uRno.length;ii++) {
+  if ((i=n.indexOf(_uRno[ii].toLowerCase())) > -1 && n.length==(i+_uRno[ii].length)) { _ufno=1; break; }
+ }
+ if (h.indexOf("www.")==0) h=h.substring(4,h.length);
+ return "utmccn=(referral)|utmcsr="+_uEC(h)+"|"+"utmcct="+_uEC(k)+"|utmcmd=referral";
+}
+function _uOrg(t) {
+ if (_ur=="0" || _ur=="" || _ur=="-") return "";
+ var i=0,h,k;
+ if ((i=_ur.indexOf("://"))<0 || _uGCse()) return "";
+ h=_ur.substring(i+3,_ur.length);
+ if (h.indexOf("/") > -1) {
+  h=h.substring(0,h.indexOf("/"));
+ }
+ for (var ii=0;ii<_uOsr.length;ii++) {
+  if (h.toLowerCase().indexOf(_uOsr[ii].toLowerCase()) > -1) {
+   if ((i=_ur.indexOf("?"+_uOkw[ii]+"=")) > -1 || (i=_ur.indexOf("&"+_uOkw[ii]+"=")) > -1) {
+    k=_ur.substring(i+_uOkw[ii].length+2,_ur.length);
+    if ((i=k.indexOf("&")) > -1) k=k.substring(0,i);
+    for (var yy=0;yy<_uOno.length;yy++) {
+     if (_uOno[yy].toLowerCase()==k.toLowerCase()) { _ufno=1; break; }
+    }
+    if (t) return _uEC(k);
+    else return "utmccn=(organic)|utmcsr="+_uEC(_uOsr[ii])+"|"+"utmctr="+_uEC(k)+"|utmcmd=organic";
+   }
+  }
+ }
+ return "";
+}
+function _uGCse() {
+ var h,p;
+ h=p=_ur.split("://")[1];
+ if(h.indexOf("/")>-1) {
+  h=h.split("/")[0];
+  p=p.substring(p.indexOf("/")+1,p.length);
+ }
+ if(p.indexOf("?")>-1) {
+  p=p.split("?")[0];
+ }
+ if(h.toLowerCase().indexOf("google")>-1) {
+  if(_ur.indexOf("?q=")>-1 || _ur.indexOf("&q=")>-1) {
+   if (p.toLowerCase().indexOf("cse")>-1) {
+    return true;
+   }
+  }
+ }
+}
+function _uBInfo() {
+ var sr="-",sc="-",ul="-",fl="-",cs="-",je=1;
+ var n=navigator;
+ if (self.screen) {
+  sr=screen.width+"x"+screen.height;
+  sc=screen.colorDepth+"-bit";
+ } else if (self.java) {
+  var j=java.awt.Toolkit.getDefaultToolkit();
+  var s=j.getScreenSize();
+  sr=s.width+"x"+s.height;
+ }
+ if (n.language) { ul=n.language.toLowerCase(); }
+ else if (n.browserLanguage) { ul=n.browserLanguage.toLowerCase(); }
+ je=n.javaEnabled()?1:0;
+ if (_uflash) fl=_uFlash();
+ if (_ubd.characterSet) cs=_uES(_ubd.characterSet);
+ else if (_ubd.charset) cs=_uES(_ubd.charset);
+ return "&utmcs="+cs+"&utmsr="+sr+"&utmsc="+sc+"&utmul="+ul+"&utmje="+je+"&utmfl="+fl;
+}
+function __utmSetTrans() {
+ var e;
+ if (_ubd.getElementById) e=_ubd.getElementById("utmtrans");
+ else if (_ubd.utmform && _ubd.utmform.utmtrans) e=_ubd.utmform.utmtrans;
+ if (!e) return;
+ var l=e.value.split("UTM:");
+ var i,i2,c;
+ if (_userv==0 || _userv==2) i=new Array();
+ if (_userv==1 || _userv==2) { i2=new Array(); c=_uGCS(); }
+
+ for (var ii=0;ii<l.length;ii++) {
+  l[ii]=_uTrim(l[ii]);
+  if (l[ii].charAt(0)!='T' && l[ii].charAt(0)!='I') continue;
+  var r=Math.round(Math.random()*2147483647);
+  if (!_utsp || _utsp=="") _utsp="|";
+  var f=l[ii].split(_utsp),s="";
+  if (f[0].charAt(0)=='T') {
+   s="&utmt=tran"+"&utmn="+r;
+   f[1]=_uTrim(f[1]); if(f[1]&&f[1]!="") s+="&utmtid="+_uES(f[1]);
+   f[2]=_uTrim(f[2]); if(f[2]&&f[2]!="") s+="&utmtst="+_uES(f[2]);
+   f[3]=_uTrim(f[3]); if(f[3]&&f[3]!="") s+="&utmtto="+_uES(f[3]);
+   f[4]=_uTrim(f[4]); if(f[4]&&f[4]!="") s+="&utmttx="+_uES(f[4]);
+   f[5]=_uTrim(f[5]); if(f[5]&&f[5]!="") s+="&utmtsp="+_uES(f[5]);
+   f[6]=_uTrim(f[6]); if(f[6]&&f[6]!="") s+="&utmtci="+_uES(f[6]);
+   f[7]=_uTrim(f[7]); if(f[7]&&f[7]!="") s+="&utmtrg="+_uES(f[7]);
+   f[8]=_uTrim(f[8]); if(f[8]&&f[8]!="") s+="&utmtco="+_uES(f[8]);
+  } else {
+   s="&utmt=item"+"&utmn="+r;
+   f[1]=_uTrim(f[1]); if(f[1]&&f[1]!="") s+="&utmtid="+_uES(f[1]);
+   f[2]=_uTrim(f[2]); if(f[2]&&f[2]!="") s+="&utmipc="+_uES(f[2]);
+   f[3]=_uTrim(f[3]); if(f[3]&&f[3]!="") s+="&utmipn="+_uES(f[3]);
+   f[4]=_uTrim(f[4]); if(f[4]&&f[4]!="") s+="&utmiva="+_uES(f[4]);
+   f[5]=_uTrim(f[5]); if(f[5]&&f[5]!="") s+="&utmipr="+_uES(f[5]);
+   f[6]=_uTrim(f[6]); if(f[6]&&f[6]!="") s+="&utmiqt="+_uES(f[6]);
+  }
+  if (_udl.hostname && _udl.hostname!="") s+="&utmhn="+_uES(_udl.hostname);
+  if (_usample && _usample != 100) s+="&utmsp="+_uES(_usample);
+
+  if ((_userv==0 || _userv==2) && _uSP()) {
+   i[ii]=new Image(1,1);
+   i[ii].src=_ugifpath+"?"+"utmwv="+_uwv+s;
+   i[ii].onload=function() { _uVoid(); }
+  }
+  if ((_userv==1 || _userv==2) && _uSP()) {
+   i2[ii]=new Image(1,1);
+   i2[ii].src=_ugifpath2+"?"+"utmwv="+_uwv+s+"&utmac="+_uacct+"&utmcc="+c;
+   i2[ii].onload=function() { _uVoid(); }
+  }
+ }
+ return;
+}
+function _uFlash() {
+ var f="-",n=navigator;
+ if (n.plugins && n.plugins.length) {
+  for (var ii=0;ii<n.plugins.length;ii++) {
+   if (n.plugins[ii].name.indexOf('Shockwave Flash')!=-1) {
+    f=n.plugins[ii].description.split('Shockwave Flash ')[1];
+    break;
+   }
+  }
+ } else {
+  var fl;
+  try {
+   fl = new ActiveXObject("ShockwaveFlash.ShockwaveFlash.7");
+   f = fl.GetVariable("$version");
+  } catch(e) {}
+  if (f == "-") {
+   try {
+    fl = new ActiveXObject("ShockwaveFlash.ShockwaveFlash.6");
+    f = "WIN 6,0,21,0";
+    fl.AllowScriptAccess = "always";
+    f = fl.GetVariable("$version");
+   } catch(e) {}
+  }
+  if (f == "-") {
+   try {
+    fl = new ActiveXObject("ShockwaveFlash.ShockwaveFlash");
+    f = fl.GetVariable("$version");
+   } catch(e) {}
+  }
+  if (f != "-") {
+   f = f.split(" ")[1].split(",");
+   f = f[0] + "." + f[1] + " r" + f[2];
+  }
+ }
+ return f;
+}
+function __utmLinkerUrl(l,h) {
+ var p,k,a="-",b="-",c="-",x="-",z="-",v="-";
+ var dc=_ubd.cookie;
+ var iq = l.indexOf("?");
+ var ih = l.indexOf("#");
+ var url=l;
+ if (dc) {
+  a=_uES(_uGC(dc,"__utma="+_udh+".",";"));
+  b=_uES(_uGC(dc,"__utmb="+_udh,";"));
+  c=_uES(_uGC(dc,"__utmc="+_udh,";"));
+  x=_uES(_uGC(dc,"__utmx="+_udh,";"));
+  z=_uES(_uGC(dc,"__utmz="+_udh+".",";"));
+  v=_uES(_uGC(dc,"__utmv="+_udh+".",";"));
+  k=(_uHash(a+b+c+x+z+v)*1)+(_udh*1);
+  p="__utma="+a+"&__utmb="+b+"&__utmc="+c+"&__utmx="+x+"&__utmz="+z+"&__utmv="+v+"&__utmk="+k;
+ }
+ if (p) {
+  if (h && ih>-1) return;
+  if (h) { url=l+"#"+p; }
+  else {
+   if (iq==-1 && ih==-1) url=l+"?"+p;
+   else if (ih==-1) url=l+"&"+p;
+   else if (iq==-1) url=l.substring(0,ih-1)+"?"+p+l.substring(ih);
+   else url=l.substring(0,ih-1)+"&"+p+l.substring(ih);
+  }
+ }
+ return url;
+}
+function __utmLinker(l,h) {
+ if (!_ulink || !l || l=="") return;
+ _udl.href=__utmLinkerUrl(l,h);
+}
+function __utmLinkPost(f,h) {
+ if (!_ulink || !f || !f.action) return;
+ f.action=__utmLinkerUrl(f.action, h);
+ return;
+}
+function __utmSetVar(v) {
+ if (!v || v=="") return;
+ if (!_udo || _udo == "") {
+  _udh=_uDomain();
+  if (_udn && _udn!="") { _udo=" domain="+_udn+";"; }
+ }
+ if (!_uVG()) return;
+ var r=Math.round(Math.random() * 2147483647);
+ _ubd.cookie="__utmv="+_udh+"."+_uES(v)+"; path="+_utcp+"; expires="+_uNx()+";"+_udo;
+ var s="&utmt=var&utmn="+r;
+ if (_usample && _usample != 100) s+="&utmsp="+_uES(_usample);
+ if ((_userv==0 || _userv==2) && _uSP()) {
+  var i=new Image(1,1);
+  i.src=_ugifpath+"?"+"utmwv="+_uwv+s;
+  i.onload=function() { _uVoid(); }
+ }
+ if ((_userv==1 || _userv==2) && _uSP()) {
+  var i2=new Image(1,1);
+  i2.src=_ugifpath2+"?"+"utmwv="+_uwv+s+"&utmac="+_uacct+"&utmcc="+_uGCS();
+  i2.onload=function() { _uVoid(); }
+ }
+}
+function _uGCS() {
+ var t,c="",dc=_ubd.cookie;
+ if ((t=_uGC(dc,"__utma="+_udh+".",";"))!="-") c+=_uES("__utma="+t+";+");
+ if ((t=_uGC(dc,"__utmx="+_udh,";"))!="-") c+=_uES("__utmx="+t+";+");
+ if ((t=_uGC(dc,"__utmz="+_udh+".",";"))!="-") c+=_uES("__utmz="+t+";+");
+ if ((t=_uGC(dc,"__utmv="+_udh+".",";"))!="-") c+=_uES("__utmv="+t+";");
+ if (c.charAt(c.length-1)=="+") c=c.substring(0,c.length-1);
+ return c;
+}
+function _uGC(l,n,s) {
+ if (!l || l=="" || !n || n=="" || !s || s=="") return "-";
+ var i,i2,i3,c="-";
+ i=l.indexOf(n);
+ i3=n.indexOf("=")+1;
+ if (i > -1) {
+  i2=l.indexOf(s,i); if (i2 < 0) { i2=l.length; }
+  c=l.substring((i+i3),i2);
+ }
+ return c;
+}
+function _uDomain() {
+ if (!_udn || _udn=="" || _udn=="none") { _udn=""; return 1; }
+ if (_udn=="auto") {
+  var d=_ubd.domain;
+  if (d.substring(0,4)=="www.") {
+   d=d.substring(4,d.length);
+  }
+  _udn=d;
+ }
+ _udn = _udn.toLowerCase(); 
+ if (_uhash=="off") return 1;
+ return _uHash(_udn);
+}
+function _uHash(d) {
+ if (!d || d=="") return 1;
+ var h=0,g=0;
+ for (var i=d.length-1;i>=0;i--) {
+  var c=parseInt(d.charCodeAt(i));
+  h=((h << 6) & 0xfffffff) + c + (c << 14);
+  if ((g=h & 0xfe00000)!=0) h=(h ^ (g >> 21));
+ }
+ return h;
+}
+function _uFixA(c,s,t) {
+ if (!c || c=="" || !s || s=="" || !t || t=="") return "-";
+ var a=_uGC(c,"__utma="+_udh+".",s);
+ var lt=0,i=0;
+ if ((i=a.lastIndexOf(".")) > 9) {
+  _uns=a.substring(i+1,a.length);
+  _uns=(_uns*1)+1;
+  a=a.substring(0,i);
+  if ((i=a.lastIndexOf(".")) > 7) {
+   lt=a.substring(i+1,a.length);
+   a=a.substring(0,i);
+  }
+  if ((i=a.lastIndexOf(".")) > 5) {
+   a=a.substring(0,i);
+  }
+  a+="."+lt+"."+t+"."+_uns;
+ }
+ return a;
+}
+function _uTrim(s) {
+  if (!s || s=="") return "";
+  while ((s.charAt(0)==' ') || (s.charAt(0)=='\n') || (s.charAt(0,1)=='\r')) s=s.substring(1,s.length);
+  while ((s.charAt(s.length-1)==' ') || (s.charAt(s.length-1)=='\n') || (s.charAt(s.length-1)=='\r')) s=s.substring(0,s.length-1);
+  return s;
+}
+function _uEC(s) {
+  var n="";
+  if (!s || s=="") return "";
+  for (var i=0;i<s.length;i++) {if (s.charAt(i)==" ") n+="+"; else n+=s.charAt(i);}
+  return n;
+}
+function __utmVisitorCode(f) {
+ var r=0,t=0,i=0,i2=0,m=31;
+ var a=_uGC(_ubd.cookie,"__utma="+_udh+".",";");
+ if ((i=a.indexOf(".",0))<0) return;
+ if ((i2=a.indexOf(".",i+1))>0) r=a.substring(i+1,i2); else return "";  
+ if ((i=a.indexOf(".",i2+1))>0) t=a.substring(i2+1,i); else return "";  
+ if (f) {
+  return r;
+ } else {
+  var c=new Array('A','B','C','D','E','F','G','H','J','K','L','M','N','P','R','S','T','U','V','W','X','Y','Z','1','2','3','4','5','6','7','8','9');
+  return c[r>>28&m]+c[r>>23&m]+c[r>>18&m]+c[r>>13&m]+"-"+c[r>>8&m]+c[r>>3&m]+c[((r&7)<<2)+(t>>30&3)]+c[t>>25&m]+c[t>>20&m]+"-"+c[t>>15&m]+c[t>>10&m]+c[t>>5&m]+c[t&m];
+ }
+}
+function _uIN(n) {
+ if (!n) return false;
+ for (var i=0;i<n.length;i++) {
+  var c=n.charAt(i);
+  if ((c<"0" || c>"9") && (c!=".")) return false;
+ }
+ return true;
+}
+function _uES(s,u) {
+ if (typeof(encodeURIComponent) == 'function') {
+  if (u) return encodeURI(s);
+  else return encodeURIComponent(s);
+ } else {
+  return escape(s);
+ }
+}
+function _uUES(s) {
+ if (typeof(decodeURIComponent) == 'function') {
+  return decodeURIComponent(s);
+ } else {
+  return unescape(s);
+ }
+}
+function _uVG() {
+ if((_udn.indexOf("www.google.") == 0 || _udn.indexOf(".google.") == 0 || _udn.indexOf("google.") == 0) && _utcp=='/' && _udn.indexOf("google.org")==-1) {
+  return false;
+ }
+ return true;
+}
+function _uSP() {
+ var s=100;
+ if (_usample) s=_usample;
+ if(s>=100 || s<=0) return true;
+ return ((__utmVisitorCode(1)%10000)<(s*100));
+}
+function urchinPathCopy(p){
+ var d=document,nx,tx,sx,i,c,cs,t,h,o;
+ cs=new Array("a","b","c","v","x","z");
+ h=_uDomain(); if (_udn && _udn!="") o=" domain="+_udn+";";
+ nx=_uNx()+";";
+ tx=new Date(); tx.setTime(tx.getTime()+(_utimeout*1000));
+ tx=tx.toGMTString()+";";
+ sx=new Date(); sx.setTime(sx.getTime()+(_ucto*1000));
+ sx=sx.toGMTString()+";";
+ for (i=0;i<6;i++){
+  t=" expires=";
+  if (i==1) t+=tx; else if (i==2) t=""; else if (i==5) t+=sx; else t+=nx;
+  c=_uGC(d.cookie,"__utm"+cs[i]+"="+h,";");
+  if (c!="-") d.cookie="__utm"+cs[i]+"="+c+"; path="+p+";"+t+o;
+ }
+}
+function _uCO() {
+ if (!_utk || _utk=="" || _utk.length<10) return;
+ var d='www.google.com';
+ if (_utk.charAt(0)=='!') d='analytics.corp.google.com';
+ _ubd.cookie="GASO="+_utk+"; path="+_utcp+";"+_udo;
+ var sc=document.createElement('script');
+ sc.type='text/javascript';
+ sc.id="_gasojs";
+ sc.src='https://'+d+'/analytics/reporting/overlay_js?gaso='+_utk+'&'+Math.random();
+ document.getElementsByTagName('head')[0].appendChild(sc);  
+}
+function _uGT() {
+ var h=location.hash, a;
+ if (h && h!="" && h.indexOf("#gaso=")==0) {
+  a=_uGC(h,"gaso=","&");
+ } else {
+  a=_uGC(_ubd.cookie,"GASO=",";");
+ }
+ return a;
+}
+var _utk=_uGT();
+if (_utk && _utk!="" && _utk.length>10 && _utk.indexOf("=")==-1) {
+ if (window.addEventListener) {
+  window.addEventListener('load', _uCO, false); 
+ } else if (window.attachEvent) { 
+  window.attachEvent('onload', _uCO);
+ }
+}
+
+function _uNx() {
+  return (new Date((new Date()).getTime()+63072000000)).toGMTString();
+}
+_text/javascriptÔqrs#_,http://jm.davalan.org/mots/comb/comb/comb.jsObplist00ÔefX$versionX$objectsY$archiverT$top † ¯#)*0123KLMNOPQRSTUVWXYZ[\]`U$nullİ	
+ !"R$6S$10R$2R$7R$3S$11R$8V$classR$4R$9R$0R$5R$1€	€€€ €€€€Ó$%'(WNS.base[NS.relative€ €€_,http://jm.davalan.org/mots/comb/comb/comb.jsÒ+,-.Z$classnameX$classesUNSURL¢-/XNSObject#A¼LäÔg ÈÓ456@JWNS.keysZNS.objects©789:;<=>?€	€
+€€€€€€€©ABDEFGHI€€€€€€€€€€ZConnectionVServer\Content-Type]Last-Modified]Accept-RangesTDate^Content-LengthZKeep-AliveTEtagZKeep-AliveVApache_application/x-javascript_Tue, 11 Mar 2014 23:23:34 GMTUbytes_Tue, 01 Dec 2015 16:25:50 GMTT1412_timeout=2, max=200_"48c57be1-584-4f45d024e17f5"Ò+,^_\NSDictionary¢^/Ò+,ab_NSHTTPURLResponse£cd/_NSHTTPURLResponse]NSURLResponse_NSKeyedArchiverÑgh_WebResourceResponse€    # - 2 7 W ] x {  ‚ … ˆ Œ  – ™ œ Ÿ ¢ ¥ § © « ­ ¯ ° ² ´ ¶ ¸ º ¼ ¾ Å Í Ù Û İ ß'-09BDFMU`jlnprtvxz|†ˆŠŒ’”–˜š¥¬¹ÇÕÚéôù&FLlq†¥ª·º¿Ó×ëù$             i              &O„var combliste, nbcomb;
+var bij = function(x) {
+        return x
+}
+
+function comb(L, t, n ,k) {
+   if(n<k) {
+     return "";
+   }
+   if(k==0) {
+     combliste += "{"+L+"}, ";
+     nbcomb++;
+   } else {
+      for(var i=0;i < n-k+1; i++) {
+        var L2 = L + t[i];
+        if(k>1) L2 += ", ";
+        
+        var t2 = new Array();
+        var j = 0;
+        for(var r = i+1 ; r < n ; r++) {
+             t2[j] = t[r]
+             j++;
+        }
+        comb(L2, t2, j, k-1);
+     }
+   }
+}
+
+function effectue() {
+  var L = ""
+  var t = new Array();
+  var n = parseInt(document.frm.n.value);
+  var k = parseInt(document.frm.k.value);
+  for(var i=1; i<=n; i++) {
+    t[i-1] = i;
+  }
+  if(document.frm.chk.checked) {
+        var s = document.frm.ens.value
+        s = s.replace(/[\{\}\,\;]+/g," ")
+        s = s.replace(/\s+/g," ")
+        s = s.replace(/^\s+/,"")
+        s = s.replace(/\s+$/,"")
+        var ens = s.split(/\s+/)
+        for(var i=0; i<n; i++)
+                t[i] = ens[i]
+  }
+
+  combliste = "";
+  nbcomb = 0;
+  comb(L, t, n, k);
+  document.frm.arr.value = combliste;
+  document.frm.a.value = nbcomb;
+}
+
+function efface() {
+  document.frm.n.value = "";
+  document.frm.k.value = "";
+  document.frm.arr.value = "";
+  document.frm.a.value = "";
+}
+
+function ex(k, n) {
+  document.frm.arr.value = "";
+  document.frm.a.value = "";
+  document.frm.k.value = k;
+  document.frm.n.value = n;
+  effectue();
+}
+Ôuvw#_'http://jm.davalan.org/lang/web/stats.jsObplist00ÔefX$versionX$objectsY$archiverT$top † ¯#)*0123KLMNOPQRSTUVWXYZ[\]`U$nullİ	
+ !"R$6S$10R$2R$7R$3S$11R$8V$classR$4R$9R$0R$5R$1€	€€€ €€€€Ó$%'(WNS.base[NS.relative€ €€_'http://jm.davalan.org/lang/web/stats.jsÒ+,-.Z$classnameX$classesUNSURL¢-/XNSObject#A¼Läé ÈÓ456@JWNS.keysZNS.objects©789:;<=>?€	€
+€€€€€€€©ABDEFGHI€€€€€€€€€€ZConnectionVServer\Content-Type]Last-Modified]Accept-RangesTDate^Content-LengthZKeep-AliveTEtagZKeep-AliveVApache_application/x-javascript_Sun, 09 May 2010 08:49:58 GMTUbytes_Tue, 01 Dec 2015 16:25:58 GMTT6555_timeout=2, max=199_"e19e7f9c-199b-48625608f3632"Ò+,^_\NSDictionary¢^/Ò+,ab_NSHTTPURLResponse£cd/_NSHTTPURLResponse]NSURLResponse_NSKeyedArchiverÑgh_WebResourceResponse€    # - 2 7 W ] x {  ‚ … ˆ Œ  – ™ œ Ÿ ¢ ¥ § © « ­ ¯ ° ² ´ ¶ ¸ º ¼ ¾ Å Í Ù Û İ ß	"(+4=?AHP[egikmoqsuwƒ…‡‰‹‘“• §´ÂĞÕäïôÿ!AGgl¡¦³¶»ÏÓçõ
+              i              "O›var Nouveau=0, C_Site="",C_Page="",C_Nbre=0,C_Date='',C_Prem='',C_Spre='',C_User=0,C_gck="";
+function set_cook(s) {
+	var ret=""
+	if(document.cookie!="") {
+		var t=[]
+		var tb=document.cookie.split(/; /g)
+		
+		for(var i=0; i< tb.length; i++) {
+			t[i]=tb[i].split(/=/g)
+			if(t[i][0]=="Date") C_Date=unescape(t[i][1])
+			else if(t[i][0]=="Nbre") {
+				var Nbre;
+				if(t.length==1) {
+					Nbre=0;
+				} else {
+					Nbre=unescape(t[i][1])
+					Nbre=Nbre.replace(/[^0-9]+/g,"");
+					Nbre=parseInt(Nbre);
+				}
+				C_Nbre = Nbre
+			}
+			else if(t[i][0]=="Page") C_Page=unescape(t[i][1])
+			else if(t[i][0]=="Site") C_Site=unescape(t[i][1])
+			else if(t[i][0]=="Prem") C_Prem=unescape(t[i][1])
+			else if(t[i][0]=="SPre") C_Spre=unescape(t[i][1])
+			else if(t[i][0]=="User") C_User=unescape(t[i][1])
+		}
+		C_Nbre++;
+		Nouveau=0
+		if(C_User=="" || C_User==0) {
+			C_User=(1+Math.floor(1000000000000*Math.random()))+"1111"
+			Nouveau=1
+		}
+		
+		// if(C_User==0) Nouveau=0
+	}
+	var d0= new Date(),
+	a = d0.getTime();              // actuelle
+	if(C_User==0) C_User=a+"2222";
+	var ab = new Date(a).toGMTString(),
+	d = new Date(a+63244800000),   // dans 2*366 jours
+	duser = new Date(a+311040000000),  // 10 ans
+	expires = escape(d.toGMTString());
+	if(C_Prem=='') C_Prem=ab
+	if(C_Spre=='') C_Spre=ab
+	document.cookie = 'Site='+escape('Jeux-et-Mathematiques')+'; expires='+expires+'; path=/'
+	document.cookie = 'Page='+escape(s)+'; expires='+expires+'; path=/'
+	document.cookie = 'Nbre='+escape(C_Nbre)+'; expires='+expires+'; path=/'
+	document.cookie = 'Date='+escape(ab)+'; expires='+expires+'; path=/'
+	document.cookie = 'Spre='+escape(C_Spre)+'; expires='+expires+'; path=/'
+	document.cookie = 'User='+C_User+'; expires='+expires+'; path=/'
+	document.cookie = 'CPrem='+escape(C_Prem)+'; expires='+expires
+return "&CSite="+escape(C_Site)+"&CPage="+escape(C_Page)+"&CNbre="+escape(C_Nbre)+"&CDate="+escape(C_Date)+
+	"&CSpre="+escape(C_Spre)+"&CPrem="+escape(C_Prem)+"&CUser="+escape(C_User)+"&CNew="+Nouveau
+}
+
+function _stats() {
+var s1=""
+//document.location // remplacé dans 1.1 par le URL
+var sck="", cd="&cdref=";
+
+if(arguments != null && arguments!="undefined") {
+	for(i=0; i<arguments.length;i++) {
+        	if(i>0) {cd += ",";sck+= ",";}
+		var u = arguments[i]+" "
+                u=u.replace(/^\s+\,*/g,"")
+                u=u.replace(/\,*\s+$/g,"")
+                u=u.replace(/\s*\,\s*/g,",")
+		arguments[i]=u
+        	sck+=u
+        	cd += escape(u);
+	}
+}
+
+_doct=document
+_dloc=_doct.location
+s1+= "dlh="+escape(_dloc.href)
+s1 += "&dlhs="+escape(_dloc.href.substring(document.location.href.indexOf('#')))
+if(_dloc.protocol && _dloc.protocol!="")
+	s1 += "&dlprot="+_dloc.protocol
+if(_doct.URL && _doct.URL!="")
+	s1+= "&url="+escape(_doct.URL)
+s1+= "&dref="+escape(_doct.referrer) // si accès par un lien
+s1 += "&dtit="+escape(_doct.title)
+//s1 += "&dc="+document.cookie
+s1 += "&dlhost="+escape(_dloc.hostname)
+s1 += "&dlpath="+escape(_dloc.pathname)
+s1 += "&dlsearch="+escape(_dloc.search)
+s1 += "&wl="+escape(window.location)
+
+if (self.screen) {
+	s1 +="&scw="+screen.width
+	s1 +="&sch="+screen.height
+	s1 +="&cdepth="+screen.colorDepth
+} 
+/*
+else if (self.java) {
+	var scj=java.awt.Toolkit.getDefaultToolkit()
+	var scjss=scj.getScreenSize()
+	s += "self.java != null\n"
+	s += "java.awt.Toolkit.getDefaultToolkit().getScreenSize().width "+scjss.width+"x"+scjss.height+"</strong>\n"
+}
+*/
+s1 +="&wn="+escape(window.name)
+s1 +="&navan="+escape(navigator.appName)
+s1 +="&navav="+escape(navigator.appVersion)
+s1 +="&navuagt="+escape(navigator.userAgent)
+s1 +="&rand="+(Math.floor(100000000*Math.random()))
+if(navigator.language)
+	s1 += "&nlang="+escape(navigator.language)
+else if (navigator.browserLanguage)
+	s1 += "&nblang="+escape(navigator.browserLanguage)
+if(document.characterSet)
+	s1 += "&dch="+escape(document.characterSet)
+else if(document.charset)
+	s1 += "&dch="+escape(document.charset)
+if(navigator.plugins ) {
+	s1 += "&nplugl="+navigator.plugins.length
+	for(var i=0; i< navigator.plugins.length; i++) {
+		s1 += "&nplug"+i+"="+escape(navigator.plugins[i].name)
+	}
+}
+var C_gck=set_cook(sck);
+s1 +=C_gck;
+s1 += cd
+
+	var sw='<img name="_stats0" src="http://jm.davalan.org/lang/web/stats.php?'+s1+'" width="1" height="1" alt="image" border="0">'
+	document.write(sw)
+}
+
+function _stats1() {
+var s1=""
+//document.location // remplacé dans 1.1 par le URL
+var sck="", cd="&cdref=";
+if(arguments != null && arguments!="undefined") {
+        for(i=0; i<arguments.length;i++) {
+                if(i>0) {cd += ",";sck+= ",";}
+                arguments[i]=arguments[i].replace(/^\s+\,*/g,"")
+                arguments[i]=arguments[i].replace(/\,*\s+$/g,"")
+                arguments[i]=arguments[i].replace(/\s*\,\s*/g,",")
+                sck+=arguments[i]
+                cd += escape(arguments[i]);
+        }
+}
+_doct=document
+_dloc=_doct.location
+s1+= "dlh="+escape(_dloc.href)
+s1 += "&dlhs="+escape(_dloc.href.substring(document.location.href.indexOf('#')))
+if(_dloc.protocol && _dloc.protocol!="")
+        s1 += "&dlprot="+_dloc.protocol
+if(_doct.URL && _doct.URL!="")
+        s1+= "&url="+escape(_doct.URL)
+s1+= "&dref="+escape(_doct.referrer) // si accès par un lien
+s1 += "&dtit="+escape(_doct.title)
+//s1 += "&dc="+document.cookie
+s1 += "&dlhost="+escape(_dloc.hostname)
+s1 += "&dlpath="+escape(_dloc.pathname)
+s1 += "&dlsearch="+escape(_dloc.search)
+s1 += "&wl="+escape(window.location)
+
+if (self.screen) {
+        s1 +="&scw="+screen.width
+        s1 +="&sch="+screen.height
+        s1 +="&cdepth="+screen.colorDepth
+}
+s1 +="&wn="+escape(window.name)
+s1 +="&navan="+escape(navigator.appName)
+s1 +="&navav="+escape(navigator.appVersion)
+s1 +="&navuagt="+escape(navigator.userAgent)
+s1 +="&rand="+(Math.floor(100000000*Math.random()))
+if(navigator.language)
+        s1 += "&nlang="+escape(navigator.language)
+else if (navigator.browserLanguage)
+        s1 += "&nblang="+escape(navigator.browserLanguage)
+if(document.characterSet)
+        s1 += "&dch="+escape(document.characterSet)
+else if(document.charset)
+        s1 += "&dch="+escape(document.charset)
+if(navigator.plugins ) {
+        s1 += "&nplugl="+navigator.plugins.length
+        for(var i=0; i< navigator.plugins.length; i++) {
+                s1 += "&nplug"+i+"="+escape(navigator.plugins[i].name)
+        }
+}
+s1 +=C_gck;
+s1 += cd
+        document.images["_stats0"].src="http://jm.davalan.org/lang/web/stats.php?"+s1
+}
+
+// var lstats=function(u){urchinTracker ("/linkto/"+u);_stats1("Jeux,linkto,/"+u);}
+// var fstats=function(u){urchinTracker ("/downloads/"+u);_stats1("Jeux,Download,"+u);}
+Ôyz{#_0http://jm.davalan.org/mots/comb/comb/combalea.jsObplist00ÔefX$versionX$objectsY$archiverT$top † ¯#)*0123KLMNOPQRSTUVWXYZ[\]`U$nullİ	
+ !"R$6S$10R$2R$7R$3S$11R$8V$classR$4R$9R$0R$5R$1€	€€€ €€€€Ó$%'(WNS.base[NS.relative€ €€_0http://jm.davalan.org/mots/comb/comb/combalea.jsÒ+,-.Z$classnameX$classesUNSURL¢-/XNSObject#A¼Läù ÈÓ456@JWNS.keysZNS.objects©789:;<=>?€	€
+€€€€€€€©ABDEFGHI€€€€€€€€€€ZConnectionVServer\Content-Type]Last-Modified]Accept-RangesTDate^Content-LengthZKeep-AliveTEtagZKeep-AliveVApache_application/x-javascript_Sat, 23 Jun 2012 16:15:54 GMTUbytes_Tue, 01 Dec 2015 16:25:50 GMTT3422_timeout=2, max=200_"48c57bdf-d5e-4c326103407e5"Ò+,^_\NSDictionary¢^/Ò+,ab_NSHTTPURLResponse£cd/_NSHTTPURLResponse]NSURLResponse_NSKeyedArchiverÑgh_WebResourceResponse€    # - 2 7 W ] x {  ‚ … ˆ Œ  – ™ œ Ÿ ¢ ¥ § © « ­ ¯ ° ² ´ ¶ ¸ º ¼ ¾ Å Í Ù Û İ ß"+14=FHJQYdnprtvxz|~€ŠŒ’”–˜šœ©°½ËÙŞíøı*JPpuŠ©®»¾Ã×Ûïı(             i              *O^/* combalea.js
+
+	le nombre de combinaisons de p Ã©lÃ©ments de [1, n] est 
+	binom(n, p) = binom(n-1, p) + binom(n-1, p-1)
+	En effet une combinaison de p Ã©lÃ©ments de [1, n] est 
+	  soit une combinaison de p Ã©lÃ©ments de [1, n-1]
+	  soit la rÃ©union de {n} et d'une combinaison de p-1 Ã©lÃ©ments de [1, n-1
+	L'algorithme rÃ©cursif suivant est alors enfantin :
+	CombAlea(n, p) {
+	    si (p<=0 ou p>n) {
+		retourner [] // l'ensemble vide
+	    } sinon {
+	        On choisit au hasard un nombre x tel que 0 <= x < binom(n, p)
+	        si (x < binom(n-1, p-1)) {
+		     retourner CombAlea(n-1, p-1) + {n}
+		} sinon {
+		     retourner CombAlea(n-1, p) + {n}
+		}
+	   }
+	}
+*/
+
+function binom(n,p) {
+        if(p>n || p<0) return 0;
+        if(p==0|| p==n) return 1;
+        if(n-p<p) return binom(n, n-p);
+        var u=1;
+        for(var i=1; i<=p; i++) {
+                u *=(n+1-i);
+                u /= i;
+        }
+        return u;
+}
+
+function alea(n, p) {
+return (n * Math.random() <  p) ? true : false;
+}
+
+function CombAlea(n, p) {
+	if (p<=0 || p>n || n<0 ) {
+                return "" // l'ensemble vide
+        } else {
+		
+		if(alea(n, p)) {
+			var s = CombAlea(n-1, p-1);
+			if(s != "") {
+				s +=", ";
+			}
+			return s+n;
+		} else {
+			return CombAlea(n-1, p);
+		}
+	}
+}
+
+var n0, p0, table=null;
+
+function lire() {
+	var r, u = document.frm2.t.value;
+	u = u.replace(/[\,\s\;]+/g," ");
+	u = u.replace(/^\s+/,"");
+	u = u.replace(/\s+$/,"");
+	u = u.replace(/^\s+/,"");
+	if(table != null) delete(table);
+	table = u.split(/\s+/g);
+	n0=0;
+	p0=0;
+        if(table.length>=2) {
+          p0=parseInt(table[1])
+	} 
+        if(table.length>=1) { 
+           n0=parseInt(table[0]);
+	}
+}
+
+function cherche() {
+	nbre();
+	var t = table;
+	if(t.length<2) {
+	  r="";
+	}else {
+	  //r = CombAlea(n0, p0);
+	    var N = Math.floor(binom(n0,p0)*Math.random());
+	    document.frm2.num.value=N;
+	    r = CombN(n0, p0, N);
+	}
+        if(p0>0 && r=="")
+           document.frm2.nar.value = "Pas de combinaison";
+        else
+	  document.frm2.ar.value = "{"+r+"}";
+}
+
+function nbre() {
+	lire();
+	document.frm2.nb.value = binom(n0, p0);
+}
+function efface() {
+	document.frm2.t.value="";
+	document.frm2.ar.value="";
+}
+
+function ncherche() {
+/*
+        nbre();
+        if(table.length<2) {
+          r="";
+        }else {
+	  var N = parseInt(document.frm2.num.value);
+          r = CombN(n0, p0, N);
+        }
+        document.frm.nar.value = r;
+*/
+	suivte(0);
+}
+
+function CombN(n, p, N) {
+        if (p<=0 || p>n || N<0 || N>= binom(n,p)) {
+                return "" // l'ensemble vide
+        } else {
+                var a = binom(n-1,p-1)
+                if(N< a) {
+                        var s = CombN(n-1, p-1, N);
+                        if(s != "") {
+                                s +=", ";
+                        }
+                        return s+n;
+                } else {
+                        return CombN(n-1, p, N-a);
+                }
+        }
+}
+
+function CombAleaN(n, p) {
+	var N = Math.floor(binom(n,p)*Math.random());
+	return CombN(n, p, N);
+}
+
+function suivte(k) {
+        nbre();
+        if(table.length<2) {
+          r="";
+        }else {
+	  var a = binom(n0, p0);
+          var N = (parseInt(document.frm2.num.value)+k+a)%a;
+	  document.frm2.num.value=N;
+          r = CombN(n0, p0, N);
+        }
+	if(p0>0 && r=="")
+	   document.frm2.ar.value = "Pas de combinaison";
+	else
+        document.frm2.ar.value = "{"+r+"}";
+}
+Ô}~_/http://jm.davalan.org/mots/comb/comb/combQR.pngO	bplist00ÔefX$versionX$objectsY$archiverT$top † ¯#)*0123KLMNOPQRSTUVWXYZ[\]`U$nullİ	
+ !"R$6S$10R$2R$7R$3S$11R$8V$classR$4R$9R$0R$5R$1€	€€€ €€€€Ó$%'(WNS.base[NS.relative€ €€_/http://jm.davalan.org/mots/comb/comb/combQR.pngÒ+,-.Z$classnameX$classesUNSURL¢-/XNSObject#A¼LåÃ ÈÓ456@JWNS.keysZNS.objects©789:;<=>?€	€
+€€€€€€€©ABDEFGHI€€€€€€€€€€ZConnectionVServer\Content-Type]Last-Modified]Accept-RangesTDate^Content-LengthZKeep-AliveTEtagZKeep-AliveVApacheYimage/png_Tue, 11 Mar 2014 23:21:38 GMTUbytes_Tue, 01 Dec 2015 16:26:17 GMTS348_timeout=2, max=198_"48c57bd4-15c-4f45cfb666921"Ò+,^_\NSDictionary¢^/Ò+,ab_NSHTTPURLResponse£cd/_NSHTTPURLResponse]NSURLResponse_NSKeyedArchiverÑgh_WebResourceResponse€    # - 2 7 W ] x {  ‚ … ˆ Œ  – ™ œ Ÿ ¢ ¥ § © « ­ ¯ ° ² ´ ¶ ¸ º ¼ ¾ Å Í Ù Û İ ß!*03<EGIPXcmoqsuwy{}‰‹‘“•—™›¨¯¼ÊØİì÷ü8>^bw–›¨«°ÄÈÜêüÿ             i              O\‰PNG
+
+   IHDR   o   o    Ê¾£Í  #IDAT8ÕÔ»Ä  Ğ±y@¢ÉhÉ4`¯ğ¶äŒ6,¹È&@£Ó}‚ólpˆ€Áü şµà0Lş8Á8•™Ëˆğ`;s7;A™É¦‰#î–FÎ±OĞF.!òÓ?ò†oˆVöWø7¬Ëvä~$öO&É¡¹’¹¢ÎÓË>2Ù®¾J¡)BÇ¼Ô‹î™£TSR´Ò™<(¯r§ÑÉì–è2AN©¾‘ûYeB¾äÒÉrÁ ‡¨3ù~­e…Ú*÷Ì´ƒ)àËTãÕx¬¾ê_Ô@†ÁU¦Í©”•pŸ£K óêXv+È”±J™…É_•JŞé”‘”võŸÕ‰G’4nM€6Ö)ó+­ÅıuJ¼òAMÈ¯¨ó}_î»ø^(şMË    IEND®B`‚            1   :   Q   `   r   ˆ   ‰   »  ‘   ‘ª  ‘È  ‘Ñ  ‘ç  ’  –$  —c  —m  —v  —Ï  ›ª  ¢  «  Ü  ¢è  ¥[  ¥d  ¥•  ©¡  «w  «€  «¤  ¯¶  ËÙ  Ëô  Ëı  Ì%  Ğ, ) )# ), )X -` > >" >+ Cã M Mº MÃ Mÿ R v¼ vÅ vî zò H Q w …x ‡i ‡r ‡™ ‹š Œ4 Œ= Œn { ˜Á ˜Ê ˜î œì  º  Ã  õ ¥ ¦à ¦é § «( ­ÿ ® ®- ². Æ4 Æ= Æn Êz ÌŒ Ì• Ìÿ Ğí ÒÑ ÒÚ Ó × àî à÷ ág æ æ¾ æÈ æÑ ç ë îç îğ ï óŠ L$ L6 L? Ln PŠ V V VE Z] sü t t8 xX …º …Ã …õ Š             €             ‹b

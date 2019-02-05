@@ -1,0 +1,15 @@
+ID Items
+1 A,D,G,I,L,N,O,P,Q
+2 A,E,G,J,L,N,O,P,
+3 B,E,G,K,L,Q
+4 C,D,G,K,M
+5 C,F,H,I,M,O,P,Q
+6 C,D,H,I,M,P,Q
+7 B,E,H,I,M
+8 A,F,G,K,L,M,O,P,Q
+9 A,D,H,J,M
+10 C,D,H,K,M,Q
+11 A,D,H,I,M,L,N,O
+12 B,E,G,K,M
+13 B,D,H,I,M
+14 C,F,G,J,M,N,O

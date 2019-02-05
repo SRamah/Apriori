@@ -1,0 +1,9 @@
+ID Items
+1 A,B
+2 A,B,C,D,E,F
+3 B,D,G
+4 B,E,G
+5 D,F,G
+6 D,E,G
+7 B,E
+8 B,D,E,F
