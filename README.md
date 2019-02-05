@@ -10,3 +10,5 @@ The frequent item sets determined by Apriori can be used to determine associatio
 To run the project from the command line, go to the dist folder and type the following:
 
 `java -jar "Algorithme_Apriori.jar"`
+
+You can you use the testset files to get start...
